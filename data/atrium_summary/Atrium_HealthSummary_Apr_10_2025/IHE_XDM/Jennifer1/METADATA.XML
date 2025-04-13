@@ -1,0 +1,2726 @@
+<SubmitObjectsRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:oasis:names:tc:ebxml-regrep:xsd:lcm:3.0">
+  <RegistryObjectList xmlns="urn:oasis:names:tc:ebxml-regrep:xsd:rim:3.0">
+    <ExtrinsicObject id="20c81f8b-d68d-4fc5-ab86-7fa23e472a40" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>43cebedf-b77c-4e79-b245-adbbf22ccac3</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410150842</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0001.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>2417510</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>4be6fa6163f67c546e642dcad9a6423553b454de</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="8fdbe80b-1f8d-4ddc-82c6-bd7020a97d2e" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="20c81f8b-d68d-4fc5-ab86-7fa23e472a40">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="609f21da-aac4-4bab-af78-0d30dd3ba3c9" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="20c81f8b-d68d-4fc5-ab86-7fa23e472a40" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="9eab55e1-ab62-4b00-8c7c-059b67ec3f4b" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="20c81f8b-d68d-4fc5-ab86-7fa23e472a40" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="d588371a-a7e7-40ca-8fab-7bcd685abab9" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="20c81f8b-d68d-4fc5-ab86-7fa23e472a40" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="77a4699d-00cf-441e-958e-12a2d3eecd16" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="20c81f8b-d68d-4fc5-ab86-7fa23e472a40" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="760d64ce-4aaa-44fb-86fe-0b2111699d7e" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="20c81f8b-d68d-4fc5-ab86-7fa23e472a40" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.1">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="e99b5aa7-7ff0-4ab0-808a-aa32e4f91850" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>3d10cce2-9665-4fab-9be8-22a09f808752</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410150913</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0002.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>2764521</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>c46f92320e7634ffb28b60732a9f9e7dbb7a37bf</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="5363ea78-4d2a-42ae-8340-4a91059346d2" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="e99b5aa7-7ff0-4ab0-808a-aa32e4f91850">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="92df378b-3e04-4af4-8889-c82cb7d94efd" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="e99b5aa7-7ff0-4ab0-808a-aa32e4f91850" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="d19eb416-37b2-40aa-a512-12d1befae051" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="e99b5aa7-7ff0-4ab0-808a-aa32e4f91850" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="aa70e5e6-e3d4-41c1-96ae-3cd6984c402f" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="e99b5aa7-7ff0-4ab0-808a-aa32e4f91850" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="bab73c33-4cb0-4103-8230-69308d55ef89" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="e99b5aa7-7ff0-4ab0-808a-aa32e4f91850" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="fe593de8-eb64-4a9c-bd8a-bf50dd9c73da" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="e99b5aa7-7ff0-4ab0-808a-aa32e4f91850" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.2">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="5d0a3244-55ca-482c-8b7b-5439209b8662" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>73096d82-bb0a-4d45-8850-c2c9c7aacd40</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410150944</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0003.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>312623</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>c99a1215d5054be36e02b60e3fdfcea887e70fdf</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="a5a38e82-3914-4e74-9aa8-45846df9ef9f" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="5d0a3244-55ca-482c-8b7b-5439209b8662">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="eff0202b-661a-4d1d-9a78-bb0d72d4d240" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="5d0a3244-55ca-482c-8b7b-5439209b8662" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="0da9a6ca-8181-40f0-a314-95b87b0d005d" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="5d0a3244-55ca-482c-8b7b-5439209b8662" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="809ef7b6-0c2e-4d5b-b827-7a9faa98a266" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="5d0a3244-55ca-482c-8b7b-5439209b8662" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="3f559dfd-0cd9-42a6-9a2e-f6d98232e875" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="5d0a3244-55ca-482c-8b7b-5439209b8662" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="f423618b-bbc5-477b-a484-069d1f977e15" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="5d0a3244-55ca-482c-8b7b-5439209b8662" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.3">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="9006d836-75b1-42e9-b629-8feb289e8bcb" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>94cc8d5a-86b9-4fc0-961f-d5962bacdf25</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410150948</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0004.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>247005</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>9e8be2e32485a388b782fd6f23f83eb4cef159be</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="99b7753f-dec6-49f9-9472-719cb3f403ee" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="9006d836-75b1-42e9-b629-8feb289e8bcb">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="e5902c76-421a-4fd4-949f-48691eed7fd7" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="9006d836-75b1-42e9-b629-8feb289e8bcb" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="61b1b40d-d70e-4a0f-997a-8e44c96a1487" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="9006d836-75b1-42e9-b629-8feb289e8bcb" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="2b410f51-2c43-4670-afc7-b9afae52c11a" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="9006d836-75b1-42e9-b629-8feb289e8bcb" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="a4e0c007-2219-499f-bcdb-0835213e07d5" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="9006d836-75b1-42e9-b629-8feb289e8bcb" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="f788bbc9-69e7-4c46-a520-0e0bd482ccba" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="9006d836-75b1-42e9-b629-8feb289e8bcb" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.4">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="2c0835d0-ba37-4807-a5e3-987d136791d5" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>ea33715f-45d3-41c4-af38-d6d5ba7d2abf</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410150953</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0005.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>429823</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>84bd94ad5e441e6264e118e96126b1199db59904</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="1d1f5a0e-92cf-45bf-9de3-fbba07f102f1" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="2c0835d0-ba37-4807-a5e3-987d136791d5">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="af1845bf-bbe8-4b98-98b4-4d55cb16ab4d" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="2c0835d0-ba37-4807-a5e3-987d136791d5" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="7d80a949-f4d5-4914-9b13-8ee7fa1ffe30" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="2c0835d0-ba37-4807-a5e3-987d136791d5" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="1404bb46-6acb-4cd5-85a4-957333768bd5" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="2c0835d0-ba37-4807-a5e3-987d136791d5" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="e8ae0fce-4831-4773-a244-25627cf2c173" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="2c0835d0-ba37-4807-a5e3-987d136791d5" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="8cda3705-e4ea-4420-993d-14eb1c61cd6f" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="2c0835d0-ba37-4807-a5e3-987d136791d5" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.5">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="af66115c-5b8e-459e-b93f-a3e797a89343" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>12da04d4-17ba-4978-b96e-e4de48ec4e8b</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410151000</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0006.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>345058</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>39670b8d1c1ed220042e4efe7810007dc8a1a983</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="1642ebea-d626-4809-a9bb-f39fc96d515e" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="af66115c-5b8e-459e-b93f-a3e797a89343">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="41d65ac1-b5ad-4f3f-8cd9-36cd8fcc4478" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="af66115c-5b8e-459e-b93f-a3e797a89343" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="9d7d4958-72c6-4186-a0c0-a1a550ac1ad4" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="af66115c-5b8e-459e-b93f-a3e797a89343" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="ac898962-0605-493d-be75-6e069ab51475" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="af66115c-5b8e-459e-b93f-a3e797a89343" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="a229df35-3d84-4c0f-84da-f853634dda8d" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="af66115c-5b8e-459e-b93f-a3e797a89343" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="f46d233b-3d63-42e6-b3d8-33f1d1080bb1" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="af66115c-5b8e-459e-b93f-a3e797a89343" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.6">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="f65fcfa0-75e5-4cef-9728-98dca5bc311b" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>90dd12af-9066-4956-8f6d-1f036864e7de</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410151005</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0007.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>236194</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>1fa2b555b5487add4bb3f00a74eb33d7a58c5246</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="3ab56b3a-0695-4a81-bd2f-60cf85cb85c8" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="f65fcfa0-75e5-4cef-9728-98dca5bc311b">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="4c585cd9-d74b-4769-bf28-f7ebc0679fd9" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="f65fcfa0-75e5-4cef-9728-98dca5bc311b" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="f30a69b5-5c20-4a23-9dc8-9123df1c36bd" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="f65fcfa0-75e5-4cef-9728-98dca5bc311b" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="ffdcb12e-9e06-4b7a-8bb8-c7d2739eb6f1" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="f65fcfa0-75e5-4cef-9728-98dca5bc311b" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="f8a7f0ea-0901-47f7-bfc3-528653234ff6" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="f65fcfa0-75e5-4cef-9728-98dca5bc311b" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="1be45d70-987e-4318-b519-02d0161936ba" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="f65fcfa0-75e5-4cef-9728-98dca5bc311b" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.7">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="09eb1a18-09d1-449b-bd74-b265a00f7775" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>b8c2d6e6-eda5-42c8-b5ee-983dcace2b24</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410151008</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0008.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>281111</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>1e73b8ba6457644dcab58015fa5e9d785566ff9c</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="2889130d-d65e-4617-afa3-bb8483fcc521" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="09eb1a18-09d1-449b-bd74-b265a00f7775">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="04fc2f83-1e25-4811-8125-023a7674ef48" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="09eb1a18-09d1-449b-bd74-b265a00f7775" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="8a15051e-5b7c-4f47-8c48-f668192eacb2" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="09eb1a18-09d1-449b-bd74-b265a00f7775" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="e9c23ddb-6328-4c9f-9ab2-80f8ace6fd9b" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="09eb1a18-09d1-449b-bd74-b265a00f7775" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="c0a24b1b-a77b-42df-a0b4-0f22233c5258" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="09eb1a18-09d1-449b-bd74-b265a00f7775" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="3376c817-45cb-45d2-8113-e8dcca93b9c7" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="09eb1a18-09d1-449b-bd74-b265a00f7775" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.8">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="975a5773-30c2-4de1-8fc6-d7ee6b9527c1" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>e36d6d88-b0e1-4364-86b2-3219f0c8d65e</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410151012</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0009.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>247856</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>a3200294158b42cce0691c13413ed56a4149d2df</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="c93603e2-1ef1-40a0-85db-93d90a1d6a96" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="975a5773-30c2-4de1-8fc6-d7ee6b9527c1">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="f628529b-6904-419e-9e49-089f95b5abf9" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="975a5773-30c2-4de1-8fc6-d7ee6b9527c1" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="23f3c6f3-180e-40a8-bdc3-f3f7784d1889" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="975a5773-30c2-4de1-8fc6-d7ee6b9527c1" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="e67d740a-7d14-414e-9a57-0d3ad2d41e67" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="975a5773-30c2-4de1-8fc6-d7ee6b9527c1" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="8440b11d-2b5f-4fc2-b31d-dc8f1342fe51" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="975a5773-30c2-4de1-8fc6-d7ee6b9527c1" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="8d6b9ced-a797-4878-9ef0-10beac9d0ecb" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="975a5773-30c2-4de1-8fc6-d7ee6b9527c1" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.9">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="335c4002-15ef-424f-8860-81fa68c832d9" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>df2575de-8649-45c0-ad1a-960d3b17c0df</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410151016</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0010.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>284195</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>d4d8f77a381e84fcb5d25ace5def8f47720317e0</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="3ecaf28d-79cd-47b1-99a1-83fd8d88a93f" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="335c4002-15ef-424f-8860-81fa68c832d9">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="d0608434-de5a-4228-9a0c-811511941cff" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="335c4002-15ef-424f-8860-81fa68c832d9" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="65663705-cafb-4eb3-8fbe-b2457350f393" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="335c4002-15ef-424f-8860-81fa68c832d9" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="fc070b47-6f64-432d-8403-4e3614daa17c" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="335c4002-15ef-424f-8860-81fa68c832d9" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="b61f5e20-4af0-423a-ac70-2f5112aa171e" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="335c4002-15ef-424f-8860-81fa68c832d9" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="d6d107b6-4227-483d-95cd-dcd1b9ae0b3e" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="335c4002-15ef-424f-8860-81fa68c832d9" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.10">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="4ee98f14-31ed-484f-841d-abdd5c9d7648" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>0cae0ac6-8957-42f6-b96e-9b0511c1e6ff</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410151021</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0011.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>337345</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>5ec9dbfe7b3a2acc8ca166dbfa6ecfac8c032db9</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="c4c43ed6-90ae-4936-ad15-c755457cee4f" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="4ee98f14-31ed-484f-841d-abdd5c9d7648">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="f054f7bc-051b-41df-a3ea-d133235fb514" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="4ee98f14-31ed-484f-841d-abdd5c9d7648" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="e8334df6-205e-4c83-9f99-9e05b9cf402a" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="4ee98f14-31ed-484f-841d-abdd5c9d7648" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="5129251b-753e-47c6-9a8c-b88f2d6ceef1" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="4ee98f14-31ed-484f-841d-abdd5c9d7648" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="4c53b74d-6f6f-46d6-951f-4e77d48f05c8" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="4ee98f14-31ed-484f-841d-abdd5c9d7648" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="9d8b7981-46b0-40da-89d4-1bb38c1686e9" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="4ee98f14-31ed-484f-841d-abdd5c9d7648" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.11">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="218408c7-c1cc-4e94-9c08-170afce634b2" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>5f1766c3-12ad-4cc7-96ac-82d1e7c1e213</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410151027</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0012.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>209658</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>a606e8e633d95677eb55c7d9ed670f64dded8c1c</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="b5385410-245d-436a-a928-41a6cd94561b" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="218408c7-c1cc-4e94-9c08-170afce634b2">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="15003a62-4109-4761-8fc8-a61984735ec5" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="218408c7-c1cc-4e94-9c08-170afce634b2" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="2ff07383-1948-4eb5-bcce-39d0aa5542b5" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="218408c7-c1cc-4e94-9c08-170afce634b2" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="a67a84fd-619c-440a-b76f-764b27f8dccd" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="218408c7-c1cc-4e94-9c08-170afce634b2" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="d0144b8c-b0e4-4936-b9af-f45f80f4aa62" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="218408c7-c1cc-4e94-9c08-170afce634b2" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="06779bf2-0cb3-4e8f-bf0e-25cb32b81a19" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="218408c7-c1cc-4e94-9c08-170afce634b2" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.12">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="c7be9ece-815c-4a0c-8926-150bd9775823" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>2d131e3c-db33-4abc-9d11-ee632546a2f4</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410151030</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0013.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>348002</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>3a5684ab9b34caff67d1494910c4ebd2ca0ae238</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="7241b66a-2c04-4590-a128-f9813626d639" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="c7be9ece-815c-4a0c-8926-150bd9775823">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="49c7eb8f-7911-4080-8250-29accabb7e56" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="c7be9ece-815c-4a0c-8926-150bd9775823" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="95f05f3d-b21b-4e2a-bf87-8928a05ab449" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="c7be9ece-815c-4a0c-8926-150bd9775823" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="0513ff43-cd2f-4d30-ae4a-6c0168376f66" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="c7be9ece-815c-4a0c-8926-150bd9775823" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="fe0de3b6-3bab-44d9-9c6f-75efca824469" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="c7be9ece-815c-4a0c-8926-150bd9775823" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="85812529-ae91-4baf-94e6-57e39bc813aa" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="c7be9ece-815c-4a0c-8926-150bd9775823" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.13">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="8a5633f0-61d4-4a52-8286-5265890a06de" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>184317f6-3896-4b79-bc1f-0f527ce2d051</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410151036</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0014.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>493840</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>7dac33ffc0268d13a3642017be20b4616785f2cc</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="5af0aa7c-0adb-4182-8403-3c1b045f34ae" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="8a5633f0-61d4-4a52-8286-5265890a06de">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="c2ae1205-0b59-4ba0-bb95-7159d147125e" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="8a5633f0-61d4-4a52-8286-5265890a06de" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="b9390cc0-d2b8-4428-a51b-63a10fbc4c50" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="8a5633f0-61d4-4a52-8286-5265890a06de" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="8a06ba46-8456-44ea-9a0f-a366c8238165" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="8a5633f0-61d4-4a52-8286-5265890a06de" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="1161d28a-baf3-49c3-b5f5-692ee654d8b6" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="8a5633f0-61d4-4a52-8286-5265890a06de" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="c540dc6f-736f-40de-9252-0bb26c6bc27f" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="8a5633f0-61d4-4a52-8286-5265890a06de" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.14">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="bcbdd310-4f5e-4f0a-a5b3-8d334921d6e0" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>22d5ce33-52fd-4ef3-99fb-392971e06707</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410151044</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0015.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>233563</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>01a0e3035e39b79181691724d5c0c44e0d270caf</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="6de8a94a-8c17-43f2-8a71-044ed0bc6b49" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="bcbdd310-4f5e-4f0a-a5b3-8d334921d6e0">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="ddc0cedf-d9ca-441b-b693-291b9f0663e1" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="bcbdd310-4f5e-4f0a-a5b3-8d334921d6e0" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="78f96adc-9b82-4c3b-9011-dd883711707a" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="bcbdd310-4f5e-4f0a-a5b3-8d334921d6e0" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="5b146356-df4c-42a2-ad5a-cf546e0a60dd" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="bcbdd310-4f5e-4f0a-a5b3-8d334921d6e0" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="cdcb9c83-9778-4a31-bba9-94f4df45f051" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="bcbdd310-4f5e-4f0a-a5b3-8d334921d6e0" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="4a531f7d-0707-4788-ac57-767e050586a5" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="bcbdd310-4f5e-4f0a-a5b3-8d334921d6e0" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.15">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="6642a312-1527-44bc-bc37-f96ddc932041" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>d84d3be8-6b65-4892-b9f3-1119253c4789</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410151048</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0016.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>241943</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>b440c416c2ea9bb771ed1c6b027a5429aa2b930f</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="bfa2b528-6d3a-4b70-8e2c-1d7b34ee0050" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="6642a312-1527-44bc-bc37-f96ddc932041">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="120ed3d8-1edc-439b-94fe-a41573257a8f" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="6642a312-1527-44bc-bc37-f96ddc932041" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="5e5aee9c-2a0f-4cd9-a083-86e83be18ae2" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="6642a312-1527-44bc-bc37-f96ddc932041" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="1d9d66df-a9ab-4451-ad08-d5a31185e026" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="6642a312-1527-44bc-bc37-f96ddc932041" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="b7a22a99-8b58-4282-a7f0-d5d0840e00a2" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="6642a312-1527-44bc-bc37-f96ddc932041" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="3f9dd271-7057-4586-9a73-aeca328b0de1" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="6642a312-1527-44bc-bc37-f96ddc932041" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.16">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="3bf7caa6-2d7e-4343-908a-2a761b0242c9" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>129374c5-4687-45bc-b95e-e5916445480f</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410151052</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0017.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>287536</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>de26dd0d7e1488d119cb0c4f686ddb628efd6364</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="9a689778-d881-44d6-8d37-e2ceaf166923" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="3bf7caa6-2d7e-4343-908a-2a761b0242c9">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="6e92061f-d32f-429b-8ede-5ed6bb8cb729" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="3bf7caa6-2d7e-4343-908a-2a761b0242c9" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="81728a74-3b35-4235-a057-4ba03b99737f" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="3bf7caa6-2d7e-4343-908a-2a761b0242c9" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="2caad86b-0d0e-4fb2-a37a-916fba716df7" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="3bf7caa6-2d7e-4343-908a-2a761b0242c9" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="62be2e51-f7de-4ca8-b44d-2f9acadb92f6" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="3bf7caa6-2d7e-4343-908a-2a761b0242c9" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="1abcdcda-02fa-40c1-bcc4-0de3c68e66a0" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="3bf7caa6-2d7e-4343-908a-2a761b0242c9" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.17">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="a6938c1c-3bc0-4b02-83d8-38d09874f53c" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>4234fbd4-6d7e-4364-bb1e-563c14dfa417</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410151059</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0018.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>306403</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>5ca688f815312a495a78b497d9d9f451c7f5a76f</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="2bcd61da-cb4c-432f-ad03-ac42a196f84e" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="a6938c1c-3bc0-4b02-83d8-38d09874f53c">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="02cf7c0c-ed25-4d5a-ba87-3ceb5fc072f3" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="a6938c1c-3bc0-4b02-83d8-38d09874f53c" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="b71a4db2-3526-4308-b569-f5a16daa1dff" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="a6938c1c-3bc0-4b02-83d8-38d09874f53c" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="b5ecadde-49ad-4fb2-94fc-32d74829f938" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="a6938c1c-3bc0-4b02-83d8-38d09874f53c" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="b84a07ec-52dd-479b-8664-4902cacbee9e" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="a6938c1c-3bc0-4b02-83d8-38d09874f53c" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="79eaa815-aaa5-4177-bd6c-50d7971bbced" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="a6938c1c-3bc0-4b02-83d8-38d09874f53c" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.18">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="4e41e2b2-8f6f-4e66-b59f-84aafb5e83ec" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>27cd8d5b-1573-4358-a68b-046556019d13</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410151104</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0019.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>266094</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>d1bfe3629126a821f91726ee1377eae5da9ac02e</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="fd348729-a2f7-41f8-9bf8-29361f3cd5cf" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="4e41e2b2-8f6f-4e66-b59f-84aafb5e83ec">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="c8d285c1-4a7c-45fd-820c-f04950d5e398" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="4e41e2b2-8f6f-4e66-b59f-84aafb5e83ec" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="61e811fc-3893-442f-8037-ff6c3037d8c0" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="4e41e2b2-8f6f-4e66-b59f-84aafb5e83ec" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="88349333-cf87-4598-b912-457975ed8f00" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="4e41e2b2-8f6f-4e66-b59f-84aafb5e83ec" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="95ef8cfb-a8c9-488e-b425-2a9f49029de1" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="4e41e2b2-8f6f-4e66-b59f-84aafb5e83ec" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="976fbee5-8754-4f0b-858a-f979616cbc7b" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="4e41e2b2-8f6f-4e66-b59f-84aafb5e83ec" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.19">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="58f94a11-27eb-4d65-978c-30a7544001bf" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>26874b3f-55e3-44e9-b111-d63df4abf315</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410151108</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0020.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>269322</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>3bd808d631a3e60f6278b96f38f4e50c67e1fedb</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="e3eaeecb-8e85-4afe-90a6-460467addbb4" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="58f94a11-27eb-4d65-978c-30a7544001bf">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="4eb251c3-8031-4bf7-8c1f-abf38630991b" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="58f94a11-27eb-4d65-978c-30a7544001bf" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="83fb0664-0a08-4bca-af7b-1c8acc290148" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="58f94a11-27eb-4d65-978c-30a7544001bf" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="16d77c8e-10ff-4584-a0ac-e2e4c2f1c44f" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="58f94a11-27eb-4d65-978c-30a7544001bf" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="8b57a16c-bf6e-4295-8496-d720a9b646f7" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="58f94a11-27eb-4d65-978c-30a7544001bf" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="b19ca1e6-29bc-4ccc-87eb-f12ecf3f8b71" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="58f94a11-27eb-4d65-978c-30a7544001bf" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.20">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="8b814f08-59f1-4f4f-9bfe-c4079602ba6e" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>ea21f4b6-023b-42cf-b6f8-92feb193d61d</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410151113</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0021.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>315973</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>abd15af94e13352a4d2baf6da608eb1555c01bb6</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="b7048215-dc74-4e98-a45a-bd969a27ad77" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="8b814f08-59f1-4f4f-9bfe-c4079602ba6e">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="4c518a5c-396e-480b-9d6c-cd6214320182" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="8b814f08-59f1-4f4f-9bfe-c4079602ba6e" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="5d144878-bfed-4807-83ea-ceba4084a8b5" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="8b814f08-59f1-4f4f-9bfe-c4079602ba6e" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="82fa1deb-c500-434d-aefb-70bd6c37d9ad" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="8b814f08-59f1-4f4f-9bfe-c4079602ba6e" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="2956c26b-1f3c-4dee-abad-02dc036d76e9" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="8b814f08-59f1-4f4f-9bfe-c4079602ba6e" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="e92eeaf9-45cc-4cdf-9f22-4ee15935ce57" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="8b814f08-59f1-4f4f-9bfe-c4079602ba6e" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.21">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="c5ac68bd-d4a1-42cc-8b4e-2588b258496b" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>fceed8fe-3c89-4ca0-8cd6-096eb2771c67</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410151118</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0022.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>254845</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>260490c3ce19d2f52a77caa86dc648eda45f4b02</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="f5ce0e01-8f08-4244-aae8-092fd5d276c9" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="c5ac68bd-d4a1-42cc-8b4e-2588b258496b">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="96d74745-0df7-4b32-b2ef-a397c892a7d8" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="c5ac68bd-d4a1-42cc-8b4e-2588b258496b" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="8961e376-7727-4e24-af36-072c5b08a3d8" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="c5ac68bd-d4a1-42cc-8b4e-2588b258496b" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="92b02b6a-58f3-4cb2-93e5-99bfb22d19ea" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="c5ac68bd-d4a1-42cc-8b4e-2588b258496b" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="f0cf93b6-580c-4bcf-88f5-9dd5f4c628b9" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="c5ac68bd-d4a1-42cc-8b4e-2588b258496b" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="27ec130b-498c-4959-955e-3cd8e91128d3" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="c5ac68bd-d4a1-42cc-8b4e-2588b258496b" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.22">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="d6b80db6-1191-45e6-9ee6-1d19396c3267" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>1d27231e-e2dc-4813-8f67-ec2d049d843e</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410151122</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0023.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>212812</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>481df3e0e50be9f09de46901418844477712d5af</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="e9218a00-207d-44c3-bc23-56ef07201fdf" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="d6b80db6-1191-45e6-9ee6-1d19396c3267">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="7f430100-1335-48e6-b48d-e56875e23548" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="d6b80db6-1191-45e6-9ee6-1d19396c3267" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="bafd8c00-2126-4a25-b7c9-3bdeddb3069c" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="d6b80db6-1191-45e6-9ee6-1d19396c3267" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="5134008c-c045-43c3-b176-fa0d52b4c395" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="d6b80db6-1191-45e6-9ee6-1d19396c3267" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="18bfb99b-07ce-455a-9f0d-a6fb23969d2a" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="d6b80db6-1191-45e6-9ee6-1d19396c3267" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="95b17f14-5b1a-450a-b0b9-8c2f9ea2db66" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="d6b80db6-1191-45e6-9ee6-1d19396c3267" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.23">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="664565b1-3351-4262-a11f-41b7ca41300f" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>1acbc2e7-d7a9-4b55-99eb-85c5d150b9c0</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410151124</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0024.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>215262</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>6610f73094443d0435a46cc8f54f4411a1099c7b</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="0e147f4c-020c-4146-b152-b1e4fc63632e" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="664565b1-3351-4262-a11f-41b7ca41300f">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="ca410f06-f386-4e49-ad7b-60ce8992bddd" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="664565b1-3351-4262-a11f-41b7ca41300f" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="ffaa60b9-f839-456a-bdcd-081ed0eb7912" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="664565b1-3351-4262-a11f-41b7ca41300f" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="4fca0a7b-7fe8-4cd4-9404-e170772db0cc" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="664565b1-3351-4262-a11f-41b7ca41300f" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="73b4cab6-9dd8-4a6b-bc6c-7ce346b108cc" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="664565b1-3351-4262-a11f-41b7ca41300f" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="62e073c7-3e82-4a4a-aec6-370700bedb6e" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="664565b1-3351-4262-a11f-41b7ca41300f" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.24">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="ad457b2a-c92d-48a0-bb66-e3001a1ac1e5" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>a5753c6c-1544-46d8-a252-2e833f469414</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410151128</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0025.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>210334</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>01b4cb79fdf6466f3b5f12c17955040398583185</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="24611232-fe8c-4769-9f83-b912dd3550ee" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="ad457b2a-c92d-48a0-bb66-e3001a1ac1e5">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="42fcab5d-8298-468b-8f38-9ba20f7e85d5" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="ad457b2a-c92d-48a0-bb66-e3001a1ac1e5" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="4345f739-059a-477a-8629-91c892d4170b" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="ad457b2a-c92d-48a0-bb66-e3001a1ac1e5" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="88704fde-6206-4864-b7cd-8d0f04c8199d" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="ad457b2a-c92d-48a0-bb66-e3001a1ac1e5" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="0db23504-db7f-47ea-8be0-a68d18ead3b0" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="ad457b2a-c92d-48a0-bb66-e3001a1ac1e5" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="71ebee57-58a7-40cd-8bfd-774c2c953185" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="ad457b2a-c92d-48a0-bb66-e3001a1ac1e5" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.25">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="35bef602-6203-47d2-959e-4d74f7adf056" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>5f5021ef-164d-4c30-8c16-5cc41fb16ae5</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410151130</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0026.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>254089</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>46e98a71b006cf89d824c82e7049aed45de0e971</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="82e37e68-b31c-45ae-9e7f-982dcc01ab2d" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="35bef602-6203-47d2-959e-4d74f7adf056">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="866ddd56-49cc-44e9-9f68-d06302ab079f" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="35bef602-6203-47d2-959e-4d74f7adf056" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="2481c092-bd26-45e1-96ac-15c1457671f0" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="35bef602-6203-47d2-959e-4d74f7adf056" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="afba62b7-eafa-4fe4-a9e9-29fc4c3118bc" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="35bef602-6203-47d2-959e-4d74f7adf056" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="9ec1eeef-8672-4703-995b-f94140d0b1ab" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="35bef602-6203-47d2-959e-4d74f7adf056" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="ad45894f-e041-4035-90db-e51033153545" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="35bef602-6203-47d2-959e-4d74f7adf056" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.26">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="ff25965f-b5be-4e6f-8e28-ecc75b8a9f37" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>02f7f0ef-2830-460c-a46f-ad18a2947eb9</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410151134</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0027.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>216455</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>d73dca1a12d69f9d2bbffc2fd8d0dee85526622f</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="8504ae9e-374e-4b64-9fd2-0cf99f42e709" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="ff25965f-b5be-4e6f-8e28-ecc75b8a9f37">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="0c292700-aa3d-48f9-9244-ab28487ab7b5" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="ff25965f-b5be-4e6f-8e28-ecc75b8a9f37" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="93d85809-6090-4a4d-aabc-af7e2ef74def" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="ff25965f-b5be-4e6f-8e28-ecc75b8a9f37" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="9ffff556-299f-4307-96e8-06e496abf263" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="ff25965f-b5be-4e6f-8e28-ecc75b8a9f37" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="09ee7ca4-0f7d-4ef0-b6a8-ebe91a5e9066" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="ff25965f-b5be-4e6f-8e28-ecc75b8a9f37" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="161f8d9f-6bf4-476d-8f9e-00900fef0d2d" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="ff25965f-b5be-4e6f-8e28-ecc75b8a9f37" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.27">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="da238443-8d3c-4ba5-b1fa-1360203baf73" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>d5203d91-f7b6-4211-ac4c-e0774e1b3638</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410151137</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0028.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>294475</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>c35a4c8234f672abb627f74e39fc52c9aa70e9a0</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="724e26c1-89ed-445a-8c33-18aebe2a0496" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="da238443-8d3c-4ba5-b1fa-1360203baf73">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="fa580534-49ae-4dbe-aaf2-65fdb50ee31a" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="da238443-8d3c-4ba5-b1fa-1360203baf73" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="1ac833de-5674-4de1-bcc1-dc7500aefb40" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="da238443-8d3c-4ba5-b1fa-1360203baf73" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="ae4baed1-a1e3-4728-8565-6a1f298acbdf" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="da238443-8d3c-4ba5-b1fa-1360203baf73" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="caa0098f-1d65-489f-be6d-cf5ab439c663" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="da238443-8d3c-4ba5-b1fa-1360203baf73" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="2cd09edf-5f0a-42ae-ad88-5cee20512da4" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="da238443-8d3c-4ba5-b1fa-1360203baf73" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.28">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="6d535470-dd94-48f6-be8a-3b461c99305c" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>dcb54e6a-9031-4c72-8d23-cd6354ed4e2e</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410151145</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0029.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>241431</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>a5275b7031116e8bd3c5162f41c00ea57c5bce1d</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="b496fac3-1a8d-4988-82c3-3d695a68b964" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="6d535470-dd94-48f6-be8a-3b461c99305c">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="5d652f84-9ec4-49f0-b1b9-6e80944a57e5" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="6d535470-dd94-48f6-be8a-3b461c99305c" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="960c9a53-dfb6-4f2f-aa32-77d1fcf4bcbf" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="6d535470-dd94-48f6-be8a-3b461c99305c" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="eb708cb7-01b6-48c1-a74d-45003aa4e07c" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="6d535470-dd94-48f6-be8a-3b461c99305c" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="bbb4136a-6e54-486a-b0cc-607885091a99" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="6d535470-dd94-48f6-be8a-3b461c99305c" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="ef36e296-c6fd-4f43-b30b-4bbb114a8307" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="6d535470-dd94-48f6-be8a-3b461c99305c" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.29">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <ExtrinsicObject id="6cae5942-7d6b-4544-9525-69c1e3c9e2e5" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" mimeType="text/xml" isOpaque="false">
+      <Slot name="repositoryUniqueId">
+        <ValueList>
+          <Value>c945ed22-ad26-4f25-bd8d-29fef379f08d</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="creationTime">
+        <ValueList>
+          <Value>20250410151148</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="languageCode">
+        <ValueList>
+          <Value>en-US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientId">
+        <ValueList>
+          <Value>Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="sourcePatientInfo">
+        <ValueList>
+          <Value>PID-3|novgmtd24f2f9lc^^^&amp;1.2.840.114350.1.13.292.2.7.3.688884.100&amp;ISO</Value>
+          <Value>PID-5|Cartrette^Jennifer^Beth^^^</Value>
+          <Value>PID-7|19820913</Value>
+          <Value>PID-8|F</Value>
+          <Value>PID-11|136 Creek View Lane^^Wingate^NC^28174^US</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="URI">
+        <ValueList>
+          <Value>DOC0030.XML</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="size">
+        <ValueList>
+          <Value>194069</Value>
+        </ValueList>
+      </Slot>
+      <Slot name="hash">
+        <ValueList>
+          <Value>639b790ae8cab0853a5d46b318ed4d6ea31f4c23</Value>
+        </ValueList>
+      </Slot>
+      <Classification id="a46cef17-9b48-4d2b-b21b-2bbb750d7731" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="6cae5942-7d6b-4544-9525-69c1e3c9e2e5">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="02c70fd5-e464-41fe-9df9-0ec5d1df53a4" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="6cae5942-7d6b-4544-9525-69c1e3c9e2e5" nodeRepresentation="urn:epic:mychart:extract:2007">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>EPIC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="0eff8c14-b966-4797-b790-5a2be2bfb08e" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="6cae5942-7d6b-4544-9525-69c1e3c9e2e5" nodeRepresentation="34133-9">
+        <Slot name="codingScheme">
+          <ValueList>
+            <Value>LOINC</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <Classification id="b971daf3-7a71-4e87-b047-c7eb09833c94" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="6cae5942-7d6b-4544-9525-69c1e3c9e2e5" classificationNode="urn:uuid:ab9b591b-83ab-4d03-8f5d-f93b1fb92e85">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.limitedMetadata" />
+        </Name>
+      </Classification>
+      <ExternalIdentifier id="a3243cd0-3e07-4977-9653-5a1a82a87a37" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="6cae5942-7d6b-4544-9525-69c1e3c9e2e5" identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="6cc4f9ec-ab81-473f-a260-fcc4cdb72caf" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="6cae5942-7d6b-4544-9525-69c1e3c9e2e5" identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791.30">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSDocumentEntry.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </ExtrinsicObject>
+    <RegistryPackage id="SubmissionSet" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:RegistryPackage" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Submitted">
+      <Slot name="submissionTime">
+        <ValueList>
+          <Value>20250410150842</Value>
+        </ValueList>
+      </Slot>
+      <Name>
+        <LocalizedString charset="UTF-8" value="Submission Set" />
+      </Name>
+      <Classification id="c059e62b-a0d7-4fe8-bf0d-6263101e121e" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classificationScheme="urn:uuid:a7058bb9-b4e4-4307-ba5b-e3f0ab85e12d" classifiedObject="SubmissionSet">
+        <Slot name="authorInstitution">
+          <ValueList>
+            <Value>Novant Health</Value>
+          </ValueList>
+        </Slot>
+        <Slot name="authorPerson">
+          <ValueList>
+            <Value>111.0^Epic - Version 111.0</Value>
+          </ValueList>
+        </Slot>
+      </Classification>
+      <ExternalIdentifier id="83be4fc1-99ca-45a7-b162-c4c4d92d77c1" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="SubmissionSet" identificationScheme="urn:uuid:6b5aea1a-874d-4603-a4bc-96a0a7b38446" value="Z4824216^^^&amp;1.2.840.114350.1.13.292.2.7.2.876870&amp;ISO">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSSubmissionSet.patientId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="f121fc81-146c-427a-8897-be120d53a15b" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="SubmissionSet" identificationScheme="urn:uuid:554ac39e-e3fe-47fe-b233-965d2a147832" value="1.2.840.114350.1.13.292.2.7.2.876870">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSSubmissionSet.sourceId" />
+        </Name>
+      </ExternalIdentifier>
+      <ExternalIdentifier id="c3c7d6f7-aa10-4624-aff0-559fff519c0a" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" registryObject="SubmissionSet" identificationScheme="urn:uuid:96fdda7c-d067-4183-912e-bf5ee74998a8" value="1.2.840.114350.1.13.292.2.7.2.876870.Z4824216.638798801220155791">
+        <Name>
+          <LocalizedString charset="UTF-8" value="XDSSubmissionSet.uniqueId" />
+        </Name>
+      </ExternalIdentifier>
+    </RegistryPackage>
+    <Classification id="021ff400-ceca-4720-8793-33e283cc9b89" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" classifiedObject="SubmissionSet" classificationNode="urn:uuid:a54d6aa5-d40d-43f9-88c5-b4633d873bdd" />
+    <Association id="f998a112-cbcf-430f-ab42-2e4da88cb776" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="20c81f8b-d68d-4fc5-ab86-7fa23e472a40">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="12b50a15-98c6-48d5-ba25-95c4eb9b0dbe" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="e99b5aa7-7ff0-4ab0-808a-aa32e4f91850">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="5d420b78-44a6-4254-9600-266cafee0889" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="5d0a3244-55ca-482c-8b7b-5439209b8662">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="4d3cca3a-2e12-4364-972b-4b849c6f2b5b" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="9006d836-75b1-42e9-b629-8feb289e8bcb">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="a5d2ecc4-0b79-4d45-81b6-745abe9667fe" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="2c0835d0-ba37-4807-a5e3-987d136791d5">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="69212dc4-2d12-4aa8-bd7d-2d045b53b479" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="af66115c-5b8e-459e-b93f-a3e797a89343">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="912b6eac-2267-41cc-91ff-6646285687ab" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="f65fcfa0-75e5-4cef-9728-98dca5bc311b">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="54f6b43a-ebbf-4bba-bb11-f15e7bad148a" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="09eb1a18-09d1-449b-bd74-b265a00f7775">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="cb5de981-ca20-41b4-ab62-ea194f3f06a4" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="975a5773-30c2-4de1-8fc6-d7ee6b9527c1">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="7a8036b7-2667-4708-bf34-9163e7d646bc" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="335c4002-15ef-424f-8860-81fa68c832d9">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="785c4b9d-6351-44e2-99ee-397a101b055f" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="4ee98f14-31ed-484f-841d-abdd5c9d7648">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="f34dd3c6-1409-459f-ba9b-76cedbf4dfa8" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="218408c7-c1cc-4e94-9c08-170afce634b2">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="19b49f02-16e7-4539-b363-ce03da2e11e0" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="c7be9ece-815c-4a0c-8926-150bd9775823">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="fce7e5ac-6ceb-4c6f-b024-c1c1df7939e9" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="8a5633f0-61d4-4a52-8286-5265890a06de">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="c5fb7cad-d885-4efb-825b-ed5e86791799" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="bcbdd310-4f5e-4f0a-a5b3-8d334921d6e0">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="f2d75251-d893-4da5-9ffe-94af942f43fc" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="6642a312-1527-44bc-bc37-f96ddc932041">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="c22151b4-e4b2-458f-bcdc-2af770fa0c48" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="3bf7caa6-2d7e-4343-908a-2a761b0242c9">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="1871b661-0361-44f2-a4a1-6edd4885209e" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="a6938c1c-3bc0-4b02-83d8-38d09874f53c">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="3cd69322-1763-40f1-95da-13d68e311b1c" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="4e41e2b2-8f6f-4e66-b59f-84aafb5e83ec">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="5e682838-2e05-4b55-b99e-de1c64b2e7f0" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="58f94a11-27eb-4d65-978c-30a7544001bf">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="d0f8cb0b-d032-4743-9e6d-bd6d2047308d" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="8b814f08-59f1-4f4f-9bfe-c4079602ba6e">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="003f79d9-1370-429b-bf06-2854ee46b87e" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="c5ac68bd-d4a1-42cc-8b4e-2588b258496b">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="cb9ebaed-a04e-4405-ba49-02bcfd75661b" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="d6b80db6-1191-45e6-9ee6-1d19396c3267">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="c2d675e1-b1cc-4f33-9bd3-4f1def2c0324" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="664565b1-3351-4262-a11f-41b7ca41300f">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="b54f77e7-3738-4f9f-a7a3-d9bbfcf809c6" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="ad457b2a-c92d-48a0-bb66-e3001a1ac1e5">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="6af5216c-ea0b-470f-8d6f-648cf8a60c5c" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="35bef602-6203-47d2-959e-4d74f7adf056">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="947fc8fb-d0a1-471b-81cb-10e8ec949ea4" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="ff25965f-b5be-4e6f-8e28-ecc75b8a9f37">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="a232106a-84b7-4489-b2a4-2abc51312936" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="da238443-8d3c-4ba5-b1fa-1360203baf73">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="0b9af9e2-f556-4ebf-89e0-9ceb5830b406" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="6d535470-dd94-48f6-be8a-3b461c99305c">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <Association id="5de25eb9-db50-405a-af00-6c5e868eadc2" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet" targetObject="6cae5942-7d6b-4544-9525-69c1e3c9e2e5">
+      <Slot name="SubmissionSetStatus">
+        <ValueList>
+          <Value>Original</Value>
+        </ValueList>
+      </Slot>
+    </Association>
+    <ObjectRef id="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" />
+    <ObjectRef id="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" />
+    <ObjectRef id="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" />
+    <ObjectRef id="urn:uuid:41a5887f-8865-4c09-adf7-e362475b143a" />
+    <ObjectRef id="urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f" />
+    <ObjectRef id="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" />
+    <ObjectRef id="urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1" />
+    <ObjectRef id="urn:uuid:cccf5598-8b07-4b77-a05e-ae952c785ead" />
+    <ObjectRef id="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" />
+    <ObjectRef id="urn:uuid:6b5aea1a-874d-4603-a4bc-96a0a7b38446" />
+    <ObjectRef id="urn:uuid:554ac39e-e3fe-47fe-b233-965d2a147832" />
+    <ObjectRef id="urn:uuid:96fdda7c-d067-4183-912e-bf5ee74998a8" />
+    <ObjectRef id="urn:uuid:aa543740-bdda-424e-8c96-df4873be8500" />
+    <ObjectRef id="urn:uuid:a54d6aa5-d40d-43f9-88c5-b4633d873bdd" />
+  </RegistryObjectList>
+</SubmitObjectsRequest>

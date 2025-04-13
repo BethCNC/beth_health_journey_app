@@ -1,0 +1,3 @@
+
+
+This test detects Methicillin Resistant Staphylococcus aureus and Methicillin Sensitive Staphylococcus aureus by PCR.

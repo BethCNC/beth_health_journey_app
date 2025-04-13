@@ -1,0 +1,20 @@
+name,title,facility,start_date,conditions_treated,address,phone,last_visit_date,last_visit_notes,upcoming_visit_date,upcoming_needs,active,inactive
+Dr. Timothy Kennard,Primary Care Physician,Atrium Health Primary Care Indian Trail Family Medicine,March 2023,"ADHD,EDS,POTS","4503 Old Monroe Road, Indian Trail, NC 28079",980-993-7100,"February 29, 2025","Follow up appointment, medications refill, discussed POTS symptoms and potential MCAS diagnosis after contrast dye reaction.","April 17, 2025","need referral for TOS-Pascarella,need referral for gastro,need referral for endo",yes,no
+Dr. Joseph Gentile,Orthopedic Surgeon,Novant,,,,,,,,,no,yes
+Dr. Yousuf Khan,Endocrinologist,Novant,,,,,,,,,no,yes
+Dr. Anne Rogers,General Practitioner,Novant,,,,,,,,,no,yes
+Dr. Mark Hartman,Spine,Novant,,,,,,,,,no,yes
+Dr. Joseph Zuhosky,Spine,Novant,,,,,,,,,no,yes
+Dr. Brandon Valentine,Hand Specialist,Novant,November 2019,,,,"November 26, 2019",Evaluation of left hand numbness and tingling. Assessment suggests carpal tunnel syndrome with electrodiagnostic testing recommended.,,,no,yes
+Dr. Vinaya Maddukuri,GI,Charlotte Gastroenterology,June 2022,,"724 Aubrey Bell Drive, Matthews, NC 28105",,,,,,no,yes
+Brown Neurosurgery,Spine,Brown Neurosurgery,,"EDS,Tethered Cord","593 Eddy Street, APC 6 Building Providence, RI 02903",401-793-9166,,"work up for occult tethered cord due to chronic pain, hyper reflexes, and bladder dysfunctions",,,yes,no
+Dr. Dominique A. Falewee,Cardiology,Atrium Health Sanger Heart & Vascular Institute Kenilworth,,POTS,"1237 Harding Place, Charlotte, NC 28204",704-373-0212,,,,,yes,no
+Dr. Zachary Ward,Neurology,Atrium Health Wake Forest Baptist,,"EDS,Tethered Cord","145 Kimel Park Drive, Suite 100, Winston-Salem, NC 27103",336-768-6347,,headache and muscle tremors,,,no,yes
+"Michael A. Lapuente, DO",Allergy Immunology,Carolina Asthma & Allergy Center,March 2025,MCAS,"855 Sam Newell Rd #206 Matthews, NC, 28105",704-372-7900,,,,,yes,no
+Dr. Eric Starr,General Practitioner,Novant Health Lakeside Family Physicians - Rosedale,November 2019,Hypermobility,"14330 Oakhill Park Lane, Suite 200 B, Huntersville, NC 28078",704-316-1265,,Dr. Starr was my GP before I moved. Very understanding.,,,no,yes
+Dr. Eric Chandley,Orthopedic Surgeon,Novant Health Orthopedics & Sports Medicine - Cornelius,January 2020,EDS,"19485 Old Jetton Road, Suite 210, Cornelius, NC 28031",704-316-1830,"January 28, 2020",Evaluation of right knee pain and swelling. Physical exam showed knee effusion and positive Thessaly's test. X-ray showed small right knee effusion. Multiple lab tests ordered.,,,no,yes
+Dr. Amit Patel,Rheumatologist,Novant Health Rheumatology and Arthritis (Charlotte),March 2020,PSA,"6324 Fairview Road, Suite 330, Charlotte, NC 28210",704-316-1950,,This is the first rheumatologist who diagnosed my PSA.,,,no,yes
+Dr. Donald Stewart,Neuro-Ophthalmology,Charlotte Eye Ear Nose & Throat - Matthews,May 2023,"Visual Disturbances,Vestibular Migraine,Pressure Headaches","724 Aubrey Bell Drive, Matthews, NC 28105",704-295-3550,"March 28, 2024",Evaluation for suspected thyroid eye disease. Comprehensive eye examination performed.,,,yes,no
+"Dr. Cassandra Caver, NP",OBGYN,Novant OBGYN Huntersville,March 2018,,,,,I am very overdue for a pap smear and gynecological visit.,,,no,yes
+Dr. William Baker,Rhematologist,Atrium Health Rheumatology Southpark,June 2023,"PSA,EDS,Hypermobility","4525 Cameron Valley Parkway, Suite 4100, CHARLOTTE NC 28211-3546",704-468-8873,"June 24, 2024",Follow-up visit to assess treatment response and ongoing joint symptoms. Discussed medication adjustments and continued monitoring.,,,yes,no
+Dr. Gagneet Chauhan,Endocrinologist,Atrium Health - Endocrinology SouthPark,July 2023,"Hashimoto's Thyroiditis,PCOS","4525 Cameron Valley Parkway 4th Floor, Charlotte, NC 28211",704-468-8876,,,,,no,yes

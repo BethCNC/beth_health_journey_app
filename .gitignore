@@ -1,0 +1,82 @@
+# Dependencies
+node_modules/
+/venv/
+
+# Build outputs
+/build/
+dist/
+*.pyc
+__pycache__/
+
+# Environment/IDE
+.env
+.DS_Store
+.cursor/
+
+# Logs
+*.log
+
+# Local development
+.vscode/
+Notion-health-pages-data/
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# testing
+/coverage
+
+# misc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js
+.next/
+out/
+
+# Storybook
+storybook-static
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# Large media files
+assets/videos/
+assets/gifs/
+
+# Temporary or backup directories
+/3d icons/
+/copywriting-icons/
+/health-journey-app/
+/temp_repo/
+/db/
