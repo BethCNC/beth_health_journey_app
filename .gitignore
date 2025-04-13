@@ -117,6 +117,22 @@ public/videos/
 media/
 uploads/
 
+# Additional large file directories
+/3d icons/
+/data/
+assets/gifs/
+assets/videos/
+
+# Document files
+*.pdf
+*.PDF
+*.docx
+*.doc
+*.pptx
+*.ppt
+*.xlsx
+*.xls
+
 # Temporary or backup directories
 /3d icons/
 /copywriting-icons/
