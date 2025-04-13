@@ -74,6 +74,49 @@ yarn-error.log*
 assets/videos/
 assets/gifs/
 
+# Additional media files to ignore
+# Images
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.webp
+*.svg
+*.ico
+*.raw
+*.psd
+*.ai
+*.eps
+*.dng
+*.cr2
+*.nef
+*.arw
+*.heic
+*.heif
+
+# Videos
+*.mp4
+*.mov
+*.avi
+*.wmv
+*.flv
+*.mkv
+*.webm
+*.m4v
+*.mpg
+*.mpeg
+*.3gp
+
+# Specific media directories
+assets/images/
+public/images/
+public/videos/
+media/
+uploads/
+
 # Temporary or backup directories
 /3d icons/
 /copywriting-icons/
