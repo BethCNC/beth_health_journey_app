@@ -1,6 +1,42 @@
 # Beth's Health Journey App
 
-This project provides a web interface for managing and presenting medical health information, including diagnoses, symptoms, medical team information, and a medical calendar.
+A personal application to track and organize my health information, medical history, and conditions in a structured format.
+
+## Project Overview
+
+This application helps organize medical records, lab results, and health information from multiple sources into a structured system to better track and manage multiple chronic illnesses.
+
+## Features
+
+- Medical timeline view
+- Condition tracking
+- Lab result organization
+- Provider management
+- Document storage and analysis
+- PDF processing for medical records
+
+## Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Supabase
+- Notion API integration
+
+## Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+```
+
+## Scripts
+
+- `process-medical-pdfs-to-notion.js`: Process medical PDFs and add them to Notion
+- Various data import/export utilities for health data management
 
 ## Setup Instructions
 

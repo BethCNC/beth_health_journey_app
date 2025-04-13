@@ -3,28 +3,32 @@
 @tailwind utilities;
 
 :root {
-  /* Color Tokens */
-  --color-primary-50: #f0f9ff;
-  --color-primary-100: #e0f2fe;
-  --color-primary-200: #bae6fd;
-  --color-primary-300: #7dd3fc;
-  --color-primary-400: #38bdf8;
-  --color-primary-500: #0ea5e9;
-  --color-primary-600: #0284c7;
-  --color-primary-700: #0369a1;
-  --color-primary-800: #075985;
-  --color-primary-900: #0c4a6e;
+  /* Color Tokens - Updating to match tokens.json */
+  /* Primary (Pink) */
+  --color-primary-50: #fdf5fe;
+  --color-primary-100: #fbeafd;
+  --color-primary-200: #f7d4fa;
+  --color-primary-300: #f1abf5;
+  --color-primary-400: #eb83ef;
+  --color-primary-500: #dc53e2;
+  --color-primary-600: #c433c6;
+  --color-primary-700: #a427a3;
+  --color-primary-800: #862285;
+  --color-primary-900: #6e216b;
+  --color-primary-950: #480a45;
   
-  --color-secondary-50: #f5f3ff;
-  --color-secondary-100: #ede9fe;
-  --color-secondary-200: #ddd6fe;
-  --color-secondary-300: #c4b5fd;
-  --color-secondary-400: #a78bfa;
-  --color-secondary-500: #8b5cf6;
-  --color-secondary-600: #7c3aed;
-  --color-secondary-700: #6d28d9;
-  --color-secondary-800: #5b21b6;
-  --color-secondary-900: #4c1d95;
+  /* Secondary (Yellow) */
+  --color-secondary-50: #fefee8;
+  --color-secondary-100: #fdfdc4;
+  --color-secondary-200: #fcf78c;
+  --color-secondary-300: #f9ed4b;
+  --color-secondary-400: #f5da0e;
+  --color-secondary-500: #e6c30c;
+  --color-secondary-600: #c69908;
+  --color-secondary-700: #9e6d0a;
+  --color-secondary-800: #835710;
+  --color-secondary-900: #6f4714;
+  --color-secondary-950: #412507;
   
   /* Status colors */
   --color-status-active: #16a34a;
@@ -43,19 +47,23 @@
   --color-text-inverse: #ffffff;
   
   /* Typography Tokens */
-  --font-family-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-family-serif: 'Georgia', 'Times New Roman', serif;
+  --font-family-sans: 'Mabry Pro', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-family-serif: 'Behind The Nineties', 'Georgia', 'Times New Roman', serif;
   --font-family-mono: 'SFMono-Regular', Menlo, Monaco, Consolas, monospace;
   
-  --font-size-xs: 0.75rem;
-  --font-size-sm: 0.875rem;
-  --font-size-base: 1rem;
-  --font-size-lg: 1.125rem;
-  --font-size-xl: 1.25rem;
-  --font-size-2xl: 1.5rem;
-  --font-size-3xl: 1.875rem;
-  --font-size-4xl: 2.25rem;
-  --font-size-5xl: 3rem;
+  --font-size-xs: 0.75rem; /* 12px */
+  --font-size-sm: 0.875rem; /* 14px */
+  --font-size-base: 1rem; /* 16px */
+  --font-size-lg: 1.125rem; /* 18px */
+  --font-size-xl: 1.25rem; /* 20px */
+  --font-size-2xl: 1.5rem; /* 24px */
+  --font-size-3xl: 1.875rem; /* 30px */
+  --font-size-4xl: 2.25rem; /* 36px */
+  --font-size-5xl: 3rem; /* 48px */
+  --font-size-6xl: 3.75rem; /* 60px */
+  --font-size-7xl: 4.5rem; /* 72px */
+  --font-size-8xl: 6rem; /* 96px */
+  --font-size-9xl: 8rem; /* 128px */
   
   --line-height-none: 1;
   --line-height-tight: 1.25;
@@ -65,20 +73,22 @@
   --line-height-loose: 2;
   
   /* Spacing Tokens */
-  --spacing-xs: 0.25rem;
-  --spacing-sm: 0.5rem;
-  --spacing-md: 1rem;
-  --spacing-lg: 1.5rem;
-  --spacing-xl: 2rem;
-  --spacing-2xl: 3rem;
-  --spacing-3xl: 4rem;
+  --spacing-xs: 0.25rem; /* 4px */
+  --spacing-sm: 0.5rem; /* 8px */
+  --spacing-md: 1rem; /* 16px */
+  --spacing-lg: 1.5rem; /* 24px */
+  --spacing-xl: 2rem; /* 32px */
+  --spacing-2xl: 3rem; /* 48px */
+  --spacing-3xl: 4rem; /* 64px */
   
   /* Radius Tokens */
   --radius-none: 0;
-  --radius-sm: 0.125rem;
-  --radius-md: 0.25rem;
-  --radius-lg: 0.5rem;
-  --radius-xl: 1rem;
+  --radius-sm: 0.125rem; /* 2px */
+  --radius-md: 0.25rem; /* 4px */
+  --radius-lg: 0.5rem; /* 8px */
+  --radius-xl: 1rem; /* 16px */
+  --radius-2xl: 1.5rem; /* 24px */
+  --radius-3xl: 2rem; /* 32px */
   --radius-full: 9999px;
   
   /* Shadow Tokens */

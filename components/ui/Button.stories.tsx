@@ -5,6 +5,12 @@ import Button from './Button';
 export default {
   title: 'UI/Button',
   component: Button,
+  parameters: {
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/file/LKQ4FJ4bTnCSjedbRpk931/Sample-File',
+    },
+  },
   argTypes: {
     variant: {
       control: { type: 'select' },
@@ -29,6 +35,12 @@ export const Primary = Template.bind({});
 Primary.args = {
   variant: 'primary',
   children: 'Primary Button',
+};
+Primary.parameters = {
+  design: {
+    type: 'figma',
+    url: 'https://www.figma.com/file/LKQ4FJ4bTnCSjedbRpk931/Sample-File?node-id=0%3A1',
+  },
 };
 
 // Secondary Button
