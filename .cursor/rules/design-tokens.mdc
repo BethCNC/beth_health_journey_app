@@ -1,0 +1,114 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Design System Token Rules
+
+## Core Principles
+1. NEVER hardcode design values
+2. ALWAYS use design tokens from `tokens/tokens.json`
+3. NO arbitrary design decisions
+4. ALL styling must reference our token system
+
+## Token Categories
+
+### Colors
+- Use semantic color tokens from `3_Mapped/light` or `3_Mapped/dark`
+- Example: `{text.primary}` instead of hardcoding "#000000"
+- Color categories available:
+  - text.*
+  - surface.*
+  - icon.*
+  - border.*
+  - gradient.*
+  - support.*
+
+### Typography
+- Font sizes: Use `type.font size.*` tokens
+- Line heights: Use `type.line height.*` tokens
+- Font weights: Use `type.font weight.*` tokens
+- Font family: Use `type.family.font family`
+
+### Spacing
+- Use `dimensions.spacing.*` tokens for:
+  - Margins
+  - Padding
+  - Gaps
+  - Layout spacing
+
+### Border Radius
+- Use `dimensions.radius.*` tokens
+- Never specify pixel values directly
+
+### Components
+- Button sizes must use tokens from `4_Component Tokens/{size}`
+- Responsive layouts must use tokens from `5_Responsive/{breakpoint}`
+
+## Strict Rules
+
+1. NO direct color hex codes or RGB values
+2. NO direct pixel values for:
+   - Font sizes
+   - Line heights
+   - Spacing
+   - Border radius
+   - Component dimensions
+
+3. NO arbitrary values for:
+   - Gradients
+   - Shadows
+   - Opacity
+   - Transitions
+
+4. ALWAYS use semantic tokens over primitive ones:
+   - ✅ `{text.primary}` 
+   - ❌ `{Colors.Pink.500}`
+
+5. Theme awareness:
+   - Components must work in both light/dark modes
+   - Use mapped tokens from `3_Mapped/light` and `3_Mapped/dark`
+
+## Examples
+
+### Correct Usage
+```css
+.button {
+  background-color: var(--surface-primary);
+  color: var(--text-on-primary);
+  padding: var(--dimensions-spacing-space-md);
+  border-radius: var(--dimensions-radius-radius-md);
+  font-size: var(--type-font-size-text-base-16);
+}
+```
+
+### Incorrect Usage
+```css
+.button {
+  background-color: #dc53e2;  /* ❌ No direct colors */
+  color: white;               /* ❌ No hardcoded values */
+  padding: 16px;             /* ❌ No direct pixels */
+  border-radius: 8px;        /* ❌ No direct pixels */
+  font-size: 16px;           /* ❌ No direct pixels */
+}
+```
+
+## Token Reference Structure
+```json
+{
+  "1_Primitives": "Raw values - DO NOT USE DIRECTLY",
+  "2_Alias": "Semantic mappings",
+  "3_Mapped": "Theme-aware tokens - USE THESE",
+  "4_Component": "Component-specific tokens",
+  "5_Responsive": "Breakpoint-specific tokens",
+  "7_Gradients": "Gradient combinations"
+}
+```
+
+## Enforcement
+The AI will:
+1. REJECT any code that doesn't use design tokens
+2. REFUSE to generate arbitrary design values
+3. ALWAYS reference `tokens/tokens.json` for styling
+4. ENFORCE semantic token usage over primitive tokens
+5. MAINTAIN theme compatibility 

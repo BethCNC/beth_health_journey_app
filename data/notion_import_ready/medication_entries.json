@@ -1,0 +1,805 @@
+[
+  {
+    "name": "Humira",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "6_6_2023_DrBaker_InitialConsult.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "y",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "Presence of dental prosthetic device",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "Right lower x",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "PTSD",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "Patient Active Problem List",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "Psoriatic arthritis",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "Immunodeficiency due to drugs",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "ADHD",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "DDD",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "Protrusion of cervical intervertebral disc",
+    "dosage": ".  Discussed",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "cervical ESI",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "nature of her symptoms and her weakness on exam",
+    "dosage": ".  We",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "breakthrough pain",
+    "dosage": ".  Consult",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "radiculopathy",
+    "dosage": ".  She",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "oral steroids at this time",
+    "dosage": ". Once",
+    "frequency": "daily",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "with an MRI of the cervical spine especially given her neurologic deficit on exam",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "Chronic right shoulder pain",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "Graves disease",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "Graves",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "Anorexia nervosa with bulimia",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "Bipolar affective disorder",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "Victim of sexual assault",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "Outpatient Medications Marked as Taking for the",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "Medication Sig Dispense Refill",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "amphetamine-",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "dextroamphetamine",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "(ADDERALL)",
+    "dosage": "20 MG",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "mg dose",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "for",
+    "dosage": "30 days",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "chlorhexidine",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "Capful",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "Times Daily",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "folic acid",
+    "dosage": "1 mg",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "daily",
+    "dosage": ".30 tablet",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "methotrexate",
+    "dosage": "2.5 MG",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "once a week",
+    "dosage": ".16 tablet",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "mupirocin",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "ointmentApply topically",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "ondansetron",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "mg disintegrating tabletTake one tablet",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "every",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "as needed for",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "Nausea",
+    "dosage": ".18 tablet",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "https",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "GI_Follow_Up_Notes.txt",
+    "prescribed_by": "Dr. Hartman"
+  },
+  {
+    "name": "Prednisone",
+    "dosage": ".\nPrior",
+    "frequency": "",
+    "source_file": "05_23_2022_DrPatel_Rheumatology.txt"
+  },
+  {
+    "name": "Adderall",
+    "dosage": "20 m",
+    "frequency": "",
+    "source_file": "11-26-2019_hand_Doctor.txt",
+    "prescribed_by": "Dr. Valentine"
+  },
+  {
+    "name": "Zyrtec",
+    "dosage": "",
+    "frequency": "daily",
+    "source_file": "GP_Dr_Kennard_Jan_17_2025.txt",
+    "prescribed_by": "Dr. Luigi"
+  },
+  {
+    "name": "Claritin",
+    "dosage": ". Reports",
+    "frequency": "daily",
+    "source_file": "GP_Dr_Kennard_Jan_17_2025.txt",
+    "prescribed_by": "Dr. Luigi"
+  },
+  {
+    "name": "Methotrexate",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "04_18_2024_DrBaker_AppointmentNotes.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "tabs",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "04_18_2024_DrBaker_AppointmentNotes.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "weekly",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "04_18_2024_DrBaker_AppointmentNotes.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "with",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "04_18_2024_DrBaker_AppointmentNotes.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "daily",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "04_18_2024_DrBaker_AppointmentNotes.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "folate",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "04_18_2024_DrBaker_AppointmentNotes.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "ROS",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "04_18_2024_DrBaker_AppointmentNotes.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "negative",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "04_18_2024_DrBaker_AppointmentNotes.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "other",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "04_18_2024_DrBaker_AppointmentNotes.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "than",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "04_18_2024_DrBaker_AppointmentNotes.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "what",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "04_18_2024_DrBaker_AppointmentNotes.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "was",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "04_18_2024_DrBaker_AppointmentNotes.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "reviewed",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "04_18_2024_DrBaker_AppointmentNotes.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "by",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "04_18_2024_DrBaker_AppointmentNotes.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "HPI",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "04_18_2024_DrBaker_AppointmentNotes.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "Current",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "04_18_2024_DrBaker_AppointmentNotes.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "Outpatient",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "04_18_2024_DrBaker_AppointmentNotes.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "Medications",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "04_18_2024_DrBaker_AppointmentNotes.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "Medication",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "04_18_2024_DrBaker_AppointmentNotes.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "Instructions",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "04_18_2024_DrBaker_AppointmentNotes.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "Prednisone",
+    "dosage": "10\nmg",
+    "frequency": "daily",
+    "source_file": "03_19_2022_DrPatel_Rheumatology.txt"
+  },
+  {
+    "name": "Zyrtec",
+    "dosage": "",
+    "frequency": "daily",
+    "source_file": "MyAtriumHealth_-_Past_Visit_Details.txt",
+    "prescribed_by": "Dr. Luigi"
+  },
+  {
+    "name": "Claritin",
+    "dosage": ". Reports",
+    "frequency": "daily",
+    "source_file": "MyAtriumHealth_-_Past_Visit_Details.txt",
+    "prescribed_by": "Dr. Luigi"
+  },
+  {
+    "name": "Methotrexate",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "08_04_2023_DrBaker_Appt2.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "tabs",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "08_04_2023_DrBaker_Appt2.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "weekly",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "08_04_2023_DrBaker_Appt2.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "with",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "08_04_2023_DrBaker_Appt2.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "daily",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "08_04_2023_DrBaker_Appt2.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "folate",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "08_04_2023_DrBaker_Appt2.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "ROS",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "08_04_2023_DrBaker_Appt2.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "negative",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "08_04_2023_DrBaker_Appt2.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "other",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "08_04_2023_DrBaker_Appt2.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "than",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "08_04_2023_DrBaker_Appt2.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "what",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "08_04_2023_DrBaker_Appt2.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "was",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "08_04_2023_DrBaker_Appt2.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "reviewed",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "08_04_2023_DrBaker_Appt2.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "by",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "08_04_2023_DrBaker_Appt2.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "HPI",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "08_04_2023_DrBaker_Appt2.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "Current",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "08_04_2023_DrBaker_Appt2.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "Outpatient",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "08_04_2023_DrBaker_Appt2.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "Medications",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "08_04_2023_DrBaker_Appt2.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "Medication",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "08_04_2023_DrBaker_Appt2.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "Instructions",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "08_04_2023_DrBaker_Appt2.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "ON",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "08_04_2023_DrBaker_Appt2.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "dextroamphetamine-amphetamine",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "08_04_2023_DrBaker_Appt2.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "mg",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "08_04_2023_DrBaker_Appt2.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "tablet",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "08_04_2023_DrBaker_Appt2.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "oral",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "08_04_2023_DrBaker_Appt2.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "times",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "08_04_2023_DrBaker_Appt2.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "Zoloft",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "07_15_2024_DrKennard_GP.txt",
+    "prescribed_by": "Dr.\nBanker"
+  },
+  {
+    "name": "No",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "06_24_2024_DrBaker_LastAppt.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "DMARD",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "06_24_2024_DrBaker_LastAppt.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "ROS",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "06_24_2024_DrBaker_LastAppt.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "negative",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "06_24_2024_DrBaker_LastAppt.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "other",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "06_24_2024_DrBaker_LastAppt.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "than",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "06_24_2024_DrBaker_LastAppt.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "what",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "06_24_2024_DrBaker_LastAppt.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "was",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "06_24_2024_DrBaker_LastAppt.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "reviewed",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "06_24_2024_DrBaker_LastAppt.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "by",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "06_24_2024_DrBaker_LastAppt.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "HPI",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "06_24_2024_DrBaker_LastAppt.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "Current",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "06_24_2024_DrBaker_LastAppt.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "Outpatient",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "06_24_2024_DrBaker_LastAppt.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "Medications",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "06_24_2024_DrBaker_LastAppt.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "Medication",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "06_24_2024_DrBaker_LastAppt.txt",
+    "prescribed_by": "Dr.\nPatel"
+  },
+  {
+    "name": "Instructions",
+    "dosage": "",
+    "frequency": "",
+    "source_file": "06_24_2024_DrBaker_LastAppt.txt",
+    "prescribed_by": "Dr.\nPatel"
+  }
+]

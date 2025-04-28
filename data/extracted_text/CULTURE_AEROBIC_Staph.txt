@@ -1,0 +1,88 @@
+--- Page 1 ---
+Name: Jennifer Beth Cartrette | DOB: 9/13/1982 | MRN: 71030963 | PCP: Timothy Kennard, MD | Legal Name: Jennifer Beth
+Cartrette
+Culture, Aerobic Cellulitis (Lab ID/Accession # 01470659690) (Order 712345651)
+Culture, Aerobic Cellulitis (Lab ID/Accession # 712345651MI) (Order 712345651)Results
+Written by Eric Starr on 1/17/2020  2:39 PM EST
+Seen by patient Jennifer Beth Cartrette on 10/25/2024  8:58 PM
+Performed at:  01 - LabCorp Burlington
+1447 York Court, Burlington, NC  272153361
+Lab Director: Sanjai Nagendra MD, Phone:  8007624344
+Aerobic Bacterial Culture: Final report 
+Antimicrobial Susceptibility: Comment
+** S = Susceptible; I = Intermediate; R = Resistant **
+                   P = Positive; N = Negative
+            MICS are expressed in micrograms per mL
+   Antibiotic                 RSLT#1    RSLT#2    RSLT#3    RSLT#4
+Ciproﬂoxacin                  S
+Clindamycin                    S
+Erythromycin                   S
+Gentamicin                     S
+Levoﬂoxacin                   S
+Linezolid                      S
+Hello:
+Your labs have returned
+ 
+Your culture was positive for staph infection and is sensitive to the antibiotics you are on
+Please ﬁnish antibiotics and use the Bactroban as well let me know if any problems
+ 
+Please don't hesitate to call or e-mail with questions or concerns
+ 
+Eric Starr PA-C
+ResultsComme nts From the Doctor's Ofﬁce
+Narrative
+Result Report10/25/24, 8:59 PM MyChart - Report
+https://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24izwB0bIzekYN8mXgwIUCnQ-3D-3D-24ywbq9DOl2te19LO1uO… 1/3
+
+--- Page 2 ---
+Moxiﬂoxacin                   S
+Oxacillin                      S
+Penicillin                     R
+Quinupristin/Dalfopristin      S
+Rifampin                       S
+Tetracycline                   R
+Trimethoprim/Sulfa             S
+Vancomycin                     S
+Result 1: Staphylococcus aureus 
+Heavy growth
+Based on susceptibility to oxacillin this isolate would be
+susceptible to:
+*Penicillinase-stable penicillins, such as:
+  Cloxacillin, Dicloxacillin, Nafcillin
+*Beta-lactam combination agents, such as:
+  Amoxicillin-clavulanic acid, Ampicillin-sulbactam,
+  Piperacillin-tazobactam
+*Oral cephems, such as:
+  Cefaclor, Cefdinir, Cefpodoxime, Cefprozil, Cefuroxime,
+  Cephalexin, Loracarbef
+*Parenteral cephems, such as:
+  Cefazolin, Cefepime, Cefotaxime, Cefotetan, Ceftaroline,
+  Ceftizoxime, Ceftriaxone, Cefuroxime
+*Carbapenems, such as:
+  Doripenem, Ertapenem, Imipenem, Meropenem
+Eric W Starr, PA on 1/17/2020  2:39 PM
+Flag:
+AbnormalStatus: Final result
+(Collected:
+1/14/2020  3:28 PM)Provider Status:
+Reviewed
+LABCORP
+  
+Additional Information
+Specimen ID Bill Type Client ID
+01470659690 Client 32862670
+ All Reviewers List
+Result Information
+Lab Information10/25/24, 8:59 PM MyChart - Report
+https://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24izwB0bIzekYN8mXgwIUCnQ-3D-3D-24ywbq9DOl2te19LO1uO… 2/3
+
+--- Page 3 ---
+Specimen Date
+TakenSpecimen Time
+TakenSpecimen
+Received DateSpecimen
+Received Time Result Date Result Time
+Jan 14, 2020  3:28 PM Jan 14, 2020 12:00 AM Jan 17, 2020  2:35 PM
+MyChart® licensed from Epic Systems Corporation© 1999 - 202410/25/24, 8:59 PM MyChart - Report
+https://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24izwB0bIzekYN8mXgwIUCnQ-3D-3D-24ywbq9DOl2te19LO1uO… 3/3
+
