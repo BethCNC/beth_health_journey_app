@@ -1,0 +1,667 @@
+# Processing Gaps Report
+
+## Files missing from extracted_text/
+- 1 of 1 - My Health Summary.PDF
+- 1 of 1 - My Health Summary.rtf
+- 1 of 1 - My Health Summary.txt
+- 11-26-2019_hand Doctor.pdf
+- ACUTE HEPATITIS PANEL .pdf
+- ACUTE HEPATITIS PANEL.pdf
+- ANTINUCLEAR AB 9 BY MULTIPLEX.pdf
+- ANTINUCLEAR AB BY MULTIPLEX.pdf
+- AUTOMATED VISUAL FIELD, EXTENDED, BOTH EYES.PDF
+- Anti-CCP Ab, IgG:IgA.pdf
+- Atrium Patient Health Summary.html
+- Beth Diagnosis Binder 2024 copy facing pages.html
+- Bipoloar_in_Remission.png
+- C-REACTIVE PROTEIN.pdf
+- C-Reactive Protein (CRP).pdf
+- CBC WITH DIFFERENTIAL.pdf
+- CBC with Differential.pdf
+- CBC with differentials.pdf
+- CBC without Differential.pdf
+- COMPREHENSIVE METABOLIC PANEL.pdf
+- CT HEAD WO CONTRAST.pdf
+- CT_HEAD_WO_CONTRAST-2022-10-26T21_47_01Z-Impression.txt
+- CT_HEAD_WO_CONTRAST-2022-10-26T21_47_01Z-Narrative.txt
+- CULTURE, AEROBIC_Staph.pdf
+- CULTURE, ANAEROBIC .pdf
+- CULTURE, BODY FLUID.pdf
+- CULTURE__AEROBIC-2020-01-14T20_28_00Z-Narrative.txt
+- CULTURE__ANAEROBIC-2020-01-28T05_00_00Z-Narrative.txt
+- CULTURE__BODY_FLUID-2020-01-28T05_00_00Z-Narrative.txt
+- Cell count with crystals, synovial fluid.pdf
+- Cell_count_with_crystals__synovial_fluid-2020-01-28T05_00_00Z-Narrative.txt
+- Comprehensive Metabolic Panel.pdf
+- DOC0001.XML
+- DOC0002.XML
+- DOC0003.XML
+- DOC0004.XML
+- DOC0005.XML
+- DOC0006.XML
+- DOC0007.XML
+- DOC0008.XML
+- DOC0009.XML
+- DOC0010.XML
+- DOC0011.XML
+- DOC0012.XML
+- DOC0013.XML
+- DOC0014.XML
+- DOC0015.XML
+- DOC0016.XML
+- DOC0017.XML
+- DOC0018.XML
+- DOC0019.XML
+- DOC0020.XML
+- DOC0021.XML
+- DOC0022.XML
+- DOC0023.XML
+- DOC0024.XML
+- DOC0025.XML
+- DOC0026.XML
+- DOC0027.XML
+- DOC0028.XML
+- DOC0029.XML
+- DOC0030.XML
+- EMG (1 EXTREMITY).TIF
+- ENDOMYSIAL ANTIBODY IGA.pdf
+- FL ARTHROGRAM SHOULDER RIGHT.pdf
+- FL_ARTHROGRAM_SHOULDER_RIGHT-2018-05-08T14_19_45Z-Impression.txt
+- FL_ARTHROGRAM_SHOULDER_RIGHT-2018-05-08T14_19_45Z-Narrative.txt
+- FREE T4 .pdf
+- FREE T4.pdf
+- Free T4.pdf
+- GI Follow Up Notes.pdf
+- GP_DR.Kennard_Jan_17_2025_After_Visit_Summary.PDF
+- GRAM STAIN .pdf
+- GRAM_STAIN-2020-01-28T05_00_00Z-Narrative.txt
+- HEMOGLOBIN A1C.pdf
+- HEPATIC FUNCTION PANEL .pdf
+- HEPATIC FUNCTION PANEL.pdf
+- HIV Screen with Reflex to Confirmation.pdf
+- HLA-B27 ANTIGEN.pdf
+- Hand Ultrasound Review By GP.pdf
+- Hepatic Function Panel_Trends.PDF
+- Hepatitis B.pdf
+- Hepatitis C Virus (HCV) Antibody With Confirmation.pdf
+- IGP, APTIMA HPV RFX 16,18,45 .pdf
+- IGP__APTIMA_HPV_RFX_16_18_45-2018-03-06T21_04_00Z-Narrative.txt
+- IGP__APTIMA_HPV_RFX_16_18_45-2018-03-06T21_04_00Z-Pathologist_provided_ICD10.txt
+- INDEX.HTM
+- LIPID PANEL W:CHOL:HDL RATIO.pdf
+- LYME, TOTAL AB TEST:REFLEX.pdf
+- Labs.csv
+- Lipid Panel.pdf
+- LucyDrive.png
+- LucyLogo.png
+- METADATA.XML
+- MRI ORBITS WO W CONTRAST.pdf
+- MRI SHOULDER RIGHT W CONTRAST.pdf
+- MRI SPINE CERVICAL WO CONTRAST .pdf
+- MRI_ORBITS_WO_W_CONTRAST-2018-02-24T22_02_09Z-Impression.txt
+- MRI_ORBITS_WO_W_CONTRAST-2018-02-24T22_02_09Z-Narrative.txt
+- MRI_SHOULDER_RIGHT_W_CONTRAST-2018-05-08T14_01_39Z-Impression.txt
+- MRI_SHOULDER_RIGHT_W_CONTRAST-2018-05-08T14_01_39Z-Narrative.txt
+- MRI_SPINE_CERVICAL_WO_CONTRAST-2018-06-07T12_30_12Z-Impression.txt
+- MRI_SPINE_CERVICAL_WO_CONTRAST-2018-06-07T12_30_12Z-Narrative.txt
+- MRSA_MSSA_PCR-2018-07-27T15_41_00Z-Narrative.txt
+- Mammogram 2023.pdf
+- MyAtriumHealth - Past Visit Details.pdf
+- MyAtriumHealth - Test Details.pdf
+- MyAtriumHealth - Test Details_Cholestoral.pdf
+- MyAtriumHealth - Test Details_T4.pdf
+- MyAtriumHealth - Test Details_TSH.pdf
+- MyAtriumHealth - Test Details_Thyroid Antibodies.pdf
+- MyAtriumHealth - Test XR Lateral Spine Additional.pdf
+- NM THYROID I-131 UPTAKE AND SCAN.pdf
+- NM_THYROID_I-131_UPTAKE_AND_SCAN-2018-04-06T11_45_23Z-Impression.txt
+- NM_THYROID_I-131_UPTAKE_AND_SCAN-2018-04-06T11_45_23Z-Narrative.txt
+- Note-Allison_Dejarnatt__NP-2022-09-06T13_05_05Z.rtf
+- Note-Amit_Patel__MD-2020-06-23T11_11_30Z.rtf
+- Note-Amit_Patel__MD-2020-06-23T13_59_59Z.rtf
+- Note-Amit_Patel__MD-2022-02-23T12_39_58Z.rtf
+- Note-Amit_Patel__MD-2022-05-23T11_54_51Z.rtf
+- Note-Amit_Patel__MD-2022-09-27T14_16_12Z.rtf
+- Note-David_Locascio__MD-2022-10-26T20_56_07Z.rtf
+- Note-Denisse_R__LPN-2021-10-19T20_04_16Z.rtf
+- Note-Eric_Starr__PA-C-2020-06-26T13_46_14Z.rtf
+- Note-Eric_Starr__PA-C-2021-04-13T16_31_21Z.rtf
+- Note-Eric_Starr__PA-C-2021-04-13T16_37_45Z.rtf
+- Note-Eric_Starr__PA-C-2021-10-19T19_27_46Z.rtf
+- Note-Eric_Starr__PA-C-2021-10-19T19_40_49Z.rtf
+- Note-Eric_Starr__PA-C-2022-06-09T21_06_27Z.rtf
+- Note-Eric_Starr__PA-C-2022-06-09T21_12_34Z.rtf
+- Note-Olivia_C__CNA-2021-04-13T03_39_32Z.rtf
+- Note-Suja_Raju__MD-2020-05-27T14_20_26Z.rtf
+- Note-Suja_Raju__MD-2020-12-22T15_52_47Z.rtf
+- Note-Suja_Raju__MD-2021-06-10T14_47_42Z.rtf
+- Note-Suja_Raju__MD-2021-12-08T13_36_41Z.rtf
+- Note-Suja_Raju__MD-2021-12-08T13_37_10Z.rtf
+- Note-Vinaya_Maddukuri__MD-2022-06-13T11_30_45Z.rtf
+- Novant Patient Health Summary.html
+- OCT, OPTIC NERVE, BOTH EYES.PDF
+- Optic Nerve - Both Eyes.PDF
+- PAP_IMAGE-GUIDED_CT_NG_HPV-HIGH_RISK-2015-02-04T21_47_00Z-Narrative.txt
+- POCT HCG, URINE.pdf
+- PageBackground.png
+- PageFooter.png
+- PageTop.png
+- QUANTIFERON-TB GOLD PLUS .pdf
+- QUANTIFERON-TB_GOLD_PLUS-2020-07-09T20_50_00Z-Narrative.txt
+- QUANTIFERON-TB_GOLD_PLUS-2022-02-28T21_42_00Z-Narrative.txt
+- QuantiFERON-TB Gold Plus Blood.pdf
+- README - Open for Instructions.TXT
+- RHEUMATOID FACTOR.pdf
+- Radiology Report.pdf
+- Result Trends - Comprehensive Metabolic Panel - Jan 20, 2025 (1).PDF
+- Result Trends - Comprehensive Metabolic Panel - Jan 20, 2025 (2).PDF
+- Result Trends - Comprehensive Metabolic Panel - Jan 20, 2025.PDF
+- Result Trends - T4, Free - Jan 20, 2025.PDF
+- Result Trends - TSH - Jan 20, 2025.PDF
+- Result Trends - Thyroid Antibodies_ Thyroid Peroxidase (TPO) and Thyroglobulin (TGAb) - Jan 20, 2025.PDF
+- SEDEMENTATION RATE.pdf
+- SEDIMENTATION RATE (ESR).pdf
+- SEDIMENTATION RATE, AUTOMATED.pdf
+- SPECIMEN_STATUS_REPORT-2020-01-28T05_00_00Z-SPECIMEN_STATUS_REPORT.txt
+- STYLE.XSL
+- Scan - Rheumatoid Factor - Oct 25, 2024.PDF
+- Scan - Thyroid Antibodies_ Thyroid Peroxidase (TPO) and Thyroglobulin (TGAb) - Oct 25, 2024.PDF
+- Sedimintation Rate.pdf
+- T#.pdf
+- T3 - Total.pdf
+- T3 Free.pdf
+- T3 REVERSE.pdf
+- T3 Total.pdf
+- T3 UPTAKE (T4 Order Required for FTI).pdf
+- T4 - free.pdf
+- T4 Free.pdf
+- THYROGLOBULIN ANTIBODY.pdf
+- THYROID PEROXIDASE AB.pdf
+- THYROID STIMULATING IMMUNOGLOBULIN.pdf
+- THYROTROPIN RECEPTOR,AB.pdf
+- TSH+FREE T4.pdf
+- Thyroid Antibodies- Thyroid Peroxidase (TPO) and Thyroglobulin (TGAb).pdf
+- Thyroid-Stimulating Immunoglobulin (TSI).pdf
+- URIC A+ESR-WES+ANA+RA QN .pdf
+- URIC ACID.pdf
+- US Ext Joint Non Vasc Comp Bilat .pdf
+- US_GUIDED_NEEDLE_PLACEMENT-2020-01-29T20_18_16Z-Narrative.txt
+- Visits.csv
+- Vitamin d, 25 - Hydroxy.pdf
+- Vitamin-D Hydroxy.pdf
+- XR Hand Minimum 3 Views Left.pdf
+- XR Hand Minimum 3 Views Right .pdf
+- XR KNEE 3 VIEWS RIGHT.PDF
+- XR SACRUM AND COCCYX 2+ VIEWS.pdf
+- XR SHOULDER 2+ VIEWS RIGHT.pdf
+- XR Sacroiliac Joints Minimum 3 Views.pdf
+- XR Spine Cervical 1 View.pdf
+- XR Spine Lumbar 2-3 Views.pdf
+- XR WRIST 3+ VIEWS LEFT.pdf
+- XR_HAND_3+_VIEWS_LEFT-2021-04-13T00_35_55Z-Impression.txt
+- XR_HAND_3+_VIEWS_LEFT-2021-04-13T00_35_55Z-Narrative.txt
+- XR_KNEE_3_VIEWS_RIGHT-2020-01-28T20_19_00Z-Narrative.txt
+- XR_Lateral_Spine__Additional-2018-08-07T16_04_57Z-Impression.txt
+- XR_Lateral_Spine__Additional-2018-08-07T16_04_57Z-Narrative.txt
+- XR_SACRUM_AND_COCCYX_2+_VIEWS-2022-10-26T21_43_07Z-Narrative.txt
+- XR_SHOULDER_2+_VIEWS_RIGHT-2018-02-14T21_55_44Z-Impression.txt
+- XR_SHOULDER_2+_VIEWS_RIGHT-2018-02-14T21_55_44Z-Narrative.txt
+- XR_Spine__Cervical_1_View-2018-08-07T16_05_33Z-Impression.txt
+- XR_Spine__Cervical_1_View-2018-08-07T16_05_33Z-Narrative.txt
+- XR_Spine__Lumbar_2-3_Views-2022-10-26T21_43_07Z-Impression.txt
+- XR_Spine__Lumbar_2-3_Views-2022-10-26T21_43_07Z-Narrative.txt
+- XR_WRIST_3+_VIEWS_LEFT-2019-10-18T13_22_20Z-Impression.txt
+- XR_WRIST_3+_VIEWS_LEFT-2019-10-18T13_22_20Z-Narrative.txt
+- address.png
+- beth life story.txt
+- c-Reactive Protein.pdf
+- diagnosis-binder-text.txt
+- lucy.css
+- lucy_colors.css
+- org.png
+- phone.png
+- training_data_beth_voice.jsonl
+
+## Files not referenced in processed JSONs
+- 1 of 1 - My Health Summary.PDF
+- 1 of 1 - My Health Summary.rtf
+- 1 of 1 - My Health Summary.txt
+- 11-26-2019_hand Doctor.pdf
+- ACUTE HEPATITIS PANEL .pdf
+- ACUTE HEPATITIS PANEL.pdf
+- ANTINUCLEAR AB 9 BY MULTIPLEX.pdf
+- ANTINUCLEAR AB BY MULTIPLEX.pdf
+- AUTOMATED VISUAL FIELD, EXTENDED, BOTH EYES.PDF
+- Anti-CCP Ab, IgG:IgA.pdf
+- Atrium Patient Health Summary.html
+- Beth Diagnosis Binder 2024 copy facing pages.html
+- Bipoloar_in_Remission.png
+- C-REACTIVE PROTEIN.pdf
+- C-Reactive Protein (CRP).pdf
+- CBC WITH DIFFERENTIAL.pdf
+- CBC with Differential.pdf
+- CBC with differentials.pdf
+- CBC without Differential.pdf
+- COMPREHENSIVE METABOLIC PANEL.pdf
+- CT HEAD WO CONTRAST.pdf
+- CT_HEAD_WO_CONTRAST-2022-10-26T21_47_01Z-Impression.txt
+- CT_HEAD_WO_CONTRAST-2022-10-26T21_47_01Z-Narrative.txt
+- CULTURE, AEROBIC_Staph.pdf
+- CULTURE, ANAEROBIC .pdf
+- CULTURE, BODY FLUID.pdf
+- CULTURE__AEROBIC-2020-01-14T20_28_00Z-Narrative.txt
+- CULTURE__ANAEROBIC-2020-01-28T05_00_00Z-Narrative.txt
+- CULTURE__BODY_FLUID-2020-01-28T05_00_00Z-Narrative.txt
+- Cell count with crystals, synovial fluid.pdf
+- Cell_count_with_crystals__synovial_fluid-2020-01-28T05_00_00Z-Narrative.txt
+- Comprehensive Metabolic Panel.pdf
+- DOC0001.XML
+- DOC0002.XML
+- DOC0003.XML
+- DOC0004.XML
+- DOC0005.XML
+- DOC0006.XML
+- DOC0007.XML
+- DOC0008.XML
+- DOC0009.XML
+- DOC0010.XML
+- DOC0011.XML
+- DOC0012.XML
+- DOC0013.XML
+- DOC0014.XML
+- DOC0015.XML
+- DOC0016.XML
+- DOC0017.XML
+- DOC0018.XML
+- DOC0019.XML
+- DOC0020.XML
+- DOC0021.XML
+- DOC0022.XML
+- DOC0023.XML
+- DOC0024.XML
+- DOC0025.XML
+- DOC0026.XML
+- DOC0027.XML
+- DOC0028.XML
+- DOC0029.XML
+- DOC0030.XML
+- EMG (1 EXTREMITY).TIF
+- ENDOMYSIAL ANTIBODY IGA.pdf
+- FL ARTHROGRAM SHOULDER RIGHT.pdf
+- FL_ARTHROGRAM_SHOULDER_RIGHT-2018-05-08T14_19_45Z-Impression.txt
+- FL_ARTHROGRAM_SHOULDER_RIGHT-2018-05-08T14_19_45Z-Narrative.txt
+- FREE T4 .pdf
+- FREE T4.pdf
+- Free T4.pdf
+- GI Follow Up Notes.pdf
+- GP_DR.Kennard_Jan_17_2025_After_Visit_Summary.PDF
+- GRAM STAIN .pdf
+- GRAM_STAIN-2020-01-28T05_00_00Z-Narrative.txt
+- HEMOGLOBIN A1C.pdf
+- HEPATIC FUNCTION PANEL .pdf
+- HEPATIC FUNCTION PANEL.pdf
+- HIV Screen with Reflex to Confirmation.pdf
+- HLA-B27 ANTIGEN.pdf
+- Hand Ultrasound Review By GP.pdf
+- Hepatic Function Panel_Trends.PDF
+- Hepatitis B.pdf
+- Hepatitis C Virus (HCV) Antibody With Confirmation.pdf
+- IGP, APTIMA HPV RFX 16,18,45 .pdf
+- IGP__APTIMA_HPV_RFX_16_18_45-2018-03-06T21_04_00Z-Narrative.txt
+- IGP__APTIMA_HPV_RFX_16_18_45-2018-03-06T21_04_00Z-Pathologist_provided_ICD10.txt
+- INDEX.HTM
+- LIPID PANEL W:CHOL:HDL RATIO.pdf
+- LYME, TOTAL AB TEST:REFLEX.pdf
+- Labs.csv
+- Lipid Panel.pdf
+- LucyDrive.png
+- LucyLogo.png
+- METADATA.XML
+- MRI ORBITS WO W CONTRAST.pdf
+- MRI SHOULDER RIGHT W CONTRAST.pdf
+- MRI SPINE CERVICAL WO CONTRAST .pdf
+- MRI_ORBITS_WO_W_CONTRAST-2018-02-24T22_02_09Z-Impression.txt
+- MRI_ORBITS_WO_W_CONTRAST-2018-02-24T22_02_09Z-Narrative.txt
+- MRI_SHOULDER_RIGHT_W_CONTRAST-2018-05-08T14_01_39Z-Impression.txt
+- MRI_SHOULDER_RIGHT_W_CONTRAST-2018-05-08T14_01_39Z-Narrative.txt
+- MRI_SPINE_CERVICAL_WO_CONTRAST-2018-06-07T12_30_12Z-Impression.txt
+- MRI_SPINE_CERVICAL_WO_CONTRAST-2018-06-07T12_30_12Z-Narrative.txt
+- MRSA_MSSA_PCR-2018-07-27T15_41_00Z-Narrative.txt
+- Mammogram 2023.pdf
+- MyAtriumHealth - Past Visit Details.pdf
+- MyAtriumHealth - Test Details.pdf
+- MyAtriumHealth - Test Details_Cholestoral.pdf
+- MyAtriumHealth - Test Details_T4.pdf
+- MyAtriumHealth - Test Details_TSH.pdf
+- MyAtriumHealth - Test Details_Thyroid Antibodies.pdf
+- MyAtriumHealth - Test XR Lateral Spine Additional.pdf
+- NM THYROID I-131 UPTAKE AND SCAN.pdf
+- NM_THYROID_I-131_UPTAKE_AND_SCAN-2018-04-06T11_45_23Z-Impression.txt
+- NM_THYROID_I-131_UPTAKE_AND_SCAN-2018-04-06T11_45_23Z-Narrative.txt
+- Note-Allison_Dejarnatt__NP-2022-09-06T13_05_05Z.rtf
+- Note-Amit_Patel__MD-2020-06-23T11_11_30Z.rtf
+- Note-Amit_Patel__MD-2020-06-23T13_59_59Z.rtf
+- Note-Amit_Patel__MD-2022-02-23T12_39_58Z.rtf
+- Note-Amit_Patel__MD-2022-05-23T11_54_51Z.rtf
+- Note-Amit_Patel__MD-2022-09-27T14_16_12Z.rtf
+- Note-David_Locascio__MD-2022-10-26T20_56_07Z.rtf
+- Note-Denisse_R__LPN-2021-10-19T20_04_16Z.rtf
+- Note-Eric_Starr__PA-C-2020-06-26T13_46_14Z.rtf
+- Note-Eric_Starr__PA-C-2021-04-13T16_31_21Z.rtf
+- Note-Eric_Starr__PA-C-2021-04-13T16_37_45Z.rtf
+- Note-Eric_Starr__PA-C-2021-10-19T19_27_46Z.rtf
+- Note-Eric_Starr__PA-C-2021-10-19T19_40_49Z.rtf
+- Note-Eric_Starr__PA-C-2022-06-09T21_06_27Z.rtf
+- Note-Eric_Starr__PA-C-2022-06-09T21_12_34Z.rtf
+- Note-Olivia_C__CNA-2021-04-13T03_39_32Z.rtf
+- Note-Suja_Raju__MD-2020-05-27T14_20_26Z.rtf
+- Note-Suja_Raju__MD-2020-12-22T15_52_47Z.rtf
+- Note-Suja_Raju__MD-2021-06-10T14_47_42Z.rtf
+- Note-Suja_Raju__MD-2021-12-08T13_36_41Z.rtf
+- Note-Suja_Raju__MD-2021-12-08T13_37_10Z.rtf
+- Note-Vinaya_Maddukuri__MD-2022-06-13T11_30_45Z.rtf
+- Novant Patient Health Summary.html
+- OCT, OPTIC NERVE, BOTH EYES.PDF
+- Optic Nerve - Both Eyes.PDF
+- PAP_IMAGE-GUIDED_CT_NG_HPV-HIGH_RISK-2015-02-04T21_47_00Z-Narrative.txt
+- POCT HCG, URINE.pdf
+- PageBackground.png
+- PageFooter.png
+- PageTop.png
+- QUANTIFERON-TB GOLD PLUS .pdf
+- QUANTIFERON-TB_GOLD_PLUS-2020-07-09T20_50_00Z-Narrative.txt
+- QUANTIFERON-TB_GOLD_PLUS-2022-02-28T21_42_00Z-Narrative.txt
+- QuantiFERON-TB Gold Plus Blood.pdf
+- README - Open for Instructions.TXT
+- RHEUMATOID FACTOR.pdf
+- Radiology Report.pdf
+- Result Trends - Comprehensive Metabolic Panel - Jan 20, 2025 (1).PDF
+- Result Trends - Comprehensive Metabolic Panel - Jan 20, 2025 (2).PDF
+- Result Trends - Comprehensive Metabolic Panel - Jan 20, 2025.PDF
+- Result Trends - T4, Free - Jan 20, 2025.PDF
+- Result Trends - TSH - Jan 20, 2025.PDF
+- Result Trends - Thyroid Antibodies_ Thyroid Peroxidase (TPO) and Thyroglobulin (TGAb) - Jan 20, 2025.PDF
+- SEDEMENTATION RATE.pdf
+- SEDIMENTATION RATE (ESR).pdf
+- SEDIMENTATION RATE, AUTOMATED.pdf
+- SPECIMEN_STATUS_REPORT-2020-01-28T05_00_00Z-SPECIMEN_STATUS_REPORT.txt
+- STYLE.XSL
+- Scan - Rheumatoid Factor - Oct 25, 2024.PDF
+- Scan - Thyroid Antibodies_ Thyroid Peroxidase (TPO) and Thyroglobulin (TGAb) - Oct 25, 2024.PDF
+- Sedimintation Rate.pdf
+- T#.pdf
+- T3 - Total.pdf
+- T3 Free.pdf
+- T3 REVERSE.pdf
+- T3 Total.pdf
+- T3 UPTAKE (T4 Order Required for FTI).pdf
+- T4 - free.pdf
+- T4 Free.pdf
+- THYROGLOBULIN ANTIBODY.pdf
+- THYROID PEROXIDASE AB.pdf
+- THYROID STIMULATING IMMUNOGLOBULIN.pdf
+- THYROTROPIN RECEPTOR,AB.pdf
+- TSH+FREE T4.pdf
+- Thyroid Antibodies- Thyroid Peroxidase (TPO) and Thyroglobulin (TGAb).pdf
+- Thyroid-Stimulating Immunoglobulin (TSI).pdf
+- URIC A+ESR-WES+ANA+RA QN .pdf
+- URIC ACID.pdf
+- US Ext Joint Non Vasc Comp Bilat .pdf
+- US_GUIDED_NEEDLE_PLACEMENT-2020-01-29T20_18_16Z-Narrative.txt
+- Visits.csv
+- Vitamin d, 25 - Hydroxy.pdf
+- Vitamin-D Hydroxy.pdf
+- XR Hand Minimum 3 Views Left.pdf
+- XR Hand Minimum 3 Views Right .pdf
+- XR KNEE 3 VIEWS RIGHT.PDF
+- XR SACRUM AND COCCYX 2+ VIEWS.pdf
+- XR SHOULDER 2+ VIEWS RIGHT.pdf
+- XR Sacroiliac Joints Minimum 3 Views.pdf
+- XR Spine Cervical 1 View.pdf
+- XR Spine Lumbar 2-3 Views.pdf
+- XR WRIST 3+ VIEWS LEFT.pdf
+- XR_HAND_3+_VIEWS_LEFT-2021-04-13T00_35_55Z-Impression.txt
+- XR_HAND_3+_VIEWS_LEFT-2021-04-13T00_35_55Z-Narrative.txt
+- XR_KNEE_3_VIEWS_RIGHT-2020-01-28T20_19_00Z-Narrative.txt
+- XR_Lateral_Spine__Additional-2018-08-07T16_04_57Z-Impression.txt
+- XR_Lateral_Spine__Additional-2018-08-07T16_04_57Z-Narrative.txt
+- XR_SACRUM_AND_COCCYX_2+_VIEWS-2022-10-26T21_43_07Z-Narrative.txt
+- XR_SHOULDER_2+_VIEWS_RIGHT-2018-02-14T21_55_44Z-Impression.txt
+- XR_SHOULDER_2+_VIEWS_RIGHT-2018-02-14T21_55_44Z-Narrative.txt
+- XR_Spine__Cervical_1_View-2018-08-07T16_05_33Z-Impression.txt
+- XR_Spine__Cervical_1_View-2018-08-07T16_05_33Z-Narrative.txt
+- XR_Spine__Lumbar_2-3_Views-2022-10-26T21_43_07Z-Impression.txt
+- XR_Spine__Lumbar_2-3_Views-2022-10-26T21_43_07Z-Narrative.txt
+- XR_WRIST_3+_VIEWS_LEFT-2019-10-18T13_22_20Z-Impression.txt
+- XR_WRIST_3+_VIEWS_LEFT-2019-10-18T13_22_20Z-Narrative.txt
+- address.png
+- beth life story.txt
+- c-Reactive Protein.pdf
+- diagnosis-binder-text.txt
+- lucy.css
+- lucy_colors.css
+- org.png
+- phone.png
+- training_data_beth_voice.jsonl
+
+## Files needing manual review
+- Scan - Thyroid Antibodies_ Thyroid Peroxidase (TPO) and Thyroglobulin (TGAb) - Oct 25, 2024.PDF
+- DOC0006.XML
+- Note-Suja_Raju__MD-2020-12-22T15_52_47Z.rtf
+- Note-Suja_Raju__MD-2021-12-08T13_36_41Z.rtf
+- address.png
+- DOC0022.XML
+- EMG (1 EXTREMITY).TIF
+- phone.png
+- FL ARTHROGRAM SHOULDER RIGHT.pdf
+- CT_HEAD_WO_CONTRAST-2022-10-26T21_47_01Z-Narrative.txt
+- XR_SACRUM_AND_COCCYX_2+_VIEWS-2022-10-26T21_43_07Z-Narrative.txt
+- ANTINUCLEAR AB BY MULTIPLEX.pdf
+- CULTURE, ANAEROBIC .pdf
+- Result Trends - Thyroid Antibodies_ Thyroid Peroxidase (TPO) and Thyroglobulin (TGAb) - Jan 20, 2025.PDF
+- Anti-CCP Ab, IgG:IgA.pdf
+- PageFooter.png
+- DOC0003.XML
+- Scan - Rheumatoid Factor - Oct 25, 2024.PDF
+- MRI SHOULDER RIGHT W CONTRAST.pdf
+- DOC0025.XML
+- DOC0029.XML
+- Lipid Panel.pdf
+- FL_ARTHROGRAM_SHOULDER_RIGHT-2018-05-08T14_19_45Z-Narrative.txt
+- Sedimintation Rate.pdf
+- HEMOGLOBIN A1C.pdf
+- MyAtriumHealth - Test Details_TSH.pdf
+- TSH+FREE T4.pdf
+- XR_Lateral_Spine__Additional-2018-08-07T16_04_57Z-Narrative.txt
+- HEPATIC FUNCTION PANEL .pdf
+- XR_WRIST_3+_VIEWS_LEFT-2019-10-18T13_22_20Z-Narrative.txt
+- MRI_SHOULDER_RIGHT_W_CONTRAST-2018-05-08T14_01_39Z-Impression.txt
+- IGP__APTIMA_HPV_RFX_16_18_45-2018-03-06T21_04_00Z-Narrative.txt
+- CBC with Differential.pdf
+- XR_WRIST_3+_VIEWS_LEFT-2019-10-18T13_22_20Z-Impression.txt
+- Note-Suja_Raju__MD-2021-06-10T14_47_42Z.rtf
+- Note-Eric_Starr__PA-C-2022-06-09T21_06_27Z.rtf
+- XR Spine Lumbar 2-3 Views.pdf
+- Hepatic Function Panel_Trends.PDF
+- MRI_ORBITS_WO_W_CONTRAST-2018-02-24T22_02_09Z-Narrative.txt
+- COMPREHENSIVE METABOLIC PANEL.pdf
+- Result Trends - Comprehensive Metabolic Panel - Jan 20, 2025 (1).PDF
+- Note-Amit_Patel__MD-2022-02-23T12_39_58Z.rtf
+- QUANTIFERON-TB_GOLD_PLUS-2022-02-28T21_42_00Z-Narrative.txt
+- QUANTIFERON-TB_GOLD_PLUS-2020-07-09T20_50_00Z-Narrative.txt
+- Note-David_Locascio__MD-2022-10-26T20_56_07Z.rtf
+- MyAtriumHealth - Test Details_Cholestoral.pdf
+- XR Hand Minimum 3 Views Left.pdf
+- DOC0028.XML
+- DOC0013.XML
+- CBC with differentials.pdf
+- POCT HCG, URINE.pdf
+- XR SACRUM AND COCCYX 2+ VIEWS.pdf
+- NM THYROID I-131 UPTAKE AND SCAN.pdf
+- T3 REVERSE.pdf
+- URIC A+ESR-WES+ANA+RA QN .pdf
+- MyAtriumHealth - Test Details_Thyroid Antibodies.pdf
+- Thyroid Antibodies- Thyroid Peroxidase (TPO) and Thyroglobulin (TGAb).pdf
+- DOC0007.XML
+- SPECIMEN_STATUS_REPORT-2020-01-28T05_00_00Z-SPECIMEN_STATUS_REPORT.txt
+- DOC0019.XML
+- C-Reactive Protein (CRP).pdf
+- Cell_count_with_crystals__synovial_fluid-2020-01-28T05_00_00Z-Narrative.txt
+- XR_Spine__Lumbar_2-3_Views-2022-10-26T21_43_07Z-Narrative.txt
+- GRAM_STAIN-2020-01-28T05_00_00Z-Narrative.txt
+- T4 Free.pdf
+- THYROID STIMULATING IMMUNOGLOBULIN.pdf
+- XR_KNEE_3_VIEWS_RIGHT-2020-01-28T20_19_00Z-Narrative.txt
+- XR Hand Minimum 3 Views Right .pdf
+- Cell count with crystals, synovial fluid.pdf
+- QuantiFERON-TB Gold Plus Blood.pdf
+- LYME, TOTAL AB TEST:REFLEX.pdf
+- XR_Spine__Cervical_1_View-2018-08-07T16_05_33Z-Narrative.txt
+- diagnosis-binder-text.txt
+- PageBackground.png
+- XR_Spine__Cervical_1_View-2018-08-07T16_05_33Z-Impression.txt
+- Radiology Report.pdf
+- MRSA_MSSA_PCR-2018-07-27T15_41_00Z-Narrative.txt
+- XR_SHOULDER_2+_VIEWS_RIGHT-2018-02-14T21_55_44Z-Impression.txt
+- MRI_SHOULDER_RIGHT_W_CONTRAST-2018-05-08T14_01_39Z-Narrative.txt
+- PageTop.png
+- org.png
+- T3 UPTAKE (T4 Order Required for FTI).pdf
+- QUANTIFERON-TB GOLD PLUS .pdf
+- DOC0021.XML
+- HLA-B27 ANTIGEN.pdf
+- T3 - Total.pdf
+- MRI SPINE CERVICAL WO CONTRAST .pdf
+- CULTURE__ANAEROBIC-2020-01-28T05_00_00Z-Narrative.txt
+- Result Trends - T4, Free - Jan 20, 2025.PDF
+- THYROGLOBULIN ANTIBODY.pdf
+- Atrium Patient Health Summary.html
+- METADATA.XML
+- CULTURE, BODY FLUID.pdf
+- DOC0004.XML
+- Note-Amit_Patel__MD-2022-09-27T14_16_12Z.rtf
+- XR Spine Cervical 1 View.pdf
+- DOC0002.XML
+- DOC0005.XML
+- XR_Lateral_Spine__Additional-2018-08-07T16_04_57Z-Impression.txt
+- CULTURE__BODY_FLUID-2020-01-28T05_00_00Z-Narrative.txt
+- DOC0009.XML
+- Optic Nerve - Both Eyes.PDF
+- XR_HAND_3+_VIEWS_LEFT-2021-04-13T00_35_55Z-Narrative.txt
+- Note-Eric_Starr__PA-C-2022-06-09T21_12_34Z.rtf
+- C-REACTIVE PROTEIN.pdf
+- GI Follow Up Notes.pdf
+- T3 Free.pdf
+- ENDOMYSIAL ANTIBODY IGA.pdf
+- DOC0015.XML
+- Note-Eric_Starr__PA-C-2020-06-26T13_46_14Z.rtf
+- Result Trends - TSH - Jan 20, 2025.PDF
+- IGP__APTIMA_HPV_RFX_16_18_45-2018-03-06T21_04_00Z-Pathologist_provided_ICD10.txt
+- beth life story.txt
+- MyAtriumHealth - Test Details.pdf
+- RHEUMATOID FACTOR.pdf
+- DOC0008.XML
+- Hand Ultrasound Review By GP.pdf
+- DOC0027.XML
+- DOC0030.XML
+- LucyLogo.png
+- Note-Eric_Starr__PA-C-2021-10-19T19_27_46Z.rtf
+- README - Open for Instructions.TXT
+- SEDEMENTATION RATE.pdf
+- MRI ORBITS WO W CONTRAST.pdf
+- 1 of 1 - My Health Summary.txt
+- T#.pdf
+- THYROID PEROXIDASE AB.pdf
+- SEDIMENTATION RATE, AUTOMATED.pdf
+- Note-Suja_Raju__MD-2020-05-27T14_20_26Z.rtf
+- FREE T4.pdf
+- GP_DR.Kennard_Jan_17_2025_After_Visit_Summary.PDF
+- Note-Amit_Patel__MD-2020-06-23T11_11_30Z.rtf
+- XR_Spine__Lumbar_2-3_Views-2022-10-26T21_43_07Z-Impression.txt
+- DOC0016.XML
+- US Ext Joint Non Vasc Comp Bilat .pdf
+- Note-Suja_Raju__MD-2021-12-08T13_37_10Z.rtf
+- ACUTE HEPATITIS PANEL.pdf
+- Note-Eric_Starr__PA-C-2021-04-13T16_31_21Z.rtf
+- Result Trends - Comprehensive Metabolic Panel - Jan 20, 2025 (2).PDF
+- Novant Patient Health Summary.html
+- AUTOMATED VISUAL FIELD, EXTENDED, BOTH EYES.PDF
+- Result Trends - Comprehensive Metabolic Panel - Jan 20, 2025.PDF
+- Bipoloar_in_Remission.png
+- FREE T4 .pdf
+- Mammogram 2023.pdf
+- NM_THYROID_I-131_UPTAKE_AND_SCAN-2018-04-06T11_45_23Z-Narrative.txt
+- MyAtriumHealth - Test Details_T4.pdf
+- Note-Eric_Starr__PA-C-2021-04-13T16_37_45Z.rtf
+- Vitamin d, 25 - Hydroxy.pdf
+- Note-Vinaya_Maddukuri__MD-2022-06-13T11_30_45Z.rtf
+- DOC0010.XML
+- XR KNEE 3 VIEWS RIGHT.PDF
+- INDEX.HTM
+- training_data_beth_voice.jsonl
+- Note-Allison_Dejarnatt__NP-2022-09-06T13_05_05Z.rtf
+- ANTINUCLEAR AB 9 BY MULTIPLEX.pdf
+- SEDIMENTATION RATE (ESR).pdf
+- Comprehensive Metabolic Panel.pdf
+- lucy.css
+- Free T4.pdf
+- DOC0012.XML
+- CT_HEAD_WO_CONTRAST-2022-10-26T21_47_01Z-Impression.txt
+- GRAM STAIN .pdf
+- STYLE.XSL
+- IGP, APTIMA HPV RFX 16,18,45 .pdf
+- T4 - free.pdf
+- DOC0020.XML
+- T3 Total.pdf
+- Note-Amit_Patel__MD-2020-06-23T13_59_59Z.rtf
+- DOC0011.XML
+- FL_ARTHROGRAM_SHOULDER_RIGHT-2018-05-08T14_19_45Z-Impression.txt
+- XR Sacroiliac Joints Minimum 3 Views.pdf
+- CULTURE__AEROBIC-2020-01-14T20_28_00Z-Narrative.txt
+- 1 of 1 - My Health Summary.PDF
+- HIV Screen with Reflex to Confirmation.pdf
+- MRI_SPINE_CERVICAL_WO_CONTRAST-2018-06-07T12_30_12Z-Narrative.txt
+- PAP_IMAGE-GUIDED_CT_NG_HPV-HIGH_RISK-2015-02-04T21_47_00Z-Narrative.txt
+- Visits.csv
+- LIPID PANEL W:CHOL:HDL RATIO.pdf
+- Vitamin-D Hydroxy.pdf
+- CT HEAD WO CONTRAST.pdf
+- OCT, OPTIC NERVE, BOTH EYES.PDF
+- lucy_colors.css
+- Note-Eric_Starr__PA-C-2021-10-19T19_40_49Z.rtf
+- DOC0001.XML
+- CBC without Differential.pdf
+- XR SHOULDER 2+ VIEWS RIGHT.pdf
+- Note-Olivia_C__CNA-2021-04-13T03_39_32Z.rtf
+- NM_THYROID_I-131_UPTAKE_AND_SCAN-2018-04-06T11_45_23Z-Impression.txt
+- CULTURE, AEROBIC_Staph.pdf
+- 11-26-2019_hand Doctor.pdf
+- MRI_SPINE_CERVICAL_WO_CONTRAST-2018-06-07T12_30_12Z-Impression.txt
+- Labs.csv
+- Beth Diagnosis Binder 2024 copy facing pages.html
+- XR_HAND_3+_VIEWS_LEFT-2021-04-13T00_35_55Z-Impression.txt
+- c-Reactive Protein.pdf
+- Hepatitis C Virus (HCV) Antibody With Confirmation.pdf
+- CBC WITH DIFFERENTIAL.pdf
+- THYROTROPIN RECEPTOR,AB.pdf
+- Hepatitis B.pdf
+- MyAtriumHealth - Test XR Lateral Spine Additional.pdf
+- DOC0023.XML
+- DOC0018.XML
+- ACUTE HEPATITIS PANEL .pdf
+- 1 of 1 - My Health Summary.rtf
+- US_GUIDED_NEEDLE_PLACEMENT-2020-01-29T20_18_16Z-Narrative.txt
+- Note-Denisse_R__LPN-2021-10-19T20_04_16Z.rtf
+- Note-Amit_Patel__MD-2022-05-23T11_54_51Z.rtf
+- Thyroid-Stimulating Immunoglobulin (TSI).pdf
+- XR WRIST 3+ VIEWS LEFT.pdf
+- MRI_ORBITS_WO_W_CONTRAST-2018-02-24T22_02_09Z-Impression.txt
+- LucyDrive.png
+- DOC0026.XML
+- MyAtriumHealth - Past Visit Details.pdf
+- HEPATIC FUNCTION PANEL.pdf
+- DOC0014.XML
+- URIC ACID.pdf
+- DOC0024.XML
+- DOC0017.XML
+- XR_SHOULDER_2+_VIEWS_RIGHT-2018-02-14T21_55_44Z-Narrative.txt

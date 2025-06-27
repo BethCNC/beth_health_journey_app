@@ -1,0 +1,228 @@
+Total Spine Specialists
+Electrodiagnostic, Report
+
+Patient: Cartrette, Jennifer Beth
+Sex: Female
+
+Age: 35
+
+I.D.#: 71030963 9/13/82
+
+Ref. M.D.: Dr. Mark Hartman
+
+Physician: Joseph Zuhosky, M.D.
+Test Date: 07/25/18
+
+History/Comments:
+
+Please see recent office notes for history and physical exar
+
+for right cervical radiculopathy.
+
+Motor Nerve Study
+
+Right Median Nerve
+
+Rec Site: APB Lat (ms)
+Stim Site
+
+Wrist 3.5
+Elbow 8.2
+
+Right Ulnar Nerve
+
+Rec Site: ADM - Lat (ms)
+Stim Site
+
+Wrist 3.5
+B.Elbow 6.5
+A.Elbow 8.7
+
+Sensory Nerve Study
+
+Right Median Nerve
+
+Stim Site: Wrist Lat (ms)
+Rec Site
+3rd dig. 3.5
+
+Right Ulnar Nerve
+Stim Site: Wrist Lat (ms)
+Rec Site
+
+Sth dig 3.5
+
+Dur (ms)
+
+Dur (ms)
+
+Pk Lat (ms)
+
+Pk Lat (ms)
+
+Amp (mV)
+10.8
+
+10.4
+10.1
+
+Amp (uV)
+
+36.7
+
+Amp (uv)
+
+54.7
+
+Area (mVms) Dist (mm) c.v.
+31.4 80
+30.4 270 57.9
+Area (mVms) Dist (mn) c.V.
+pe? 80
+re-8 210 70.0
+26.7 170 78.5
+Dist (mm)
+140
+Dist (mm)
+140
+
+mination. EMG and NCS indicated to evaluate
+
+m/s)
+
+ys)
+
+page 2
+
+Patient: Cartrette, Jennifer Beth
+I.D.#: 71030963 9/13/82
+
+Tes
+
+t Date: 07/25/18
+
+EMG Study
+
+Name
+
+ana aD aw vw a a
+
+Ins Act Fibs PSW Fascics Polyph
+
+Dors.Int.1 norm none none none none
+
+Ext.Ind.Pro. norm none none none none
+
+Pronator Ter. norm none none none none
+
+Triceps norm none none none none
+
+Biceps Brachi. norm none none none none
+
+Deltoid norm none none none none
+
+C5 Paraspinal Normal norm none none none
+
+C6 Paraspinal Normal norm none none none
+
+C7? Paraspinal Normal norm none none none
+
+Summary/Interpretation:
+
+MU Amp MU Dur Config Pattern Recruit
+4
+
+morm norm norm norm norm
+
+Ie
+morm norm norm norm norm
+,
+
+morm norm norm norm norm
+
+norm norm norm norm norm.
+
+norm norm norm norm norm
+
+norm norm norm norm norm:
+
+Nerve conduction studies of select motor and sensory nerves were performed in the right upper limb. For
+
+full results, please refer to the tabulated forms enclosed.
+
+The median and ulnar motor studies
+
+demonstrate normal distal latencies, amplitudes and conduction velocities. For the ulnar nerve, there is
+
+eduction across the elbow. The median and ulnar
+
+no significant nerve conduction slowing or amplitude re
+
+sensory distal latencies and amplitudes are also normal
+
+EMG needle examination of select muscles in the right
+performed in the standard fashion. For full results, ple
+
+upper limb and cervical paraspinals was also
+ase refer to the tabulated forms enclosed. Briefly,
+
+all muscles tested reveal normal insertional activity with no evidence of muscle membrane irritability in
+the form of positive sharp waves or fibrillation potentials. All muscles sampled reveal voluntary motor
+
+unit action potentials which are normal in number, appe
+paraspinals, insertional activity is normal at all levels e
+evident at any level.
+
+IMPRESSION:
+
+1) Normal study.
+2) There is no electrodiagnostic evidence of a cervical
+neuropathy involving the right upper limb.
+
+Thank you for allowing us to share in the care of this p
+do not hesitate to contact us.
+
+Joseph Zuhosky, M.D.
+Board Certified
+American Board of Electrodiagnostic Medicine
+
+arance and recruitment. Likewise in the cervical
+xamined with no muscle membrane irritability
+
+radiculopathy, myopathy or generalized peripheral
+
+atient. If we can be of further assistance, please
+
+page 1
+
+Patient: Cartrette, Jennifer Beth
+1.D.#: 71030963 9/13/82
+
+Tes
+
+t Date. 07/25/18
+
+R. Ulnar MNC |
+
+R. Median MNC R. Median SNC
+SmV x Sms SmV N\ 5ms 20uv /\ ms
+\ \ 4
+A As AS _—a
+_ ni L AL
+\in \J
+\ ON oc
+|
+!
+07/25/18 12:47:44 07/25/18 12:48:50 | 07/2518 12:50:20 |
+R. Ulnar SNC
+ey
+~~] \ [
+A l
+| WV Ls
+a Va
+. /
+
+O7
+
+18 12:
+

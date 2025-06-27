@@ -7,7 +7,439 @@ I want to focus on one specific portion of the project. I want to focus only on 
 
 **CRITICAL: ALL medically relevant information must be preserved during this project. Never delete, summarize, or abbreviate any medical findings, test results, diagnoses, or treatment plans. Only non-medical filler text may be excluded during organization.**
 
-The original pdf files are in thie folder  /Users/bethcartrette/REPOS/beth_health_journey_app/data
+# Health Data Processing Project Instructions
 
-There is extracted text data in the folder /Users/bethcartrette/REPOS/beth_health_journey_app/data/extracted_text
-We need to perform a full data analysis on all the content and data in the /data folder and do a detailed thourough analysis with AI integration to get a full chronological timeline of the medical history including all tests, appointments, etc. 
+## Project Overview
+
+This document provides comprehensive guidelines for processing health data from various sources into a unified format compatible with the Notion medical calendar database. The project involves analyzing, cleansing, and transforming medical records from multiple healthcare providers (primarily Atrium Health and Novant Health) into a standardized format that can be imported into Notion.
+
+## Project Goals
+
+1. Consolidate medical records from multiple sources into a single source of truth
+2. Standardize data formats across different document types
+3. Eliminate duplicates and resolve conflicts
+4. Structure data to align with the Notion medical calendar database schema
+5. Create clean, well-organized datasets for the following categories:
+   - Medical events (appointments, procedures, tests)
+   - Medications
+   - Diagnoses
+   - Symptoms
+   - Healthcare providers
+   - Lab results
+
+## Directory Structure Analysis
+
+The current data directory contains:
+
+```
+/Users/bethcartrette/REPOS/beth_health_journey_app/data/
+├── .DS_Store
+├── Notion-health-pages-data/         # Existing Notion health pages
+├── analysis_results.json             # Analysis of the data
+├── analytics_results/                # Results from analytics processes
+├── archive/                          # Archived data
+├── atrium-exports/                   # Exports from Atrium Health system
+│   └── all_import/                   # Organized by year (2018-2025)
+├── atrium-fhir-token.json            # API token for Atrium Health
+├── atrium_summary/                   # Summarized Atrium Health data
+├── binder-data/                      # Data from medical binder
+├── extracted_text/                   # Extracted text from documents
+├── fhir-token.json                   # FHIR API token
+├── mychart-guide.md                  # Guide for MyChart
+├── notion_import_ready/              # Data formatted for Notion import
+│   ├── medical_calendar_entries.json # Medical events
+│   └── medication_entries.json       # Medications
+├── novant_summary/                   # Summarized Novant Health data
+├── processed/                        # Processed data (currently empty)
+├── raw/                              # Raw data (currently empty)
+└── test_analysis.json                # Test analysis results
+```
+
+## Data Sources and Formats
+
+### Primary Data Sources
+
+1. **Atrium Health**
+   - PDF documents organized by year (2018-2025)
+   - Types include visit summaries, lab results, and imaging reports
+   - Located in `/atrium-exports/all_import/`
+
+2. **Novant Health**
+   - Text files (.txt, .rtf) with various medical notes
+   - Organized by type (lab results, imaging, doctor notes)
+   - Located in `/novant_summary/Novant_Health/`
+
+3. **Notion Data**
+   - Existing Notion pages and databases
+   - Located in `/Notion-health-pages-data/`
+
+4. **Medical Binder**
+   - Scanned documents and personal notes
+   - Located in `/binder-data/`
+
+### Current Data Format Issues
+
+1. **Format Inconsistency**: Data exists in multiple formats (PDF, TXT, RTF, HTML, JSON)
+2. **Duplicate Records**: The same medical event may appear in multiple files
+3. **Inconsistent Naming**: Different naming conventions for the same entities
+4. **Data Extraction Quality**: OCR and text extraction may have introduced errors
+5. **Incomplete Data**: Some records may be partial or missing important fields
+6. **Incorrect Data Processing**: The medication_entries.json file contains many non-medication entries
+
+## Target Data Format
+
+Based on the Notion medical calendar database schema, data should be transformed into the following structures:
+
+### 1. Medical Calendar Entries (Events)
+
+```json
+{
+  "title": "Event Title",
+  "date": "YYYY-MM-DD",
+  "type": "Type of event (e.g., Lab Result, Imaging, Follow-up)",
+  "doctor": "Healthcare provider name",
+  "diagnoses": ["Diagnosis 1", "Diagnosis 2"],
+  "symptoms": ["Symptom 1", "Symptom 2"],
+  "medications": ["Medication 1", "Medication 2"],
+  "purpose": "Reason for appointment/event",
+  "content": "Content or notes from the event",
+  "source_file": "Original source filename"
+}
+```
+
+### 2. Medication Entries
+
+```json
+{
+  "name": "Medication name",
+  "generic_name": "Generic medication name",
+  "dosage": "Dosage amount (e.g., 10mg)",
+  "frequency": "How often taken (e.g., daily, twice daily)",
+  "active": "Currently Taking or Previous Medication",
+  "prescribed_by": "Healthcare provider name",
+  "prescribed_date": "YYYY-MM-DD",
+  "date_commenced": "YYYY-MM-DD",
+  "to_treat": ["Diagnosis 1", "Diagnosis 2"],
+  "notes": "Additional notes about the medication",
+  "source_file": "Original source filename"
+}
+```
+
+### 3. Healthcare Provider Entries
+
+```json
+{
+  "name": "Provider name",
+  "role": "Specialty (e.g., GP, Rheumatologist)",
+  "active": "Currently Treating, Previous Provider, or Future Provider",
+  "affiliation": "Healthcare network affiliation",
+  "office_name": "Name of the medical practice",
+  "email": "Provider's email address",
+  "phone": "Provider's contact number",
+  "address": "Provider's office address",
+  "url": "Website for the provider or practice",
+  "date_started_care": "YYYY-MM-DD",
+  "notes": "General notes about the provider",
+  "source_file": "Original source filename"
+}
+```
+
+### 4. Diagnosis Entries
+
+```json
+{
+  "name": "Diagnosis name",
+  "status": "Suspected, Active, Misdiagnosed, or Remission",
+  "long_form": "Full name/description of the diagnosis",
+  "definition": "Medical definition or explanation",
+  "diagnosed_date": "YYYY-MM-DD",
+  "treated_by": ["Provider 1", "Provider 2"],
+  "relevant_meds": ["Medication 1", "Medication 2"],
+  "related_symptoms": ["Symptom 1", "Symptom 2"],
+  "source_file": "Original source filename"
+}
+```
+
+### 5. Symptom Entries
+
+```json
+{
+  "name": "Symptom name",
+  "active": true/false,
+  "first_onset": "YYYY-MM-DD",
+  "related_diagnosis": ["Diagnosis 1", "Diagnosis 2"],
+  "source_file": "Original source filename"
+}
+```
+
+## Data Processing Steps
+
+### Step 1: Data Inventory and Organization
+
+1. **Create a comprehensive inventory**
+   - List all files by type, source, and date range
+   - Identify key documents that should be prioritized
+   - Flag potential duplicates based on dates and titles
+
+2. **Set up a processing directory structure**
+   ```
+   /processed/
+   ├── medical_events/
+   ├── medications/
+   ├── healthcare_providers/
+   ├── diagnoses/
+   ├── symptoms/
+   ├── raw_parsed/        # For storing initially parsed data
+   └── notion_ready/      # For the final formatted data
+   ```
+
+3. **Document Processing Status**
+   - Create a processing status tracker (CSV or JSON) with fields:
+     - Filename
+     - Source system
+     - Date
+     - Processing status
+     - Quality issues
+     - Duplication status
+
+### Step 2: Data Extraction and Parsing
+
+1. **PDF Processing**
+   - Extract text from all PDF files
+   - For medical reports, identify key sections:
+     - Header information (patient, provider, date)
+     - Diagnoses/Assessment
+     - Medications
+     - Symptoms/Complaints
+     - Lab results
+     - Plan/Recommendations
+
+2. **Text and RTF Processing**
+   - Parse text files into structured data
+   - Extract dates, provider names, diagnoses, medications, and other key information
+   - Flag potential errors or inconsistencies
+
+3. **HTML Processing**
+   - Extract structured data from HTML files
+   - Identify tables and list items that contain valuable information
+
+4. **JSON Validation and Correction**
+   - Review existing JSON files for format and content issues
+   - Correct the medication_entries.json file to remove non-medication entries
+   - Validate all JSON against expected schemas
+
+### Step 3: Entity Recognition and Normalization
+
+1. **Provider Name Normalization**
+   - Create a master list of all healthcare providers
+   - Standardize name formats (e.g., "Dr. John Smith" vs "Smith, John, MD")
+   - Merge duplicate provider entries
+
+2. **Medication Normalization**
+   - Create a master list of all medications
+   - Standardize medication names
+   - Properly extract dosage and frequency information
+   - Flag medication entries like "tabs", "mg", "daily" that are not actual medications
+
+3. **Diagnosis Normalization**
+   - Create a master list of all diagnoses
+   - Standardize diagnosis terminology
+   - Link related or alternative terms for the same condition
+
+4. **Date Standardization**
+   - Convert all dates to ISO format (YYYY-MM-DD)
+   - Resolve ambiguous dates based on context
+
+5. **Event Type Classification**
+   - Categorize each medical event according to the Notion database "Type" options:
+     - Surgery
+     - Procedure
+     - Daily Journal
+     - Lab Result
+     - Doctor's Notes - Appt Notes
+     - Hospitalization
+     - Image/Scan
+     - Patient Advocacy
+     - Template
+
+### Step 4: De-duplication and Conflict Resolution
+
+1. **Identify Potential Duplicates**
+   - Group events by date
+   - Use similarity measures to identify potential duplicates
+   - Compare content overlap between documents
+
+2. **Create Merging Rules**
+   - Define rules for merging duplicate entries
+   - Prioritize specific sources over others when conflicts exist
+   - For conflicts, retain all information and flag for manual review
+
+3. **Merge Records**
+   - Create a unified record for each unique medical event
+   - Combine information from multiple sources when appropriate
+   - Preserve source file references for traceability
+
+### Step 5: Data Validation and Quality Assurance
+
+1. **Schema Validation**
+   - Validate all processed data against target schemas
+   - Ensure required fields are present
+   - Verify data types and formats
+
+2. **Consistency Checks**
+   - Check for temporal consistency (e.g., medication start dates before end dates)
+   - Verify referential integrity (e.g., medications linked to valid providers)
+   - Ensure all event dates fall within reasonable ranges
+
+3. **Completeness Assessment**
+   - Identify gaps in the data timeline
+   - Flag missing information for critical events
+   - Create a report of potential missing records
+
+### Step 6: Notion Import Preparation
+
+1. **Format Data for Notion Import**
+   - Create final JSON files in the format required by Notion
+   - Ensure all relationships between entities are correctly represented
+   - Split data into appropriate chunks if needed
+
+2. **Create Mapping Documentation**
+   - Document how the processed data maps to Notion database fields
+   - Provide guidance on how to handle special cases or complex data
+
+3. **Prepare Import Sequence**
+   - Define the order in which data should be imported (e.g., providers first, then diagnoses, etc.)
+   - Create a step-by-step import guide
+
+## Implementation Guidelines
+
+### Data Cleaning Rules
+
+1. **Text Normalization**
+   - Convert all text to proper case
+   - Remove excess whitespace and line breaks
+   - Standardize punctuation and formatting
+
+2. **Date Handling**
+   - Default to YYYY-MM-DD format
+   - If only month and year are available, use the first day of the month
+   - If only year is available, use January 1 of that year
+   - Document all date assumptions
+
+3. **Medication Parsing**
+   - Extract medication name, dosage, and frequency as separate fields
+   - Remove non-medication entries from medication lists
+   - Handle combination medications appropriately
+
+4. **Provider Name Formatting**
+   - Format as "First Last, Credentials" (e.g., "John Smith, MD")
+   - When credentials are unknown, use just the name
+   - When only last name is available, prefix with "Dr." if appropriate
+
+### Quality Control Measures
+
+1. **Review Process**
+   - Implement a two-phase review for processed data
+   - Automated validation followed by manual spot-checking
+   - Focus manual review on high-priority medical events
+
+2. **Error Handling**
+   - Log all parsing errors and data quality issues
+   - Categorize errors by severity and type
+   - Document resolution approaches for common error types
+
+3. **Validation Rules**
+   - Create specific validation rules for each data type
+   - Define acceptable values and ranges
+   - Flag outliers and unusual values for review
+
+## Special Handling Cases
+
+### PDF Lab Results
+
+1. Extract lab test names, values, and reference ranges
+2. Identify abnormal results based on reference ranges
+3. Link results to the ordering provider
+
+### Medication Lists from Doctor Notes
+1. Extract medication mentions from narrative text
+2. Differentiate between prescribed, recommended, and discontinued medications
+3. Match medications to relevant diagnoses based on context
+
+### Imaging Reports
+
+1. Extract key findings and impressions
+2. Link to related diagnoses and symptoms
+3. Capture recommended follow-up actions
+
+## Known Data Issues to Address
+
+1. **Inconsistent Provider Names**: The same provider may be referred to differently across documents (e.g., "Dr. Baker", "William Baker, MD")
+2. **Duplicate Medication Entries**: medication_entries.json contains many non-medication entries and duplicates
+3. **Incomplete Date Information**: Some documents have partial dates or relative time references
+4. **Text Extraction Errors**: OCR artifacts in extracted text
+5. **Multiple Diagnoses in Single Fields**: Some documents list multiple diagnoses in a single field
+6. **Overlapping Medical Events**: The same event may appear in multiple documents with slightly different information
+
+## Testing and Verification Process
+
+1. **Unit Testing**
+   - Test parsing logic for each document type
+   - Verify extraction of key fields
+   - Validate normalization processes
+
+2. **Integration Testing**
+   - Test de-duplication and merging logic
+   - Verify relationship mapping between entities
+   - Test end-to-end processing pipeline
+
+3. **Manual Verification**
+   - Select representative sample documents for manual review
+   - Compare automated extraction results with manual extraction
+   - Document accuracy metrics and common error patterns
+
+## Final Deliverables
+
+1. **Processed Data Files**
+   - medical_events.json
+   - medications.json
+   - healthcare_providers.json
+   - diagnoses.json
+   - symptoms.json
+
+2. **Notion Import Files**
+   - Properly formatted JSON files ready for Notion import
+   - Import instructions and sequence
+
+3. **Documentation**
+   - Data processing methodology
+   - Entity relationship diagram
+   - Data quality report
+   - Known issues and limitations
+
+4. **Processing Scripts** (if created)
+   - Documented scripts used for data processing
+   - Instructions for running scripts
+
+## Data Privacy and Security Guidelines
+
+1. **PHI Handling**
+   - All files containing Protected Health Information (PHI) should be stored securely
+   - Remove or mask sensitive information not required for the Notion database
+   - Document any PHI exclusions or masking
+
+2. **Access Controls**
+   - Limit access to raw data files
+   - Implement appropriate permission controls for processed data
+   - Document who has access to what data
+
+3. **Data Retention**
+   - Define retention policy for raw data files
+   - Establish backup procedures for processed data
+   - Document data deletion protocols
+
+## Conclusion
+
+This project aims to transform diverse medical records into a standardized, clean, and structured dataset for import into Notion. By following these instructions, you'll create a unified view of medical history that can be easily searched, analyzed, and maintained in the Notion medical calendar database.
+
+The focus should be on data quality, completeness, and accuracy, with special attention to correctly capturing relationships between medical events, providers, diagnoses, medications, and symptoms. The end result will be a comprehensive medical tracking system that provides a single source of truth for all health-related information.

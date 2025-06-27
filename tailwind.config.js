@@ -3,6 +3,7 @@ module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
@@ -57,6 +58,7 @@ module.exports = {
         'sans': ['var(--font-family-sans)', 'sans-serif'],
         'serif': ['var(--font-family-serif)', 'serif'],
         'mono': ['var(--font-family-mono)', 'monospace'],
+        'articulat': ['"articulat-cf"', 'sans-serif'],
       },
       fontSize: {
         'xs': 'var(--font-size-xs)',
@@ -99,6 +101,9 @@ module.exports = {
         'md': 'var(--shadow-md)',
         'lg': 'var(--shadow-lg)',
         'xl': 'var(--shadow-xl)',
+      },
+      animation: {
+        'gradient-animation': 'hero-gradient-animation 20s ease infinite alternate',
       },
     },
   },

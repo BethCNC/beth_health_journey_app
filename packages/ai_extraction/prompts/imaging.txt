@@ -1,0 +1,10 @@
+You are a medical imaging report analyzer. Extract the following information from this imaging report:
+1. Imaging type (e.g., MRI, CT, X-ray)
+2. Date of study
+3. Ordering provider
+4. Body part/region imaged
+5. Key findings
+6. Impression/summary
+7. Recommendations or follow-up
+
+Format the extraction as valid JSON. 

@@ -1,0 +1,4432 @@
+Patient Health Summary
+#DocBody { overflow: visible !important; height: auto !important; }  div.printOnly { display: block; }  span.printOnly { display: inline; }  .CE-Default .HeadCard, .CE-Default .sectionBody, .CE-Default .ShowAll{     border-right:1px solid #eee !important;     border-bottom:1px solid #eee !important; } #langBorn, #deceasedStatus{     display:inline-block;     white-space:pre; } #langBorn{     padding-right:10px; }  .Section {     position:relative; page-break-inside:avoid; }  *:not(td).allIndent { display:inline !important; } #tocHead { display:none !important; }  .CustomizeLink {  display: none !important;  }   .screenOnly { display: none !important; }  table.printOnly { display: table; }  .innerTd{     padding-left:0; }  @media (-webkit-min-device-pixel-ratio:0) {     thead {     display: table-row-group;     }               .alt .Rrule {border-right:2px solid #BFBFBF;}          .TableRow td {      border-top: 2px solid #E0E0E0 !important;       } }  .sectionBody{     display: block !important; }  .incompleteSection{ width: 100%; left: 0; bottom: 0; padding: 10px 0px 10px 0px; text-align: center; font-size: 20px;     border-color: #FFFF99; }  .loadSectionButton { display: none; }  .truncated { overflow: visible; max-height: 100% !important; }  .truncatedHidden { display: block !important; }  .gradient { display: none; }  caption.SRonlyCaption {     position:relative !important;     left:-10000px;     width:0;     margin:0;     padding:0;     height:0; }
+/*** Layout ***/ body{ height:100%; width:100%; margin: 0; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; text-size-adjust: none; }  body:not(.CELoadingBanner) #AlertBanner { display: none; }  #DocHead { box-sizing: border-box;  width: 100%; max-width:100%; }  #AlertBannerHeader { display:none; }  #navigationBanner { width:100%; display: inline-block; }  .CE-HSNative #DocHead { padding-top: 0px; padding-bottom: 5px; } .CE-Default #DocHead { padding: 5px 7px 5px 5px; }  .CE-HSNative #DocBody { padding-bottom: 0px; padding-top: 0px; }  .CE-Default .HeadCard{     padding:5px 5px 5px 10px; }  #HeaderRelativeContainer { position: relative;  margin-bottom: 0px; }  .CE-HSNative .tileList { list-style-type:none; margin:0; }  .CE-Default .Section{     padding:0px 7px 7px 5px; max-width:100%;     position:relative; } .CE-HSNative .Section { max-width:100%; } .Section > div td tr table { width:100%; }  .CE-HSNative .subTitle { padding-right: 10px;  }  #langTOCShowAllSections{     padding:15px 0px;     margin:15px 0px;     text-align:center;     margin-left:10%;     margin-right:10%;     display: none;      }  .CustomizeLink{     display:inline-block;     vertical-align:middle; }   .Section .Section { padding: 5px; }   .CE-Default .sectionHead{     overflow:hidden; padding-right:9px; overflow-x:auto; } .CE-Default .sectionHead h2{ padding-right: 5px; padding-left: 5px; }  .sectionBody{ min-height:20px; min-width:100%; display:inline-block; box-sizing:border-box; position:relative; } .truncated { overflow: hidden; max-height: 600px; } .truncatedHidden { display: none; } .gradient { position: absolute; bottom: 0; left: 0; width: 100%; text-align: center; margin: 0; padding: 30px 0; background-image: linear-gradient(to bottom, transparent, white 95%); height: 100px; } .loadSectionButton { padding: 10px 0px 10px 0px; font-weight: 600; bottom: 0; position: absolute; cursor: pointer; background-color: rgba(255,255,255,0.1); transition: background-color 0.3s ease; width: 100%; left: 0; } .loadSectionButton:hover { background-color: #eef7ff; text-decoration: none !important; } .button-back { background-color: transparent; border: 1px solid transparent; float:left; margin: 5px 0 0 0; } .button-back:hover{  background-color: #eef7ff; text-decoration: none !important; } .alertIcon { vertical-align: middle; padding-right: 5px; } .jumpIcon { margin-bottom: -3px; } .CE-Default .sectionBody{ padding-top:1px; padding-bottom:1px;   margin-right:7px; }   .CE-Default h2, .CE-Default h4{     margin:0;     display:inline; } .CE-Default h1, .CE-Default h3{     margin:0;     display:block; }  .CE-Default table{     border-spacing:0;     width:100%; } .CE-Default caption{     text-align:left; } .CE-Default td {     padding-left:6px;     vertical-align:top; } .CE-Default th {     vertical-align:bottom;     text-align:left; } .CE-HSNative th { text-align:left; } .CE-Default th, .CE-Default td.monospace{     padding-left:6px !important; } .CE-HSNative td, .CE-HSNative th { padding:0pt 1pt 0pt 1pt; } .CE-HSNative tr { vertical-align:top; } .allIndent { padding-left: 8px; display:inline-block; } td.allIndent { padding-left: 22px; text-indent: 0px; display:table-cell; }  .noWrap { white-space: nowrap; }  #B64DATA { white-space: pre-wrap; }  .right { float:right; padding-right:6px; }  .CE-Default .hIcon{ padding-top:2px; position:absolute; margin-left:-18px; float:left; z-index:99; width:16px; height:16px; }  img { max-width:100%; }   .CE-Default .Block{     display:table-cell;     box-sizing:border-box;     vertical-align:top;     width:25%;  }  .ChildBlock {     display:inline-block;     vertical-align:top;     margin-right:20px;     padding-bottom:10px; }  #langBorn, #deceasedStatus{  white-space: nowrap; } #deceasedStatus{ padding-right:10px; } /*** Fonts ***/ .CE-Default, .CE-Default td, .CE-Default th, .CE-Default .normal{     font:10pt 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;      line-height:12pt;     font-weight:normal; }  .CE-Default h1, .CE-Default h2{     font-size:15pt;     line-height:21pt;     font-weight:normal; }  .CE-Default h3, .CE-Default .tableCaption{     font-size:11pt;     line-height:15pt;     font-weight:normal; }  .CE-Default h4{     font-size:11pt;     line-height:13pt;     font-weight:600;     color:black; }  .CE-Default h5{     color:#777; }  .CE-Default .smaller{     font-size:8pt;     line-height:9pt; }  .monospace{font-family:'Lucida Console', 'Courier New', monospace !important;} .CE-Default .monospace{     font-size:9pt;     line-height:10pt; }  .CE-HSNative #CECRpatientBanner { font-size: small; overflow: hidden; } .CE-HSNative #CECRpatientBanner .alertContent { padding-right:0; }  /*** Colors and Borders ***/ #document, body {     background:#EEE;  }  .CE-Default a, .CE-Default a:hover, .CE-Default a:visited{color:#00F} .CE-Default a{text-decoration:none;} .CE-Default a:hover{text-decoration:underline;}  .CE-Default #langTOCShowAllSections{     background:#F0F0FB; }  .CustomizeLink{     opacity:0.8; }  .CustomizeLink:hover{     opacity:1.0; }   .CE-Default .bodyR, .CE-Default .R th{ border-color:#FB7373 } .CE-Default .bodyO, .CE-Default .O th{ border-color:#FDBA19 } .CE-Default .bodyG, .CE-Default .G th{ border-color:#1EB37A } .CE-Default .bodyB, .CE-Default .B th{ border-color:#34B4FF } .CE-Default .bodyC, .CE-Default .C th{ border-color:#0CA99D } .CE-Default .bodyE, .CE-Default .E th{ border-color:#C0C7D2 } .CE-Default .bodyP, .CE-Default .P th{ border-color:#B387FF }   .CE-Default .headR, .CE-Default .R h3, .CE-Default .R .tableCaption{ color:#BB4D4D } .CE-Default .headO, .CE-Default .O h3, .CE-Default .O .tableCaption{ color:#95711D } .CE-Default .headG, .CE-Default .G h3, .CE-Default .G .tableCaption{ color:#157953 } .CE-Default .headB, .CE-Default .B h3, .CE-Default .B .tableCaption{ color:#2073A3 } .CE-Default .headC, .CE-Default .C h3, .CE-Default .C .tableCaption{ color:#0E766E } .CE-Default .headE, .CE-Default .E h3, .CE-Default .E .tableCaption{ color:#6D7179 } .CE-Default .headP, .CE-Default .P h3, .CE-Default .P .tableCaption{ color:#8760CA }   .CE-Default .R .alt td{ background-color:#FBF7F7 } .CE-Default .O .alt td{ background-color:#F7F7F5 } .CE-Default .G .alt td{ background-color:#F4F7F4 } .CE-Default .B .alt td{ background-color:#F6F8FB } .CE-Default .C .alt td{ background-color:#F2F8F8 } .CE-Default .E .alt td{ background-color:#F7F7F7 } .CE-Default .P .alt td{ background-color:#f9f9ff }   .CE-Default .HeadCard, .CE-Default .sectionBody, .CE-Default .ShowAll{     background-color:#FFF;     -webkit-box-shadow:0px 1px 4px 0px rgba(0, 0, 0, 0.25);     -moz-box-shadow:0px 1px 4px 0px rgba(0, 0, 0, 0.25);     box-shadow:0px 1px 4px 0px rgba(0, 0, 0, 0.25); }  .CE-Default .HeadCard{     border-top:1px solid #eee;     border-left:1px solid #eee; }   .CE-Default .sectionBody{     border-left-width:5px;     border-left-style:solid;     border-right:0;     border-top:0;     border-bottom:0; }  .CE-Default th{     border-bottom:1px solid; } .CE-Default tfoot td{     border-top:1px solid #E0E0E0; }  .CE-Default .ListRow:not(:first-child), .CE-Default .TableRow td{     border-top:1px solid #E0E0E0; }  .CE-Default #langTOCShowAllSections{     border-left:none; }   .CE-Default th, .CE-Default .cellHeader{color:#666} .CE-Default .historical td{color:#717171}  .fixedTableLayout{ table-layout: fixed; overflow-wrap: break-word; }  .width20{ width:20% !important; } .width25{ width:25% !important; } .width50{ width:50% !important; } .width75{ width:75% !important; } .widthAuto{ width:auto; }  .docTypeHeader { font-size: inherit; line-height: inherit; font-weight: inherit; display: inline-block; }  #LucyThumb { text-align: center; vertical-align: middle; }  .displayInline{ display:inline !important; }  /*** Styling for download icons ***/ img[class^="CEDownload"] { display: block; position: absolute; bottom: 3px; right: 3px; width: 18px; height: 18px; z-index: 97; } body[class*="CENoAuth"] img[class*="CEDownload"], body[class*="CENoSecurity"] img[class*="CEDownload"], body[class*="CEReadOnly"] img[class*="CEDownload"] { display: none; }   /*** Styling for no-auth icons ***/ /*** Styling for disabling a link; used if no auth/auth is pinging ***/ .link-disabled { pointer-events: none; cursor: default; } /*** Styling for the no-auth icons ***/ [class^="no-auth-icon-"] { position: absolute; bottom: 3px; right: 3px; width: 18px; height: 18px; z-index: 98; } /*** If there is auth, unshow all icons and disable the link-disabled class ***/ body.CEAuth img[class^="no-auth-icon-"] { display: none !important; } body.CEAuth .link-disabled { pointer-events: auto; cursor: auto; } /*** If there are no extra classes tacked onto the body element, then we want to take care of the case where we do NOT have auth, just in case: ***/ body:not([class^="CENoAuth"]) img[class^="no-auth-icon-"], body:not([class^="CEAuth"]) img[class^="no-auth-icon-"] { pointer-events: auto; cursor: default; } body:not([class^="CENoAuth"]) img[class^="no-auth-icon-"]:active, body:not([class^="CEAuth"]) img[class^="no-auth-icon-"]:active { pointer-events: none; } /*** If we don't have auth: ***/ body.[class^="CENoAuth-"] .link-disabled { pointer-events: auto; cursor: default; } body.[class^="CENoAuth-"] .link-disabled:active, body.[class^="CENoAuth"] .link-disabled:focus { pointer-events: none; } /*** Styling for specific no-auth reasons ***/ body.CENoAuth-Ping .no-auth-icon-ping { display: block !important; pointer-events: auto; cursor: default; } body.CENoAuth-Ping .no-auth-icon-ping:active, body.CENoAuth-Ping .no-auth-icon-ping:focus { pointer-events: none; } body.CENoAuth-Ping .no-auth-icon-enc, body.CENoAuth-Ping .no-auth-icon-req, body.CENoAuth-Enc .no-auth-icon-opt, body.CENoAuth-Enc .no-auth-icon-org, body.CENoAuth-Enc .no-auth-icon-other { display: none !important; } body.CENoAuth-Enc .no-auth-icon-enc { display: block !important; pointer-events: auto; cursor: default; } body.CENoAuth-Enc .no-auth-icon-enc:active, body.CENoAuth-Enc .no-auth-icon-enc:focus { pointer-events: none; } body.CENoAuth-Enc .no-auth-icon-ping, body.CENoAuth-Enc .no-auth-icon-req, body.CENoAuth-Enc .no-auth-icon-opt, body.CENoAuth-Enc .no-auth-icon-org, body.CENoAuth-Enc .no-auth-icon-other { display: none !important; } body.CENoAuth-Req .no-auth-icon-req { display: block !important; pointer-events: auto; cursor: default; } body.CENoAuth-Req .no-auth-icon-req:active, body.CENoAuth-Req .no-auth-icon-req:focus { pointer-events: none; } body.CENoAuth-Req .no-auth-icon-ping, body.CENoAuth-Req .no-auth-icon-enc, body.CENoAuth-Req .no-auth-icon-opt, body.CENoAuth-Req .no-auth-icon-org, body.CENoAuth-Req .no-auth-icon-other { display: none !important; } body.CENoAuth-Opt .no-auth-icon-opt { display: block !important; pointer-events: auto; cursor: default; } body.CENoAuth-Opt .no-auth-icon-opt:active, body.CENoAuth-Opt .no-auth-icon-opt:focus { pointer-events: none; } body.CENoAuth-Opt .no-auth-icon-ping, body.CENoAuth-Opt .no-auth-icon-enc, body.CENoAuth-Opt .no-auth-icon-req, body.CENoAuth-Opt .no-auth-icon-org, body.CENoAuth-Opt .no-auth-icon-other { display: none !important; } body.CENoAuth-Org .no-auth-icon-org { display: block !important; pointer-events: auto; cursor: default; } body.CENoAuth-Org .no-auth-icon-org:active, body.CENoAuth-Org .no-auth-icon-org:focus { pointer-events: none; } body.CENoAuth-Org .no-auth-icon-ping, body.CENoAuth-Org .no-auth-icon-enc, body.CENoAuth-Org .no-auth-icon-req, body.CENoAuth-Org .no-auth-icon-opt, body.CENoAuth-Org .no-auth-icon-other { display: none !important; } body.CENoAuth-Other .no-auth-icon-other { display: block !important; pointer-events: auto; cursor: default; } body.CENoAuth-Other .no-auth-icon-other:active, body.CENoAuth-Other .no-auth-icon-other:focus { pointer-events: none; } body.CENoAuth-Other .no-auth-icon-ping, body.CENoAuth-Other .no-auth-icon-enc, body.CENoAuth-Other .no-auth-icon-req, body.CENoAuth-Other .no-auth-icon-opt, body.CENoAuth-Other .no-auth-icon-org { display: none !important; }  /*** Overrides ***/   tr.SRonly th, tr.SRonly td {     width:0;     margin:0;     padding:0;     line-height:0;     text-align:right;     top:0;     display:inline-block;     font-size:0 !important;     position:absolute !important;     left:-500px;     height:0; }   span.SRonly {     position:relative;     left:-10000px;     width:1px;     margin:0;     padding:0;     line-height:0;     text-align:right;     display:inline-block;     font-size:1px !important;     height:1px; }   caption.SRonlyCaption { position:absolute; left:-10000px; width:0; margin:0; padding:0; height:0; }    @supports not (-moz-appearance:none) { caption.SRonlyCaption { position:relative; left:-10000px; width:0; margin:0; padding:0; height:0; } }  .LeftPad{padding-left:6px;} .CE-Default caption{padding-left:6px;}  .CE-Default .CELink{     float:right;     padding-right:2px;     padding-top:10px; }      .CE-Default .FlagData, .CE-Default .FlagData *{color:#C70000 !important;font-weight:bold;}  .lightBorder {border:1px solid #BFBFBF;} .italics, .italics * {font-style:italic !important;} .CE-Default .bold, .CE-Default .bold * {font-weight:bold !important;} .CE-HSNative .bold, .CE-HSNative .bold * {font-weight: 600 !important;} .faded {color:#777;} .underline, .underline * {text-decoration:underline !important;} .strikeout, .strikeout * {text-decoration:line-through;} span.textAlignCenter, span.textAlignRight {display:inline-block;} .textAlignCenter {text-align:center;} .textAlignRight {text-align:right;padding-right:5px;} .emphasis, .emphasis * {font-variant:small-caps;} .blue {color:blue;} .CE-HSNative .DarkRoom .blue, .CE-HSNative .Carbon .blue {color:#1e90ff;} .CE-Default .highlight {background-color:yellow !important;}  .inlineBlock {display:inline-block;} .inlineIcon {display: inline-block; vertical-align: text-bottom;} .clear {clear:both;} .fl {float:left;} .unbold {font-weight:normal;} .CE-Default .Rrule {border-right:1px solid #BFBFBF;}     .dn,.printOnly {display:none;}  .breakWord{word-wrap:break-word;}  .provenanceTooltip[title]:not([title=""]):focus:after, .marTooltip[title]:not([title=""]):focus:after { content:attr(title); white-space:break-spaces; padding: 2px; display: inline-block; position: relative; text-align: left; background-color: #fef4c5; border: 1px solid #d4b943; border-radius: 2px; font-weight: normal; color: black; font-size: 10pt; line-height: 12pt; }   @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {  table.provenanceTooltip > tbody span, tr.provenanceTooltip > td span, span.provenanceTooltip, .provenanceTooltip:not(table):not(tr) span { border-bottom: 0.1rem dotted #3b434c; }  table.provenanceTooltip tr > :first-child, tr.provenanceTooltip > :first-child, .provenanceTooltip:not(span):not(tr) { padding-bottom: 3px; }  .provenanceTooltip[title]:not([title=""]):focus:after { white-space:pre; display: table; } }   @supports not (-ms-high-contrast: none) {  table.provenanceTooltip > tbody span, tr.provenanceTooltip > td span, span.provenanceTooltip, .provenanceTooltip:not(table):not(tr) span, .provenanceTooltip:focus:after { text-decoration: underline #3b434c dashed; text-decoration-thickness: 0.01rem; }  :not(tr).provenanceTooltip:focus:after { width: fit-content; }  tr.provenanceTooltip:focus:after{ width: max-content; } }
+Jennifer Beth Cartrette "Beth"
+Patient Health Summary, generated on
+Apr. 10, 2025
+April 10, 2025
+Patient Demographics
+-
+Female
+;
+born
+Sep. 13, 1982
+September 13, 1982
+Patient Demographics
+Patient Address
+Patient Name
+Communication
+136 Creek View Lane
+(Home)
+wingate, NC 28174
+Former (Apr. 12, 2021 - Mar. 21, 2023):
+10606 Huntersville Commons
+(Home)
+Apt F
+HUNTERSVILLE, NC 28078
+Jennifer Beth Cartrette
+Former / Aliases:
+Beth Cartrette
+Jennifer Cartrette
+Jennifer Jones
+704-960-9336 (Mobile)
+704-960-9336 (Home)
+bethcartrette@gmail.com
+Patient Demographics
+Language
+Race / Ethnicity
+Marital Status
+English - Written (Preferred)
+White / Unknown
+Married
+Note from Atrium Health
+This document contains information that was shared with Beth Cartrette. It may not contain the entire record from Atrium Health.
+Allergies
+No known active allergies
+Medications
+multivitamin (CENTRUM) 8 mg-400 mcg- 10 mcg chew
+Chew 1 tablet Once Daily.
+ondansetron (ZOFRAN-ODT) 4 mg disintegrating tablet
+(Started 9/30/2024)
+ALLOW 1 TABLET TO Dissolve UNDER TONGUE every 8 (eight) hours as needed for nausea or vomiting.
+dextroamphetamine-amphetamine (ADDERALL) 20 mg tablet
+(Started 1/17/2025)
+Take 1 tablet (20 mg total) by mouth 3 (three) times a day.
+dextroamphetamine-amphetamine (ADDERALL) 20 mg tablet
+(Started 2/13/2025)
+Take 1 tablet (20 mg total) by mouth 3 (three) times a day.
+dextroamphetamine-amphetamine (ADDERALL) 20 mg tablet
+(Started 3/9/2025)
+Take 1 tablet (20 mg total) by mouth 3 (three) times a day.
+famotidine (PEPCID) 20 mg tablet
+Take 20 mg by mouth 2 (two) times a day.
+cetirizine (ZyrTEC) 10 mg tablet
+Take 10 mg by mouth 2 (two) times a day.
+quercetin 500 mg cap
+Take 500 mg by mouth daily.
+Active Problems
+Active Problems
+Problem
+Noted Date
+Diagnosed Date
+POTS (postural orthostatic tachycardia syndrome)
+10/22/2024
+EDS (Ehlers-Danlos syndrome) (CMD)
+10/22/2024
+Fibromyalgia
+06/24/2024
+Hashimoto's thyroiditis
+09/18/2023
+ADHD (attention deficit hyperactivity disorder), combined type
+05/27/2020
+DDD (degenerative disc disease), cervical
+06/05/2018
+Bipolar affective disorder    (CMD)
+02/04/2015
+Anorexia nervosa with bulimia
+02/04/2015
+PTSD (post-traumatic stress disorder)
+02/04/2015
+Resolved Problems
+Resolved Problems
+Problem
+Noted Date
+Diagnosed Date
+Resolved Date
+H/O Graves' disease
+09/18/2023
+01/14/2024
+Immunodeficiency due to drugs (CMD)
+08/25/2023
+04/16/2024
+Inflammatory polyarthritis    (CMD)
+08/25/2023
+06/24/2024
+Rheumatoid arthritis    (CMD)
+03/29/2023
+03/30/2023
+Psoriatic arthritis    (CMD)
+06/09/2022
+08/04/2023
+Thyrotoxicosis with diffuse goiter without thyrotoxic crisis or storm
+03/08/2018
+01/14/2024
+Immunizations
+COVID-19
+(Given 4/30/2021)
+Flu
+(Given 1/15/2024, 10/19/2021)
+TDAP
+(Given 1/15/2024)
+Social History
+Social History
+Tobacco Use
+Types
+Packs/Day
+Years Used
+Date
+Smoking Tobacco: Former
+Cigarettes
+0.5
+10
+01/01/2000 - 01/01/2010
+Passive Smoke Exposure: Never
+Smokeless Tobacco: Never
+Social History
+Tobacco Cessation:
+Counseling Given: Not Answered
+Social History
+Alcohol Use
+Standard Drinks/Week
+Not Currently
+0 (1 standard drink = 0.6 oz pure alcohol)
+Social History
+Pregnant
+Comments
+No
+Social History
+Sex and Gender Information
+Value
+Date Recorded
+Sex Assigned at Birth
+Female
+01/25/2019 10:44 PM EST
+Legal Sex
+Female
+09/26/2015  2:15 PM EDT
+Gender Identity
+Female
+06/07/2023  3:31 PM EDT
+Sexual Orientation
+Straight
+06/07/2023  3:31 PM EDT
+Last Filed Vital Signs
+Last Filed Vital Signs
+Vital Sign
+Reading
+Time Taken
+Comments
+Blood Pressure
+138
+/
+67
+01/29/2025  3:13 PM EST
+Pulse
+88
+01/29/2025  3:13 PM EST
+Temperature
+36.6 °C (97.9 °F)
+01/29/2025  3:13 PM EST
+Respiratory Rate
+-
+-
+Oxygen Saturation
+100%
+01/29/2025  3:13 PM EST
+Inhaled Oxygen Concentration
+-
+-
+Weight
+67.1 kg (148 lb)
+01/29/2025  3:13 PM EST
+Height
+160 cm (5' 3")
+10/22/2024  1:39 PM EDT
+Body Mass Index
+26.22
+10/22/2024  1:39 PM EDT
+Results
+US Peripheral Venous Arm Unilat Right (US PERIPHERAL VENOUS ARM UNILAT RIGHT) - Final result (03/05/2025 11:27 AM EST)
+Results - US Peripheral Venous Arm Unilat Right (US PERIPHERAL VENOUS ARM UNILAT RIGHT) - Final result (03/05/2025 11:27 AM EST)
+Anatomical Region
+Laterality
+Modality
+Vascular
+Ultrasound
+Results - US Peripheral Venous Arm Unilat Right (US PERIPHERAL VENOUS ARM UNILAT RIGHT) - Final result (03/05/2025 11:27 AM EST)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+03/05/2025  1:00 PM EST
+Results - US Peripheral Venous Arm Unilat Right (US PERIPHERAL VENOUS ARM UNILAT RIGHT) - Final result (03/05/2025 11:27 AM EST)
+Impressions
+03/05/2025  1:00 PM EST
+No evidence of right upper extremity DVT.
+THIS IS AN ELECTRONICALLY VERIFIED FINAL REPORT
+3/05/2025 1:00 PM - Electronically signed by Andrew Hines
+Workstation: 15-IRAD-VASRM1
+Atrium Health
+Results - US Peripheral Venous Arm Unilat Right (US PERIPHERAL VENOUS ARM UNILAT RIGHT) - Final result (03/05/2025 11:27 AM EST)
+Narrative
+03/05/2025  1:00 PM EST
+DATE OF SERVICE:
+3/5/2025 11:27 am
+EXAM:
+UNILATERAL RIGHT UPPER EXTREMITY VENOUS US
+CLINICAL HISTORY:
+Upper extremity swelling
+COMPARISON:
+TECHNIQUE:
+Real time ultrasonographic and duplex Doppler evaluation of the right upper extremity deep venous system was performed with multiple static images obtained. Prior studies are not available for comparison.
+FINDINGS:
+Gray scale compression and duplex Doppler evaluation demonstrates no evidence of right upper extremity DVT. Specifically, there is no evidence of thrombus within the left jugular, subclavian, axillary, brachial, basilic or cephalic veins. Normal venous phasicity and augmentation was documented throughout.
+Results - US Peripheral Venous Arm Unilat Right (US PERIPHERAL VENOUS ARM UNILAT RIGHT) - Final result (03/05/2025 11:27 AM EST)
+Procedure Note
+Andrew Hines, MD - 03/05/2025
+Formatting of this note might be different from the original.
+DATE OF SERVICE:
+3/5/2025 11:27 am
+EXAM:
+UNILATERAL RIGHT UPPER EXTREMITY VENOUS US
+CLINICAL HISTORY:
+Upper extremity swelling
+COMPARISON:
+TECHNIQUE:
+Real time ultrasonographic and duplex Doppler evaluation of the right
+upper extremity deep venous system was performed with multiple static
+images obtained. Prior studies are not available for comparison.
+FINDINGS:
+Gray scale compression and duplex Doppler evaluation demonstrates no
+evidence of right upper extremity DVT. Specifically, there is no evidence
+of thrombus within the left jugular, subclavian, axillary, brachial,
+basilic or cephalic veins. Normal venous phasicity and augmentation was
+documented throughout.
+IMPRESSION:
+No evidence of right upper extremity DVT.
+THIS IS AN ELECTRONICALLY VERIFIED FINAL REPORT
+3/05/2025 1:00 PM - Electronically signed by Andrew Hines
+Workstation: 15-IRAD-VASRM1
+Atrium Health
+Results - US Peripheral Venous Arm Unilat Right (US PERIPHERAL VENOUS ARM UNILAT RIGHT) - Final result (03/05/2025 11:27 AM EST)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH IMG US PROCEDURES
+Final Result
+XR Shoulder Minimum 2 Views Right (XR SHOULDER MINIMUM 2 VIEWS RIGHT) - Final result (01/29/2025  4:27 PM EST)
+Results - XR Shoulder Minimum 2 Views Right (XR SHOULDER MINIMUM 2 VIEWS RIGHT) - Final result (01/29/2025  4:27 PM EST)
+Anatomical Region
+Laterality
+Modality
+Shoulder
+Diagnostic X-Ray
+Results - XR Shoulder Minimum 2 Views Right (XR SHOULDER MINIMUM 2 VIEWS RIGHT) - Final result (01/29/2025  4:27 PM EST)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+01/29/2025  4:44 PM EST
+Results - XR Shoulder Minimum 2 Views Right (XR SHOULDER MINIMUM 2 VIEWS RIGHT) - Final result (01/29/2025  4:27 PM EST)
+Impressions
+01/29/2025  4:45 PM EST
+No acute fracture or dislocation.
+THIS IS AN ELECTRONICALLY VERIFIED FINAL REPORT
+1/29/2025 4:45 PM - Electronically signed by Jason Swenson
+Workstation: 04-IRAD-IR
+Atrium Health
+Results - XR Shoulder Minimum 2 Views Right (XR SHOULDER MINIMUM 2 VIEWS RIGHT) - Final result (01/29/2025  4:27 PM EST)
+Narrative
+01/29/2025  4:45 PM EST
+DATE OF SERVICE:
+1/29/2025 4:27 pm
+EXAM:
+Right shoulder
+CLINICAL HISTORY:
+Pain in right shoulder
+COMPARISON:
+None.
+FINDINGS:
+Three views of the right shoulder. No acute fracture or dislocation.
+Results - XR Shoulder Minimum 2 Views Right (XR SHOULDER MINIMUM 2 VIEWS RIGHT) - Final result (01/29/2025  4:27 PM EST)
+Procedure Note
+Jason Swenson, MD - 01/29/2025
+Formatting of this note might be different from the original.
+DATE OF SERVICE:
+1/29/2025 4:27 pm
+EXAM:
+Right shoulder
+CLINICAL HISTORY:
+Pain in right shoulder
+COMPARISON:
+None.
+FINDINGS:
+Three views of the right shoulder. No acute fracture or dislocation.
+IMPRESSION:
+No acute fracture or dislocation.
+THIS IS AN ELECTRONICALLY VERIFIED FINAL REPORT
+1/29/2025 4:45 PM - Electronically signed by Jason Swenson
+Workstation: 04-IRAD-IR
+Atrium Health
+Results - XR Shoulder Minimum 2 Views Right (XR SHOULDER MINIMUM 2 VIEWS RIGHT) - Final result (01/29/2025  4:27 PM EST)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH IMG XR PROCEDURES
+Final Result
+TSH - Final result (01/29/2025  3:27 PM EST)
+Results - TSH - Final result (01/29/2025  3:27 PM EST)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+TSH
+5.268
+0.450 - 5.330 uIU/mL
+01/30/2025  1:21 AM EST
+ATRIUM HEALTH LABORATORY
+TSH Pregnancy Comment
+01/30/2025  1:21 AM EST
+ATRIUM HEALTH LABORATORY
+Comment:
+TSH in Pregnancy:
+1st Trimester of Pregnancy 0.050 - 3.700 uIU/mL
+2nd Trimester of Pregnancy 0.310 - 4.350 uIU/mL
+3rd Trimester of Pregnancy 0.410 - 5.180 uIU/mL
+Results - TSH - Final result (01/29/2025  3:27 PM EST)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+01/29/2025  3:27 PM EST
+01/29/2025  3:27 PM EST
+Results - TSH - Final result (01/29/2025  3:27 PM EST)
+Narrative
+ATRIUM HEALTH LABORATORY - 01/30/2025  1:21 AM EST
+The testing method is an immunoassay manufactured by Beckman Coulter Inc performed on DxI/Access platform.  Values obtained with different assay methods may be different and cannot be used interchangeably.
+Results - TSH - Final result (01/29/2025  3:27 PM EST)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - TSH - Final result (01/29/2025  3:27 PM EST)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+ATRIUM HEALTH LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+T4, Free (T4, FREE) - Final result (01/29/2025  3:27 PM EST)
+Results - T4, Free (T4, FREE) - Final result (01/29/2025  3:27 PM EST)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+T4, Free
+0.66
+0.60 - 1.60 ng/dL
+01/30/2025  1:21 AM EST
+ATRIUM HEALTH LABORATORY
+Results - T4, Free (T4, FREE) - Final result (01/29/2025  3:27 PM EST)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+01/29/2025  3:27 PM EST
+01/29/2025  3:27 PM EST
+Results - T4, Free (T4, FREE) - Final result (01/29/2025  3:27 PM EST)
+Narrative
+ATRIUM HEALTH LABORATORY - 01/30/2025  1:21 AM EST
+The testing method is an immunoassay manufactured by Beckman Coulter Inc performed on DxI/Access platform.  Values obtained with different assay methods may be different and cannot be used interchangeably.
+Results - T4, Free (T4, FREE) - Final result (01/29/2025  3:27 PM EST)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - T4, Free (T4, FREE) - Final result (01/29/2025  3:27 PM EST)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+ATRIUM HEALTH LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+(ABNORMAL) Lipid Panel (LIPID PANEL) - Final result (01/29/2025  3:27 PM EST)
+Results - (ABNORMAL) Lipid Panel (LIPID PANEL) - Final result (01/29/2025  3:27 PM EST)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+Cholesterol, Total, Lipid Panel
+206
+(H)
+<200 mg/dL
+01/30/2025  1:20 AM EST
+ATRIUM HEALTH LABORATORY
+Comment:
+Acceptable:  < 200 mg/dL
+Borderline:  200 - 239 mg/dL
+High:  > 239 mg/dL
+Triglycerides, Lipid Panel
+136
+<150 mg/dL
+01/30/2025  1:20 AM EST
+ATRIUM HEALTH LABORATORY
+Comment:
+Acceptable:  < 150 mg/dL
+Borderline:  150 - 199 mg/dL
+High:  200 - 499 mg/dL
+Very High:  > 499 mg/dL
+HDL Cholesterol - Lipid Panel
+72
+>59 mg/dL
+01/30/2025  1:20 AM EST
+ATRIUM HEALTH LABORATORY
+Comment:
+High:  > 59 mg/dL
+Low:   < 40 mg/dL
+LDL Cholesterol, Calculated
+109
+(H)
+<100 mg/dL
+01/30/2025  1:20 AM EST
+ATRIUM HEALTH LABORATORY
+Comment:
+ATP Guidelines:
+Acceptable:   < 100 mg/dL
+Near Optimal:   100 - 129 mg/dL
+Borderline High:   130 - 159 mg/dL
+High:   160 - 189 mg/dL
+Very High:   >189 mg/dL
+Atherosclerotic Cardiovascular Disease Risk Categories and LDL-C Goals:
+Patient Risk        Goal
+Low Risk:     < 130 mg/dL
+Moderate Risk:     < 100 mg/dL
+High Risk:     < 100 mg/dL
+Very High Risk:     < 70 mg/dL
+Extreme Risk:     < 55 mg/dL
+American Association of Clinical Endocrinologists and American College of Endocrinology Guidelines for management of dyslipidemia and prevention of cardiovascular disease. Endocrine Practice Vol 23 (Sup 2) April 2017.
+LDL Cholesterol is calculated using the Martin/Hopkins equation. Source:  JAMA 2013; 310:  2061-68.
+Non-HDL Cholesterol
+134
+mg/dL
+01/30/2025  1:20 AM EST
+ATRIUM HEALTH LABORATORY
+Comment:
+Atherosclerotic Cardiovascular Disease Risk Categories and Non-HDL Cholesterol Goals:
+Patient Risk        Goal
+Low Risk:     < 160 mg/dL
+Moderate Risk:     < 130 mg/dL
+High Risk:     < 130 mg/dL
+Very High Risk:     < 100 mg/dL
+Extreme Risk:     < 80 mg/dL
+American Association of Clinical Endocrinologists and American College of Endocrinology Guidelines for management of dyslipidemia and prevention of cardiovascular disease. Endocrine Practice Vol 23 (Sup 2) April 2017.
+Results - (ABNORMAL) Lipid Panel (LIPID PANEL) - Final result (01/29/2025  3:27 PM EST)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+01/29/2025  3:27 PM EST
+01/29/2025  3:27 PM EST
+Results - (ABNORMAL) Lipid Panel (LIPID PANEL) - Final result (01/29/2025  3:27 PM EST)
+Narrative
+ATRIUM HEALTH LABORATORY - 01/30/2025  1:20 AM EST
+Source: High Blood Cholesterol ATP III Guidelines At-A-Glance Quick Desk Reference.  National Cholesterol Education Program NIH Publication No. 01-3305 May 2001.
+Results - (ABNORMAL) Lipid Panel (LIPID PANEL) - Final result (01/29/2025  3:27 PM EST)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - (ABNORMAL) Lipid Panel (LIPID PANEL) - Final result (01/29/2025  3:27 PM EST)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+ATRIUM HEALTH LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+Hemoglobin A1C With Estimated Average Glucose (HEMOGLOBIN A1C  WITH ESTIMATED AVERAGE GLUCOSE) - Final result (01/29/2025  3:27 PM EST)
+Results - Hemoglobin A1C With Estimated Average Glucose (HEMOGLOBIN A1C  WITH ESTIMATED AVERAGE GLUCOSE) - Final result (01/29/2025  3:27 PM EST)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+Hemoglobin A1c
+4.8
+<5.7 %
+01/30/2025  1:26 AM EST
+ATRIUM HEALTH LABORATORY
+Estimated Average Glucose
+91
+<117 mg/dL
+01/30/2025  1:26 AM EST
+ATRIUM HEALTH LABORATORY
+Results - Hemoglobin A1C With Estimated Average Glucose (HEMOGLOBIN A1C  WITH ESTIMATED AVERAGE GLUCOSE) - Final result (01/29/2025  3:27 PM EST)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+01/29/2025  3:27 PM EST
+01/29/2025  3:27 PM EST
+Results - Hemoglobin A1C With Estimated Average Glucose (HEMOGLOBIN A1C  WITH ESTIMATED AVERAGE GLUCOSE) - Final result (01/29/2025  3:27 PM EST)
+Narrative
+ATRIUM HEALTH LABORATORY - 01/30/2025  1:26 AM EST
+A1C Diagnostic Criteria:
+Prediabetes:              5.7% - 6.4%
+Diabetes:                 >=6.5%
+A1C Glycemic Goals:
+Older Adults:             <7.0%
+Children and Adolescents: <7.0%
+Pregnant Women:           <6.0%
+A1C goals must be individualized and reassessed over time.
+This test is performed on Capillarys 3 (Sebia, Inc) and is certified by the National Glycohemoglobin Standardization Program.  This method is not affected by HbC, HbS, HbE or HbD trait or by HbF <23.0%.
+Reference:  Standards of Medical Care in Diabetes. Diabetes Care, 43(1), S1-S212, 2020.
+Results - Hemoglobin A1C With Estimated Average Glucose (HEMOGLOBIN A1C  WITH ESTIMATED AVERAGE GLUCOSE) - Final result (01/29/2025  3:27 PM EST)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - Hemoglobin A1C With Estimated Average Glucose (HEMOGLOBIN A1C  WITH ESTIMATED AVERAGE GLUCOSE) - Final result (01/29/2025  3:27 PM EST)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+ATRIUM HEALTH LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+(ABNORMAL) Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (01/29/2025  3:27 PM EST)
+Results - (ABNORMAL) Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (01/29/2025  3:27 PM EST)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+Sodium
+138
+134 - 143 mmol/L
+01/30/2025  1:20 AM EST
+ATRIUM HEALTH LABORATORY
+Potassium
+4.6
+3.5 - 5.1 mmol/L
+01/30/2025  1:20 AM EST
+ATRIUM HEALTH LABORATORY
+Chloride
+102
+98 - 107 mmol/L
+01/30/2025  1:20 AM EST
+ATRIUM HEALTH LABORATORY
+CO2
+29
+21 - 31 mmol/L
+01/30/2025  1:20 AM EST
+ATRIUM HEALTH LABORATORY
+Anion Gap
+7
+3 - 15 mmol/L
+01/30/2025  1:20 AM EST
+ATRIUM HEALTH LABORATORY
+Glucose, Random
+88
+70 - 125 mg/dL
+01/30/2025  1:20 AM EST
+ATRIUM HEALTH LABORATORY
+Blood Urea Nitrogen (BUN)
+12
+8 - 30 mg/dL
+01/30/2025  1:20 AM EST
+ATRIUM HEALTH LABORATORY
+Creatinine
+0.77
+0.51 - 0.95 mg/dL
+01/30/2025  1:20 AM EST
+ATRIUM HEALTH LABORATORY
+eGFR
+>90
+>59 mL/min/1.73m2
+01/30/2025  1:20 AM EST
+ATRIUM HEALTH LABORATORY
+Comment:
+GFR estimated by CKD-EPI equations (NKF 2021). Recommend confirmation of eGFR using Cystatin C based eGFR in complex cases for clinical decision-making.
+Albumin
+4.5
+3.7 - 4.8 g/dL
+01/30/2025  1:20 AM EST
+ATRIUM HEALTH LABORATORY
+Total Protein
+7.3
+6.3 - 8.3 g/dL
+01/30/2025  1:20 AM EST
+ATRIUM HEALTH LABORATORY
+Bilirubin, Total
+0.5
+0.3 - 1.0 mg/dL
+01/30/2025  1:20 AM EST
+ATRIUM HEALTH LABORATORY
+Alkaline Phosphatase (ALP)
+51
+38 - 120 U/L
+01/30/2025  1:20 AM EST
+ATRIUM HEALTH LABORATORY
+Aspartate Aminotransferase (AST)
+12
+(L)
+13 - 39 U/L
+01/30/2025  1:20 AM EST
+ATRIUM HEALTH LABORATORY
+Alanine Aminotransferase (ALT)
+11
+7 - 52 U/L
+01/30/2025  1:20 AM EST
+ATRIUM HEALTH LABORATORY
+Calcium
+9.5
+8.6 - 10.3 mg/dL
+01/30/2025  1:20 AM EST
+ATRIUM HEALTH LABORATORY
+BUN/Creatinine Ratio
+01/30/2025  1:20 AM EST
+ATRIUM HEALTH LABORATORY
+Comment:
+Creatinine is normal, ratio is not clinically indicated.
+Results - (ABNORMAL) Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (01/29/2025  3:27 PM EST)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+01/29/2025  3:27 PM EST
+01/29/2025  3:27 PM EST
+Results - (ABNORMAL) Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (01/29/2025  3:27 PM EST)
+Narrative
+Results - (ABNORMAL) Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (01/29/2025  3:27 PM EST)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - (ABNORMAL) Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (01/29/2025  3:27 PM EST)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+ATRIUM HEALTH LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+CBC without Differential (CBC W/O DIFF) - Final result (01/17/2025 12:30 PM EST)
+Results - CBC without Differential (CBC W/O DIFF) - Final result (01/17/2025 12:30 PM EST)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+WBC
+7.69
+3.60 - 11.70 10*3/uL
+01/18/2025  3:26 AM EST
+ATRIUM HEALTH LABORATORY
+RBC
+4.38
+3.72 - 5.24 10*6/uL
+01/18/2025  3:26 AM EST
+ATRIUM HEALTH LABORATORY
+Hemoglobin
+14.0
+10.8 - 15.5 g/dL
+01/18/2025  3:26 AM EST
+ATRIUM HEALTH LABORATORY
+Hematocrit
+42
+34 - 46 %
+01/18/2025  3:26 AM EST
+ATRIUM HEALTH LABORATORY
+Mean Corpuscular Volume (MCV)
+96
+80 - 100 fL
+01/18/2025  3:26 AM EST
+ATRIUM HEALTH LABORATORY
+Mean Corpuscular Hemoglobin (MCH)
+32
+26 - 34 pg
+01/18/2025  3:26 AM EST
+ATRIUM HEALTH LABORATORY
+Mean Corpuscular Hemoglobin Conc (MCHC)
+33
+32 - 35 g/dL
+01/18/2025  3:26 AM EST
+ATRIUM HEALTH LABORATORY
+Red Cell Distribution Width (RDW)
+13.3
+12.2 - 16.6 %
+01/18/2025  3:26 AM EST
+ATRIUM HEALTH LABORATORY
+Platelet Count (PLT)
+293
+153 - 400 10*3/uL
+01/18/2025  3:26 AM EST
+ATRIUM HEALTH LABORATORY
+Mean Platelet Volume (MPV)
+9.6
+7.3 - 11.2 fL
+01/18/2025  3:26 AM EST
+ATRIUM HEALTH LABORATORY
+Results - CBC without Differential (CBC W/O DIFF) - Final result (01/17/2025 12:30 PM EST)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+01/17/2025 12:30 PM EST
+01/17/2025 12:30 PM EST
+Results - CBC without Differential (CBC W/O DIFF) - Final result (01/17/2025 12:30 PM EST)
+Narrative
+Results - CBC without Differential (CBC W/O DIFF) - Final result (01/17/2025 12:30 PM EST)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - CBC without Differential (CBC W/O DIFF) - Final result (01/17/2025 12:30 PM EST)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+ATRIUM HEALTH LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+(ABNORMAL) Thyroid Antibodies: Thyroid Peroxidase (TPO) and Thyroglobulin (TGAb) (THYROID ANTIBODIES) - Final result (01/17/2025 12:30 PM EST)
+Results - (ABNORMAL) Thyroid Antibodies: Thyroid Peroxidase (TPO) and Thyroglobulin (TGAb) (THYROID ANTIBODIES) - Final result (01/17/2025 12:30 PM EST)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+Thyroid Peroxidase (TPO) Antibodies
+124
+(H)
+0 - 34 IU/mL
+01/19/2025  1:35 PM EST
+LABCORP
+Thyroglobulin Antibody
+<1.0
+0.0 - 0.9 IU/mL
+01/19/2025  1:35 PM EST
+LABCORP
+Comment:
+Thyroglobulin Antibody measured by Beckman Coulter Methodology
+It should be noted that the presence of thyroglobulin antibodies
+may not be pathogenic nor diagnostic, especially at very low
+levels. The assay manufacturer has found that four percent of
+individuals without evidence of thyroid disease or autoimmunity
+will have positive TgAb levels up to 4 IU/mL.
+Results - (ABNORMAL) Thyroid Antibodies: Thyroid Peroxidase (TPO) and Thyroglobulin (TGAb) (THYROID ANTIBODIES) - Final result (01/17/2025 12:30 PM EST)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+01/17/2025 12:30 PM EST
+01/17/2025 12:30 PM EST
+Results - (ABNORMAL) Thyroid Antibodies: Thyroid Peroxidase (TPO) and Thyroglobulin (TGAb) (THYROID ANTIBODIES) - Final result (01/17/2025 12:30 PM EST)
+Narrative
+LABCORP - 01/19/2025  1:35 PM EST
+This result has an attachment that is not available.
+Performed at:  01 - Labcorp Burlington
+1447 York Court, Burlington, NC  272153361
+Lab Director: Sanjai Nagendra MD, Phone:  8007624344
+Results - (ABNORMAL) Thyroid Antibodies: Thyroid Peroxidase (TPO) and Thyroglobulin (TGAb) (THYROID ANTIBODIES) - Final result (01/17/2025 12:30 PM EST)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - (ABNORMAL) Thyroid Antibodies: Thyroid Peroxidase (TPO) and Thyroglobulin (TGAb) (THYROID ANTIBODIES) - Final result (01/17/2025 12:30 PM EST)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+LABCORP
+1447 York Court
+Burlington, NC 27215, US
+(ABNORMAL) TSH - Final result (01/17/2025 12:30 PM EST)
+Results - (ABNORMAL) TSH - Final result (01/17/2025 12:30 PM EST)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+TSH
+6.423
+(H)
+0.450 - 5.330 uIU/mL
+01/18/2025  2:02 AM EST
+ATRIUM HEALTH LABORATORY
+TSH Pregnancy Comment
+01/18/2025  2:02 AM EST
+ATRIUM HEALTH LABORATORY
+Comment:
+TSH in Pregnancy:
+1st Trimester of Pregnancy 0.050 - 3.700 uIU/mL
+2nd Trimester of Pregnancy 0.310 - 4.350 uIU/mL
+3rd Trimester of Pregnancy 0.410 - 5.180 uIU/mL
+Results - (ABNORMAL) TSH - Final result (01/17/2025 12:30 PM EST)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+01/17/2025 12:30 PM EST
+01/17/2025 12:30 PM EST
+Results - (ABNORMAL) TSH - Final result (01/17/2025 12:30 PM EST)
+Narrative
+ATRIUM HEALTH LABORATORY - 01/18/2025  2:02 AM EST
+This result has an attachment that is not available.
+The testing method is an immunoassay manufactured by Beckman Coulter Inc performed on DxI/Access platform.  Values obtained with different assay methods may be different and cannot be used interchangeably.
+Results - (ABNORMAL) TSH - Final result (01/17/2025 12:30 PM EST)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - (ABNORMAL) TSH - Final result (01/17/2025 12:30 PM EST)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+ATRIUM HEALTH LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+T4, Free (T4, FREE) - Final result (01/17/2025 12:30 PM EST)
+Results - T4, Free (T4, FREE) - Final result (01/17/2025 12:30 PM EST)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+T4, Free
+0.79
+0.60 - 1.60 ng/dL
+01/18/2025  2:02 AM EST
+ATRIUM HEALTH LABORATORY
+Results - T4, Free (T4, FREE) - Final result (01/17/2025 12:30 PM EST)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+01/17/2025 12:30 PM EST
+01/17/2025 12:30 PM EST
+Results - T4, Free (T4, FREE) - Final result (01/17/2025 12:30 PM EST)
+Narrative
+ATRIUM HEALTH LABORATORY - 01/18/2025  2:02 AM EST
+This result has an attachment that is not available.
+The testing method is an immunoassay manufactured by Beckman Coulter Inc performed on DxI/Access platform.  Values obtained with different assay methods may be different and cannot be used interchangeably.
+Results - T4, Free (T4, FREE) - Final result (01/17/2025 12:30 PM EST)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - T4, Free (T4, FREE) - Final result (01/17/2025 12:30 PM EST)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+ATRIUM HEALTH LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+(ABNORMAL) Lipid Panel (LIPID PANEL) - Final result (01/17/2025 12:30 PM EST)
+Results - (ABNORMAL) Lipid Panel (LIPID PANEL) - Final result (01/17/2025 12:30 PM EST)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+Cholesterol, Total, Lipid Panel
+264
+(H)
+<200 mg/dL
+01/18/2025  1:58 AM EST
+ATRIUM HEALTH LABORATORY
+Comment:
+Acceptable:  < 200 mg/dL
+Borderline:  200 - 239 mg/dL
+High:  > 239 mg/dL
+Triglycerides, Lipid Panel
+47
+<150 mg/dL
+01/18/2025  1:58 AM EST
+ATRIUM HEALTH LABORATORY
+Comment:
+Acceptable:  < 150 mg/dL
+Borderline:  150 - 199 mg/dL
+High:  200 - 499 mg/dL
+Very High:  > 499 mg/dL
+HDL Cholesterol - Lipid Panel
+105
+>59 mg/dL
+01/18/2025  1:58 AM EST
+ATRIUM HEALTH LABORATORY
+Comment:
+High:  > 59 mg/dL
+Low:   < 40 mg/dL
+LDL Cholesterol, Calculated
+145
+(H)
+<100 mg/dL
+01/18/2025  1:58 AM EST
+ATRIUM HEALTH LABORATORY
+Comment:
+ATP Guidelines:
+Acceptable:   < 100 mg/dL
+Near Optimal:   100 - 129 mg/dL
+Borderline High:   130 - 159 mg/dL
+High:   160 - 189 mg/dL
+Very High:   >189 mg/dL
+Atherosclerotic Cardiovascular Disease Risk Categories and LDL-C Goals:
+Patient Risk        Goal
+Low Risk:     < 130 mg/dL
+Moderate Risk:     < 100 mg/dL
+High Risk:     < 100 mg/dL
+Very High Risk:     < 70 mg/dL
+Extreme Risk:     < 55 mg/dL
+American Association of Clinical Endocrinologists and American College of Endocrinology Guidelines for management of dyslipidemia and prevention of cardiovascular disease. Endocrine Practice Vol 23 (Sup 2) April 2017.
+LDL Cholesterol is calculated using the Martin/Hopkins equation. Source:  JAMA 2013; 310:  2061-68.
+Non-HDL Cholesterol
+159
+mg/dL
+01/18/2025  1:58 AM EST
+ATRIUM HEALTH LABORATORY
+Comment:
+Atherosclerotic Cardiovascular Disease Risk Categories and Non-HDL Cholesterol Goals:
+Patient Risk        Goal
+Low Risk:     < 160 mg/dL
+Moderate Risk:     < 130 mg/dL
+High Risk:     < 130 mg/dL
+Very High Risk:     < 100 mg/dL
+Extreme Risk:     < 80 mg/dL
+American Association of Clinical Endocrinologists and American College of Endocrinology Guidelines for management of dyslipidemia and prevention of cardiovascular disease. Endocrine Practice Vol 23 (Sup 2) April 2017.
+Results - (ABNORMAL) Lipid Panel (LIPID PANEL) - Final result (01/17/2025 12:30 PM EST)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+01/17/2025 12:30 PM EST
+01/17/2025 12:30 PM EST
+Results - (ABNORMAL) Lipid Panel (LIPID PANEL) - Final result (01/17/2025 12:30 PM EST)
+Narrative
+ATRIUM HEALTH LABORATORY - 01/18/2025  1:58 AM EST
+Source: High Blood Cholesterol ATP III Guidelines At-A-Glance Quick Desk Reference.  National Cholesterol Education Program NIH Publication No. 01-3305 May 2001.
+Results - (ABNORMAL) Lipid Panel (LIPID PANEL) - Final result (01/17/2025 12:30 PM EST)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - (ABNORMAL) Lipid Panel (LIPID PANEL) - Final result (01/17/2025 12:30 PM EST)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+ATRIUM HEALTH LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+(ABNORMAL) Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (01/17/2025 12:30 PM EST)
+Results - (ABNORMAL) Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (01/17/2025 12:30 PM EST)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+Sodium
+143
+134 - 143 mmol/L
+01/18/2025  1:58 AM EST
+ATRIUM HEALTH LABORATORY
+Potassium
+4.5
+3.5 - 5.1 mmol/L
+01/18/2025  1:58 AM EST
+ATRIUM HEALTH LABORATORY
+Chloride
+103
+98 - 107 mmol/L
+01/18/2025  1:58 AM EST
+ATRIUM HEALTH LABORATORY
+CO2
+29
+21 - 31 mmol/L
+01/18/2025  1:58 AM EST
+ATRIUM HEALTH LABORATORY
+Anion Gap
+11
+3 - 15 mmol/L
+01/18/2025  1:58 AM EST
+ATRIUM HEALTH LABORATORY
+Glucose, Random
+134
+(H)
+70 - 125 mg/dL
+01/18/2025  1:58 AM EST
+ATRIUM HEALTH LABORATORY
+Blood Urea Nitrogen (BUN)
+15
+8 - 30 mg/dL
+01/18/2025  1:58 AM EST
+ATRIUM HEALTH LABORATORY
+Creatinine
+0.82
+0.51 - 0.95 mg/dL
+01/18/2025  1:58 AM EST
+ATRIUM HEALTH LABORATORY
+eGFR
+>90
+>59 mL/min/1.73m2
+01/18/2025  1:58 AM EST
+ATRIUM HEALTH LABORATORY
+Comment:
+GFR estimated by CKD-EPI equations (NKF 2021). Recommend confirmation of eGFR using Cystatin C based eGFR in complex cases for clinical decision-making.
+Albumin
+4.9
+(H)
+3.7 - 4.8 g/dL
+01/18/2025  1:58 AM EST
+ATRIUM HEALTH LABORATORY
+Total Protein
+7.5
+6.3 - 8.3 g/dL
+01/18/2025  1:58 AM EST
+ATRIUM HEALTH LABORATORY
+Bilirubin, Total
+0.4
+0.3 - 1.0 mg/dL
+01/18/2025  1:58 AM EST
+ATRIUM HEALTH LABORATORY
+Alkaline Phosphatase (ALP)
+54
+38 - 120 U/L
+01/18/2025  1:58 AM EST
+ATRIUM HEALTH LABORATORY
+Aspartate Aminotransferase (AST)
+17
+13 - 39 U/L
+01/18/2025  1:58 AM EST
+ATRIUM HEALTH LABORATORY
+Alanine Aminotransferase (ALT)
+23
+7 - 52 U/L
+01/18/2025  1:58 AM EST
+ATRIUM HEALTH LABORATORY
+Calcium
+9.7
+8.6 - 10.3 mg/dL
+01/18/2025  1:58 AM EST
+ATRIUM HEALTH LABORATORY
+BUN/Creatinine Ratio
+01/18/2025  1:58 AM EST
+ATRIUM HEALTH LABORATORY
+Comment:
+Creatinine is normal, ratio is not clinically indicated.
+Results - (ABNORMAL) Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (01/17/2025 12:30 PM EST)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+01/17/2025 12:30 PM EST
+01/17/2025 12:30 PM EST
+Results - (ABNORMAL) Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (01/17/2025 12:30 PM EST)
+Narrative
+This result has an attachment that is not available.
+Results - (ABNORMAL) Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (01/17/2025 12:30 PM EST)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - (ABNORMAL) Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (01/17/2025 12:30 PM EST)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+ATRIUM HEALTH LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+CT ANGIO NECK - Final result (12/31/2024 11:41 AM EST)
+Results - CT ANGIO NECK - Final result (12/31/2024 11:41 AM EST)
+Anatomical Region
+Laterality
+Modality
+Neck
+Computed Tomography
+Results - CT ANGIO NECK - Final result (12/31/2024 11:41 AM EST)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+01/01/2025  2:57 PM EST
+Results - CT ANGIO NECK - Final result (12/31/2024 11:41 AM EST)
+Impressions
+01/01/2025  3:02 PM EST
+Unremarkable CTA of the neck. Patent neck arterial vasculature with no flow-limiting stenosis, pseudoaneurysm, or dissection. No abnormal vasculature in the region of the temporal bones.
+THIS IS AN ELECTRONICALLY VERIFIED FINAL REPORT
+1/01/2025 3:02 PM - Electronically signed by Jessica Wen
+Workstation: CRG-IRAD-45
+Atrium Health
+Results - CT ANGIO NECK - Final result (12/31/2024 11:41 AM EST)
+Narrative
+01/01/2025  3:02 PM EST
+DATE OF SERVICE:
+12/31/2024 11:41 am
+EXAM:
+CT ANGIOGRAPHY OF THE NECK WITH CONTRAST
+CLINICAL HISTORY:
+pulsitile tinnitus, Pulsatile tinnitus, right ear
+COMPARISON:
+No Comparison.
+TECHNIQUE:
+CT angiogram of the neck was performed  following intravenous administration of contrast. Helical axial images were obtained from the aortic arch to the skull base. 2D MIP and 3D reformatted images were generated.
+Degree of carotid stenosis is calculated by comparing the diameter of the maximum stenosis to the diameter of the distal normal carotid artery using NASCET criteria.
+CONTRAST:
+65 cc of Omnipaque 350
+FINDINGS:
+Three-vessel branching pattern of the aortic arch. Origins of the common carotid arteries and vertebral arteries are patent.
+Common carotid arteries and carotid bulbs are patent. Cervical segments of the internal carotid arteries are patent. No stenosis by NASCET criteria.
+Cervical segments of the vertebral arteries are patent.
+No abnormal vasculature in the region of the temporal bones.
+Included lung apices are clear. C4-C6 ACDF.
+Results - CT ANGIO NECK - Final result (12/31/2024 11:41 AM EST)
+Procedure Note
+Jessica Wen, MD - 01/01/2025
+Formatting of this note might be different from the original.
+DATE OF SERVICE:
+12/31/2024 11:41 am
+EXAM:
+CT ANGIOGRAPHY OF THE NECK WITH CONTRAST
+CLINICAL HISTORY:
+pulsitile tinnitus, Pulsatile tinnitus, right ear
+COMPARISON:
+No Comparison.
+TECHNIQUE:
+CT angiogram of the neck was performed  following intravenous
+administration of contrast. Helical axial images were obtained from the
+aortic arch to the skull base. 2D MIP and 3D reformatted images were
+generated.
+Degree of carotid stenosis is calculated by comparing the diameter of the
+maximum stenosis to the diameter of the distal normal carotid artery using
+NASCET criteria.
+CONTRAST:
+65 cc of Omnipaque 350
+FINDINGS:
+Three-vessel branching pattern of the aortic arch. Origins of the common
+carotid arteries and vertebral arteries are patent.
+Common carotid arteries and carotid bulbs are patent. Cervical segments of
+the internal carotid arteries are patent. No stenosis by NASCET
+criteria.
+Cervical segments of the vertebral arteries are patent.
+No abnormal vasculature in the region of the temporal bones.
+Included lung apices are clear. C4-C6 ACDF.
+IMPRESSION:
+Unremarkable CTA of the neck. Patent neck arterial vasculature with no
+flow-limiting stenosis, pseudoaneurysm, or dissection. No abnormal
+vasculature in the region of the temporal bones.
+THIS IS AN ELECTRONICALLY VERIFIED FINAL REPORT
+1/01/2025 3:02 PM - Electronically signed by Jessica Wen
+Workstation: CRG-IRAD-45
+Atrium Health
+Results - CT ANGIO NECK - Final result (12/31/2024 11:41 AM EST)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH IMG CT PROCEDURES
+Final Result
+US Ext Joint Non Vasc Comp Bilat (US EXT JOINT NON VASC COMP BILAT) - Final result (06/04/2024  2:50 PM EDT)
+Results - US Ext Joint Non Vasc Comp Bilat (US EXT JOINT NON VASC COMP BILAT) - Final result (06/04/2024  2:50 PM EDT)
+Anatomical Region
+Laterality
+Modality
+Shoulder, Elbow, Wrist Joint, Knee, Ankle Joint
+Ultrasound
+Results - US Ext Joint Non Vasc Comp Bilat (US EXT JOINT NON VASC COMP BILAT) - Final result (06/04/2024  2:50 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+06/07/2024  1:01 PM EDT
+Results - US Ext Joint Non Vasc Comp Bilat (US EXT JOINT NON VASC COMP BILAT) - Final result (06/04/2024  2:50 PM EDT)
+Impressions
+06/07/2024  1:03 PM EDT
+No ultrasound evidence of inflammatory arthropathy.
+THIS IS AN ELECTRONICALLY VERIFIED FINAL REPORT
+6/07/2024 1:03 PM - Electronically signed by Scott Mahanty
+Workstation: CRG-IRAD-HOME23
+Atrium Health
+Results - US Ext Joint Non Vasc Comp Bilat (US EXT JOINT NON VASC COMP BILAT) - Final result (06/04/2024  2:50 PM EDT)
+Narrative
+06/07/2024  1:03 PM EDT
+DATE OF SERVICE:
+6/4/2024 2:50 pm
+EXAM:
+Ultrasound extremity nonvascular (bilateral hands)
+CLINICAL HISTORY:
+b/l hand pain; eval for inflammatory arthritis, Inflammatory polyarthropathy (CMS/HCC)
+COMPARISON:
+XR HAND 3+ VIEWS RIGHT, ACC: 225XR238249387, dated 2023-07-27 14:57:20
+TECHNIQUE:
+High-resolution sonographic examination of both hands was performed using grayscale and power Doppler technique.
+FINDINGS:
+Right hand: No joint effusion or synovitis. No erosions are seen. No tenosynovitis. Multiple tiny osteophytes compatible with osteoarthrosis.
+Left hand: No joint effusion or synovitis. No erosions are seen. No tenosynovitis. Multiple tiny osteophytes compatible with osteoarthrosis.
+Results - US Ext Joint Non Vasc Comp Bilat (US EXT JOINT NON VASC COMP BILAT) - Final result (06/04/2024  2:50 PM EDT)
+Procedure Note
+Scott Mahanty, MD - 06/07/2024
+Formatting of this note might be different from the original.
+DATE OF SERVICE:
+6/4/2024 2:50 pm
+EXAM:
+Ultrasound extremity nonvascular (bilateral hands)
+CLINICAL HISTORY:
+b/l hand pain; eval for inflammatory arthritis, Inflammatory
+polyarthropathy (CMS/HCC)
+COMPARISON:
+XR HAND 3+ VIEWS RIGHT, ACC: 225XR238249387, dated 2023-07-27 14:57:20
+TECHNIQUE:
+High-resolution sonographic examination of both hands was performed using
+grayscale and power Doppler technique.
+FINDINGS:
+Right hand: No joint effusion or synovitis. No erosions are seen. No
+tenosynovitis. Multiple tiny osteophytes compatible with osteoarthrosis.
+Left hand: No joint effusion or synovitis. No erosions are seen. No
+tenosynovitis. Multiple tiny osteophytes compatible with osteoarthrosis.
+IMPRESSION:
+No ultrasound evidence of inflammatory arthropathy.
+THIS IS AN ELECTRONICALLY VERIFIED FINAL REPORT
+6/07/2024 1:03 PM - Electronically signed by Scott Mahanty
+Workstation: CRG-IRAD-HOME23
+Atrium Health
+Results - US Ext Joint Non Vasc Comp Bilat (US EXT JOINT NON VASC COMP BILAT) - Final result (06/04/2024  2:50 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+William Baker MD
+AH IMG US PROCEDURES
+Final Result
+ToxAssure Flex 23, Urine (TOXASSURE FLEX 23, URINE) - Final result (04/16/2024 12:27 PM EDT)
+Results - ToxAssure Flex 23, Urine (TOXASSURE FLEX 23, URINE) - Final result (04/16/2024 12:27 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+Summary Report
+FINAL
+04/22/2024  9:35 AM EDT
+LABCORP
+Comment:
+====================================================================
+ToxAssure Flex 23, Ur
+====================================================================
+Specimen Alert
+Note:  Sample is inconsistent with human urine.
+====================================================================
+Test                             Result       Flag       Units
+NO DRUGS DETECTED.
+====================================================================
+Test                      Result    Flag   Units      Ref Range
+Creatinine              82               mg/dL      >=20
+====================================================================
+Declared Medications:
+Medication list was not provided.
+====================================================================
+For clinical consultation, please call (866) 593-0157.
+====================================================================
+Creatinine, Urine
+82
+mg/dL
+04/22/2024  9:35 AM EDT
+LABCORP
+Comment:
+Note:  Sample is inconsistent with human urine.
+REFERENCE RANGE: Ref Range>=20
+Amphetamines, IA
+Negative
+CUTOFF:300 ng/mL
+04/22/2024  9:35 AM EDT
+LABCORP
+Benzodiazepines
+Negative
+04/22/2024  9:35 AM EDT
+LABCORP
+Diazepam
+Not Detected
+ng/mg creat
+04/22/2024  9:35 AM EDT
+LABCORP
+Desmethyldiazepam
+Not Detected
+ng/mg creat
+04/22/2024  9:35 AM EDT
+LABCORP
+Oxazepam
+Not Detected
+ng/mg creat
+04/22/2024  9:35 AM EDT
+LABCORP
+Temazepam
+Not Detected
+ng/mg creat
+04/22/2024  9:35 AM EDT
+LABCORP
+Comment:
+Expected metabolism of benzodiazepine class drugs:
+Parent Drug       Detected Metabolites
+-----------       --------------------
+Diazepam:         Desmethyldiazepam, Temazepam, Oxazepam
+Chlordiazepoxide: Desmethyldiazepam, Oxazepam
+Clorazepate:      Desmethyldiazepam, Oxazepam
+Halazepam:        Desmethyldiazepam, Oxazepam
+Temazepam:        Oxazepam
+Oxazepam:         None
+Alprazolam
+Not Detected
+ng/mg creat
+04/22/2024  9:35 AM EDT
+LABCORP
+Alpha-hydroxyalprazolam
+Not Detected
+ng/mg creat
+04/22/2024  9:35 AM EDT
+LABCORP
+Desalkylflurazepam
+Not Detected
+ng/mg creat
+04/22/2024  9:35 AM EDT
+LABCORP
+Lorazepam
+Not Detected
+ng/mg creat
+04/22/2024  9:35 AM EDT
+LABCORP
+Alpha-Hydroxytriazolam
+Not Detected
+ng/mg creat
+04/22/2024  9:35 AM EDT
+LABCORP
+Clonazepam
+Not Detected
+ng/mg creat
+04/22/2024  9:35 AM EDT
+LABCORP
+7-Aminoclonazepam
+Not Detected
+ng/mg creat
+04/22/2024  9:35 AM EDT
+LABCORP
+Midazolam
+Not Detected
+ng/mg creat
+04/22/2024  9:35 AM EDT
+LABCORP
+Alpha-hydroxymidazolam
+Not Detected
+ng/mg creat
+04/22/2024  9:35 AM EDT
+LABCORP
+Flunitrazepam
+Not Detected
+ng/mg creat
+04/22/2024  9:35 AM EDT
+LABCORP
+Desmethylflunitrazepam
+Not Detected
+ng/mg creat
+04/22/2024  9:35 AM EDT
+LABCORP
+COCAINE METABOLITE IA
+Negative
+CUTOFF:150 ng/mL
+04/22/2024  9:35 AM EDT
+LABCORP
+Ethyl Alcohol, Enzymatic
+Negative
+CUTOFF:0.020 g/dL
+04/22/2024  9:35 AM EDT
+LABCORP
+ETHANOL BIOMARKERS IA
+Negative
+CUTOFF:500 ng/mL
+04/22/2024  9:35 AM EDT
+LABCORP
+Cannabinoids, IA
+Negative
+CUTOFF:20 ng/mL
+04/22/2024  9:35 AM EDT
+LABCORP
+6-Acetylmorphine IA
+Negative
+CUTOFF:10 ng/mL
+04/22/2024  9:35 AM EDT
+LABCORP
+Opiate Class IA
+Negative
+CUTOFF:100 ng/mL
+04/22/2024  9:35 AM EDT
+LABCORP
+Oxycodone Class IA
+Negative
+CUTOFF:100 ng/mL
+04/22/2024  9:35 AM EDT
+LABCORP
+Methadone IA
+Negative
+CUTOFF:100 ng/mL
+04/22/2024  9:35 AM EDT
+LABCORP
+Methadone, IA
+Negative
+CUTOFF:100 ng/mL
+04/22/2024  9:35 AM EDT
+LABCORP
+Buprenorphine
+Negative
+04/22/2024  9:35 AM EDT
+LABCORP
+Buprenorphine
+Not Detected
+ng/mg creat
+04/22/2024  9:35 AM EDT
+LABCORP
+Norbuprenorphine
+Not Detected
+ng/mg creat
+04/22/2024  9:35 AM EDT
+LABCORP
+Fentanyl
+Negative
+04/22/2024  9:35 AM EDT
+LABCORP
+Fentanyl
+Not Detected
+ng/mg creat
+04/22/2024  9:35 AM EDT
+LABCORP
+Norfentanyl
+Not Detected
+ng/mg creat
+04/22/2024  9:35 AM EDT
+LABCORP
+TAPENTADOL, IA
+Negative
+CUTOFF:200 ng/mL
+04/22/2024  9:35 AM EDT
+LABCORP
+Meperidine, IA
+Negative
+CUTOFF:200 ng/mL
+04/22/2024  9:35 AM EDT
+LABCORP
+Propoxyphene, IA
+Negative
+CUTOFF:300 ng/mL
+04/22/2024  9:35 AM EDT
+LABCORP
+Tramadol, IA
+Negative
+CUTOFF:200 ng/mL
+04/22/2024  9:35 AM EDT
+LABCORP
+Barbiturates, IA
+Negative
+CUTOFF:200 ng/mL
+04/22/2024  9:35 AM EDT
+LABCORP
+Phenycyclidine, IA
+Negative
+CUTOFF:25 ng/mL
+04/22/2024  9:35 AM EDT
+LABCORP
+OTHER HALLUCINOGENS
+Negative
+04/22/2024  9:35 AM EDT
+LABCORP
+Ketamine
+Not Detected
+04/22/2024  9:35 AM EDT
+LABCORP
+Norketamine
+Not Detected
+04/22/2024  9:35 AM EDT
+LABCORP
+Gabapentin, IA
+Negative
+CUTOFF:1.0 ug/mL
+04/22/2024  9:35 AM EDT
+LABCORP
+CARISOPRODOL IA
+Negative
+CUTOFF:100 ng/mL
+04/22/2024  9:35 AM EDT
+LABCORP
+SEDATIVE/HYPNOTICS
+Negative
+04/22/2024  9:35 AM EDT
+LABCORP
+Zolpidem
+Not Detected
+04/22/2024  9:35 AM EDT
+LABCORP
+Zolpidem Acid
+Not Detected
+04/22/2024  9:35 AM EDT
+LABCORP
+Zopiclone/Eszopiclone
+Not Detected
+04/22/2024  9:35 AM EDT
+LABCORP
+Amino Chloropyridine
+Not Detected
+04/22/2024  9:35 AM EDT
+LABCORP
+Zaleplon
+Not Detected
+04/22/2024  9:35 AM EDT
+LABCORP
+Comment:
+Expected metabolism of Sedatives/Hypnotics:
+Parent Drug                 Detected Metabolites
+-----------                 --------------------
+Zolpidem:                   Zolpidem Acid
+Zopiclone/Eszopiclone:      Amino Chloropyridine
+Zaleplon:                   None
+ACETAMINOPHEN IA
+Negative
+CUTOFF:5.0 ug/mL
+04/22/2024  9:35 AM EDT
+LABCORP
+MISCELLANEOUS
+Negative
+04/22/2024  9:35 AM EDT
+LABCORP
+Dextromethorphan
+Not Detected
+04/22/2024  9:35 AM EDT
+LABCORP
+Dextrorphan/Levorphanol
+Not Detected
+04/22/2024  9:35 AM EDT
+LABCORP
+Comment:
+Expected metabolism of Dextromethorphan and
+Dextrorphan/Levorphanol:
+Parent Drug                 Detected Metabolites
+-----------                 --------------------
+Dextromethorphan:           Dextrorphan
+Dextrorphan/Levorphanol:    None
+Dextrophan cannot be distinguished from Levorphanol
+by the method used for analysis.
+Results - ToxAssure Flex 23, Urine (TOXASSURE FLEX 23, URINE) - Final result (04/16/2024 12:27 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Urine
+Urine specimen obtained by clean catch procedure / Unknown
+Non-Blood Collection / Unknown
+04/16/2024 12:27 PM EDT
+04/16/2024 12:27 PM EDT
+Results - ToxAssure Flex 23, Urine (TOXASSURE FLEX 23, URINE) - Final result (04/16/2024 12:27 PM EDT)
+Narrative
+LABCORP - 04/22/2024  9:35 AM EDT
+This result has an attachment that is not available.
+Performed at:  01 - MedTox Laboratories Inc
+402 W County Road D, St Paul, MN  551123522
+Lab Director: Karla Walker PhrmD, Phone:  8774745767
+Specimen Comment: ToxAssure, ToxAssure FLEX or MAT drug testing:
+Specimen Comment: -Technical component - Data analysis performed at
+Specimen Comment: 4030 Tignall Rd, Washington, GA 30673.
+Results - ToxAssure Flex 23, Urine (TOXASSURE FLEX 23, URINE) - Final result (04/16/2024 12:27 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB URINE ORDERABLES
+Final Result
+Results - ToxAssure Flex 23, Urine (TOXASSURE FLEX 23, URINE) - Final result (04/16/2024 12:27 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+LABCORP
+1447 York Court
+Burlington, NC 27215, US
+Rheumatoid Factor (RHEUMATOID FACTOR) - Final result (04/16/2024 12:27 PM EDT)
+Results - Rheumatoid Factor (RHEUMATOID FACTOR) - Final result (04/16/2024 12:27 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+Rheumatoid Factor
+11
+<15 IU/mL
+04/17/2024  3:19 AM EDT
+ATRIUM HEALTH LABORATORY
+Results - Rheumatoid Factor (RHEUMATOID FACTOR) - Final result (04/16/2024 12:27 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+04/16/2024 12:27 PM EDT
+04/16/2024 12:27 PM EDT
+Results - Rheumatoid Factor (RHEUMATOID FACTOR) - Final result (04/16/2024 12:27 PM EDT)
+Narrative
+This result has an attachment that is not available.
+Results - Rheumatoid Factor (RHEUMATOID FACTOR) - Final result (04/16/2024 12:27 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - Rheumatoid Factor (RHEUMATOID FACTOR) - Final result (04/16/2024 12:27 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+ATRIUM HEALTH LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+CBC with Differential (CBC WITH DIFFERENTIAL) - Final result (04/16/2024 12:27 PM EDT)
+Results - CBC with Differential (CBC WITH DIFFERENTIAL) - Final result (04/16/2024 12:27 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+WBC
+7.74
+3.60 - 11.70 10*3/uL
+04/17/2024  3:24 AM EDT
+ATRIUM HEALTH LABORATORY
+RBC
+4.25
+3.72 - 5.24 10*6/uL
+04/17/2024  3:24 AM EDT
+ATRIUM HEALTH LABORATORY
+Hemoglobin
+14.1
+10.8 - 15.5 g/dL
+04/17/2024  3:24 AM EDT
+ATRIUM HEALTH LABORATORY
+Hematocrit
+41
+34 - 46 %
+04/17/2024  3:24 AM EDT
+ATRIUM HEALTH LABORATORY
+Mean Corpuscular Volume (MCV)
+96
+80 - 100 fL
+04/17/2024  3:24 AM EDT
+ATRIUM HEALTH LABORATORY
+Mean Corpuscular Hemoglobin (MCH)
+33
+26 - 34 pg
+04/17/2024  3:24 AM EDT
+ATRIUM HEALTH LABORATORY
+Mean Corpuscular Hemoglobin Conc (MCHC)
+35
+32 - 35 g/dL
+04/17/2024  3:24 AM EDT
+ATRIUM HEALTH LABORATORY
+Red Cell Distribution Width (RDW)
+13.5
+12.2 - 16.6 %
+04/17/2024  3:24 AM EDT
+ATRIUM HEALTH LABORATORY
+Platelet Count (PLT)
+210
+153 - 400 10*3/uL
+04/17/2024  3:24 AM EDT
+ATRIUM HEALTH LABORATORY
+Mean Platelet Volume (MPV)
+10.8
+7.3 - 11.2 fL
+04/17/2024  3:24 AM EDT
+ATRIUM HEALTH LABORATORY
+Neutrophils %
+70
+%
+04/17/2024  3:24 AM EDT
+ATRIUM HEALTH LABORATORY
+Lymphocytes %
+22
+%
+04/17/2024  3:24 AM EDT
+ATRIUM HEALTH LABORATORY
+Monocytes %
+6
+%
+04/17/2024  3:24 AM EDT
+ATRIUM HEALTH LABORATORY
+Eosinophils %
+2
+%
+04/17/2024  3:24 AM EDT
+ATRIUM HEALTH LABORATORY
+Basophils %
+0
+%
+04/17/2024  3:24 AM EDT
+ATRIUM HEALTH LABORATORY
+nRBC %
+0
+0 - 0 %
+04/17/2024  3:24 AM EDT
+ATRIUM HEALTH LABORATORY
+Neutrophils Absolute
+5.40
+1.60 - 8.20 10*3/uL
+04/17/2024  3:24 AM EDT
+ATRIUM HEALTH LABORATORY
+Lymphocytes #
+1.70
+1.07 - 3.45 10*3/uL
+04/17/2024  3:24 AM EDT
+ATRIUM HEALTH LABORATORY
+Monocytes #
+0.40
+0.20 - 0.85 10*3/uL
+04/17/2024  3:24 AM EDT
+ATRIUM HEALTH LABORATORY
+Eosinophils #
+0.20
+0.00 - 0.30 10*3/uL
+04/17/2024  3:24 AM EDT
+ATRIUM HEALTH LABORATORY
+Basophils #
+0.00
+0.00 - 0.10 10*3/uL
+04/17/2024  3:24 AM EDT
+ATRIUM HEALTH LABORATORY
+nRBC Absolute
+0.00
+<=1.00 10*3/uL
+04/17/2024  3:24 AM EDT
+ATRIUM HEALTH LABORATORY
+Results - CBC with Differential (CBC WITH DIFFERENTIAL) - Final result (04/16/2024 12:27 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+04/16/2024 12:27 PM EDT
+04/16/2024 12:27 PM EDT
+Results - CBC with Differential (CBC WITH DIFFERENTIAL) - Final result (04/16/2024 12:27 PM EDT)
+Narrative
+Results - CBC with Differential (CBC WITH DIFFERENTIAL) - Final result (04/16/2024 12:27 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - CBC with Differential (CBC WITH DIFFERENTIAL) - Final result (04/16/2024 12:27 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+ATRIUM HEALTH LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+(ABNORMAL) Thyroid Antibodies: Thyroid Peroxidase (TPO) and Thyroglobulin (TGAb) (THYROID ANTIBODIES) - Final result (04/16/2024 12:27 PM EDT)
+Results - (ABNORMAL) Thyroid Antibodies: Thyroid Peroxidase (TPO) and Thyroglobulin (TGAb) (THYROID ANTIBODIES) - Final result (04/16/2024 12:27 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+Thyroid Peroxidase (TPO) Antibodies
+90
+(H)
+0 - 34 IU/mL
+04/18/2024 11:35 PM EDT
+LABCORP
+Thyroglobulin Antibody
+<1.0
+0.0 - 0.9 IU/mL
+04/18/2024 11:35 PM EDT
+LABCORP
+Comment:
+Thyroglobulin Antibody measured by Beckman Coulter Methodology
+It should be noted that the presence of thyroglobulin antibodies
+may not be pathogenic nor diagnostic, especially at very low
+levels. The assay manufacturer has found that four percent of
+individuals without evidence of thyroid disease or autoimmunity
+will have positive TgAb levels up to 4 IU/mL.
+Results - (ABNORMAL) Thyroid Antibodies: Thyroid Peroxidase (TPO) and Thyroglobulin (TGAb) (THYROID ANTIBODIES) - Final result (04/16/2024 12:27 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+04/16/2024 12:27 PM EDT
+04/16/2024 12:27 PM EDT
+Results - (ABNORMAL) Thyroid Antibodies: Thyroid Peroxidase (TPO) and Thyroglobulin (TGAb) (THYROID ANTIBODIES) - Final result (04/16/2024 12:27 PM EDT)
+Narrative
+LABCORP - 04/18/2024 11:35 PM EDT
+This result has an attachment that is not available.
+Performed at:  01 - Labcorp Burlington
+1447 York Court, Burlington, NC  272153361
+Lab Director: Sanjai Nagendra MD, Phone:  8007624344
+Results - (ABNORMAL) Thyroid Antibodies: Thyroid Peroxidase (TPO) and Thyroglobulin (TGAb) (THYROID ANTIBODIES) - Final result (04/16/2024 12:27 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - (ABNORMAL) Thyroid Antibodies: Thyroid Peroxidase (TPO) and Thyroglobulin (TGAb) (THYROID ANTIBODIES) - Final result (04/16/2024 12:27 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+LABCORP
+1447 York Court
+Burlington, NC 27215, US
+(ABNORMAL) C-Reactive Protein (CRP) (C-REACTIVE PROTEIN) - Final result (04/16/2024 12:27 PM EDT)
+Results - (ABNORMAL) C-Reactive Protein (CRP) (C-REACTIVE PROTEIN) - Final result (04/16/2024 12:27 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+C-Reactive Protein (CRP)
+0.6
+(H)
+<0.5 mg/dL
+04/17/2024  3:19 AM EDT
+ATRIUM HEALTH LABORATORY
+Results - (ABNORMAL) C-Reactive Protein (CRP) (C-REACTIVE PROTEIN) - Final result (04/16/2024 12:27 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+04/16/2024 12:27 PM EDT
+04/16/2024 12:27 PM EDT
+Results - (ABNORMAL) C-Reactive Protein (CRP) (C-REACTIVE PROTEIN) - Final result (04/16/2024 12:27 PM EDT)
+Narrative
+Results - (ABNORMAL) C-Reactive Protein (CRP) (C-REACTIVE PROTEIN) - Final result (04/16/2024 12:27 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - (ABNORMAL) C-Reactive Protein (CRP) (C-REACTIVE PROTEIN) - Final result (04/16/2024 12:27 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+ATRIUM HEALTH LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+TSH - Final result (04/16/2024 12:27 PM EDT)
+Results - TSH - Final result (04/16/2024 12:27 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+TSH
+2.804
+0.450 - 5.330 uIU/mL
+04/17/2024  3:38 AM EDT
+ATRIUM HEALTH LABORATORY
+TSH Pregnancy Comment
+04/17/2024  3:38 AM EDT
+ATRIUM HEALTH LABORATORY
+Comment:
+TSH in Pregnancy:
+1st Trimester of Pregnancy 0.050 - 3.700 uIU/mL
+2nd Trimester of Pregnancy 0.310 - 4.350 uIU/mL
+3rd Trimester of Pregnancy 0.410 - 5.180 uIU/mL
+Results - TSH - Final result (04/16/2024 12:27 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+04/16/2024 12:27 PM EDT
+04/16/2024 12:27 PM EDT
+Results - TSH - Final result (04/16/2024 12:27 PM EDT)
+Narrative
+ATRIUM HEALTH LABORATORY - 04/17/2024  3:38 AM EDT
+The testing method is an immunoassay manufactured by Beckman Coulter Inc performed on DxI/Access platform.  Values obtained with different assay methods may be different and cannot be used interchangeably.
+Results - TSH - Final result (04/16/2024 12:27 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - TSH - Final result (04/16/2024 12:27 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+ATRIUM HEALTH LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+T4, Free (T4, FREE) - Final result (04/16/2024 12:27 PM EDT)
+Results - T4, Free (T4, FREE) - Final result (04/16/2024 12:27 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+T4, Free
+0.81
+0.60 - 1.60 ng/dL
+04/17/2024  3:38 AM EDT
+ATRIUM HEALTH LABORATORY
+Results - T4, Free (T4, FREE) - Final result (04/16/2024 12:27 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+04/16/2024 12:27 PM EDT
+04/16/2024 12:27 PM EDT
+Results - T4, Free (T4, FREE) - Final result (04/16/2024 12:27 PM EDT)
+Narrative
+ATRIUM HEALTH LABORATORY - 04/17/2024  3:38 AM EDT
+The testing method is an immunoassay manufactured by Beckman Coulter Inc performed on DxI/Access platform.  Values obtained with different assay methods may be different and cannot be used interchangeably.
+Results - T4, Free (T4, FREE) - Final result (04/16/2024 12:27 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - T4, Free (T4, FREE) - Final result (04/16/2024 12:27 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+ATRIUM HEALTH LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+T3, Total (T3, TOTAL) - Final result (04/16/2024 12:27 PM EDT)
+Results - T3, Total (T3, TOTAL) - Final result (04/16/2024 12:27 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+T3, Total
+101
+90 - 178 ng/dL
+04/17/2024  3:38 AM EDT
+ATRIUM HEALTH LABORATORY
+Results - T3, Total (T3, TOTAL) - Final result (04/16/2024 12:27 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+04/16/2024 12:27 PM EDT
+04/16/2024 12:27 PM EDT
+Results - T3, Total (T3, TOTAL) - Final result (04/16/2024 12:27 PM EDT)
+Narrative
+ATRIUM HEALTH LABORATORY - 04/17/2024  3:38 AM EDT
+The testing method is an immunoassay manufactured by Beckman Coulter Inc performed on DxI/Access platform.  Values obtained with different assay methods may be different and cannot be used interchangeably.
+Results - T3, Total (T3, TOTAL) - Final result (04/16/2024 12:27 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - T3, Total (T3, TOTAL) - Final result (04/16/2024 12:27 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+ATRIUM HEALTH LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+SEDIMENTATION RATE (ESR) - Final result (04/16/2024 12:27 PM EDT)
+Results - SEDIMENTATION RATE (ESR) - Final result (04/16/2024 12:27 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+Sedimentation Rate
+11
+<=20 mm/hr
+04/17/2024  5:26 AM EDT
+ATRIUM HEALTH LABORATORY
+Results - SEDIMENTATION RATE (ESR) - Final result (04/16/2024 12:27 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+04/16/2024 12:27 PM EDT
+04/16/2024 12:27 PM EDT
+Results - SEDIMENTATION RATE (ESR) - Final result (04/16/2024 12:27 PM EDT)
+Narrative
+Results - SEDIMENTATION RATE (ESR) - Final result (04/16/2024 12:27 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - SEDIMENTATION RATE (ESR) - Final result (04/16/2024 12:27 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+ATRIUM HEALTH LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+Folate (FOLATE) - Final result (04/16/2024 12:27 PM EDT)
+Results - Folate (FOLATE) - Final result (04/16/2024 12:27 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+Folate
+11.6
+>5.8 ng/mL
+04/17/2024  3:38 AM EDT
+ATRIUM HEALTH LABORATORY
+Results - Folate (FOLATE) - Final result (04/16/2024 12:27 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+04/16/2024 12:27 PM EDT
+04/16/2024 12:27 PM EDT
+Results - Folate (FOLATE) - Final result (04/16/2024 12:27 PM EDT)
+Narrative
+ATRIUM HEALTH LABORATORY - 04/17/2024  3:38 AM EDT
+The testing method is an immunoassay manufactured by Beckman Coulter Inc performed on DxI/Access platform.  Values obtained with different assay methods may be different and cannot be used interchangeably.
+Results - Folate (FOLATE) - Final result (04/16/2024 12:27 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - Folate (FOLATE) - Final result (04/16/2024 12:27 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+ATRIUM HEALTH LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (04/16/2024 12:27 PM EDT)
+Results - Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (04/16/2024 12:27 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+Sodium
+138
+134 - 143 mmol/L
+04/17/2024  3:19 AM EDT
+ATRIUM HEALTH LABORATORY
+Potassium
+4.8
+3.5 - 5.1 mmol/L
+04/17/2024  3:19 AM EDT
+ATRIUM HEALTH LABORATORY
+Chloride
+102
+98 - 107 mmol/L
+04/17/2024  3:19 AM EDT
+ATRIUM HEALTH LABORATORY
+CO2
+30
+21 - 31 mmol/L
+04/17/2024  3:19 AM EDT
+ATRIUM HEALTH LABORATORY
+Anion Gap
+6
+3 - 15 mmol/L
+04/17/2024  3:19 AM EDT
+ATRIUM HEALTH LABORATORY
+Glucose, Random
+86
+70 - 125 mg/dL
+04/17/2024  3:19 AM EDT
+ATRIUM HEALTH LABORATORY
+Blood Urea Nitrogen (BUN)
+14
+8 - 30 mg/dL
+04/17/2024  3:19 AM EDT
+ATRIUM HEALTH LABORATORY
+Creatinine
+0.93
+0.51 - 0.95 mg/dL
+04/17/2024  3:19 AM EDT
+ATRIUM HEALTH LABORATORY
+eGFR
+79
+>59 mL/min/1.73m2
+04/17/2024  3:19 AM EDT
+ATRIUM HEALTH LABORATORY
+Comment:
+GFR estimated by CKD-EPI equations (NKF 2021). Recommend confirmation of eGFR using Cystatin C based eGFR in complex cases for clinical decision-making.
+Albumin
+4.5
+3.7 - 4.8 g/dL
+04/17/2024  3:19 AM EDT
+ATRIUM HEALTH LABORATORY
+Total Protein
+7.4
+6.3 - 8.3 g/dL
+04/17/2024  3:19 AM EDT
+ATRIUM HEALTH LABORATORY
+Bilirubin, Total
+0.4
+0.3 - 1.0 mg/dL
+04/17/2024  3:19 AM EDT
+ATRIUM HEALTH LABORATORY
+Alkaline Phosphatase (ALP)
+44
+38 - 120 U/L
+04/17/2024  3:19 AM EDT
+ATRIUM HEALTH LABORATORY
+Aspartate Aminotransferase (AST)
+13
+13 - 39 U/L
+04/17/2024  3:19 AM EDT
+ATRIUM HEALTH LABORATORY
+Alanine Aminotransferase (ALT)
+10
+7 - 52 U/L
+04/17/2024  3:19 AM EDT
+ATRIUM HEALTH LABORATORY
+Calcium
+9.4
+8.6 - 10.3 mg/dL
+04/17/2024  3:19 AM EDT
+ATRIUM HEALTH LABORATORY
+BUN/Creatinine Ratio
+04/17/2024  3:19 AM EDT
+ATRIUM HEALTH LABORATORY
+Comment:
+Creatinine is normal, ratio is not clinically indicated.
+Results - Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (04/16/2024 12:27 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+04/16/2024 12:27 PM EDT
+04/16/2024 12:27 PM EDT
+Results - Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (04/16/2024 12:27 PM EDT)
+Narrative
+Results - Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (04/16/2024 12:27 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (04/16/2024 12:27 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+ATRIUM HEALTH LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+(ABNORMAL) Lipid Panel (LIPID PANEL) - Final result (01/15/2024  3:27 PM EST)
+Results - (ABNORMAL) Lipid Panel (LIPID PANEL) - Final result (01/15/2024  3:27 PM EST)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+Cholesterol, Total, Lipid Panel
+194
+<200 mg/dL
+01/16/2024  1:37 AM EST
+ATRIUM HEALTH LABORATORY
+Comment:
+Acceptable:  < 200 mg/dL
+Borderline:  200 - 239 mg/dL
+High:  > 239 mg/dL
+Triglycerides, Lipid Panel
+110
+<150 mg/dL
+01/16/2024  1:37 AM EST
+ATRIUM HEALTH LABORATORY
+Comment:
+Acceptable:  < 150 mg/dL
+Borderline:  150 - 199 mg/dL
+High:  200 - 499 mg/dL
+Very High:  > 499 mg/dL
+HDL Cholesterol - Lipid Panel
+60
+>59 mg/dL
+01/16/2024  1:37 AM EST
+ATRIUM HEALTH LABORATORY
+Comment:
+High:  > 59 mg/dL
+Low:   < 40 mg/dL
+LDL Cholesterol, Calculated
+112
+(H)
+<100 mg/dL
+01/16/2024  1:37 AM EST
+ATRIUM HEALTH LABORATORY
+Comment:
+ATP Guidelines:
+Acceptable:   < 100 mg/dL
+Near Optimal:   100 - 129 mg/dL
+Borderline High:   130 - 159 mg/dL
+High:   160 - 189 mg/dL
+Very High:   >189 mg/dL
+Atherosclerotic Cardiovascular Disease Risk Categories and LDL-C Goals:
+Patient Risk        Goal
+Low Risk:     < 130 mg/dL
+Moderate Risk:     < 100 mg/dL
+High Risk:     < 100 mg/dL
+Very High Risk:     < 70 mg/dL
+Extreme Risk:     < 55 mg/dL
+American Association of Clinical Endocrinologists and American College of Endocrinology Guidelines for management of dyslipidemia and prevention of cardiovascular disease. Endocrine Practice Vol 23 (Sup 2) April 2017.
+LDL Cholesterol is calculated using the Martin/Hopkins equation. Source:  JAMA 2013; 310:  2061-68.
+Non-HDL Cholesterol
+134
+mg/dL
+01/16/2024  1:37 AM EST
+ATRIUM HEALTH LABORATORY
+Comment:
+Atherosclerotic Cardiovascular Disease Risk Categories and Non-HDL Cholesterol Goals:
+Patient Risk        Goal
+Low Risk:     < 160 mg/dL
+Moderate Risk:     < 130 mg/dL
+High Risk:     < 130 mg/dL
+Very High Risk:     < 100 mg/dL
+Extreme Risk:     < 80 mg/dL
+American Association of Clinical Endocrinologists and American College of Endocrinology Guidelines for management of dyslipidemia and prevention of cardiovascular disease. Endocrine Practice Vol 23 (Sup 2) April 2017.
+Results - (ABNORMAL) Lipid Panel (LIPID PANEL) - Final result (01/15/2024  3:27 PM EST)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+01/15/2024  3:27 PM EST
+01/15/2024  3:27 PM EST
+Results - (ABNORMAL) Lipid Panel (LIPID PANEL) - Final result (01/15/2024  3:27 PM EST)
+Narrative
+ATRIUM HEALTH LABORATORY - 01/16/2024  1:37 AM EST
+Source: High Blood Cholesterol ATP III Guidelines At-A-Glance Quick Desk Reference.  National Cholesterol Education Program NIH Publication No. 01-3305 May 2001.
+Results - (ABNORMAL) Lipid Panel (LIPID PANEL) - Final result (01/15/2024  3:27 PM EST)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - (ABNORMAL) Lipid Panel (LIPID PANEL) - Final result (01/15/2024  3:27 PM EST)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+ATRIUM HEALTH LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+CBC without Differential (CBC W/O DIFF) - Final result (01/15/2024  3:27 PM EST)
+Results - CBC without Differential (CBC W/O DIFF) - Final result (01/15/2024  3:27 PM EST)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+WBC
+8.74
+3.60 - 11.70 10*3/uL
+01/15/2024 11:49 PM EST
+ATRIUM HEALTH LABORATORY
+RBC
+4.37
+3.72 - 5.24 10*6/uL
+01/15/2024 11:49 PM EST
+ATRIUM HEALTH LABORATORY
+Hemoglobin
+13.5
+10.8 - 15.5 g/dL
+01/15/2024 11:49 PM EST
+ATRIUM HEALTH LABORATORY
+Hematocrit
+42
+34 - 46 %
+01/15/2024 11:49 PM EST
+ATRIUM HEALTH LABORATORY
+Mean Corpuscular Volume (MCV)
+95
+80 - 100 fL
+01/15/2024 11:49 PM EST
+ATRIUM HEALTH LABORATORY
+Mean Corpuscular Hemoglobin (MCH)
+31
+26 - 34 pg
+01/15/2024 11:49 PM EST
+ATRIUM HEALTH LABORATORY
+Mean Corpuscular Hemoglobin Conc (MCHC)
+33
+32 - 35 g/dL
+01/15/2024 11:49 PM EST
+ATRIUM HEALTH LABORATORY
+Red Cell Distribution Width (RDW)
+12.9
+12.2 - 16.6 %
+01/15/2024 11:49 PM EST
+ATRIUM HEALTH LABORATORY
+Platelet Count (PLT)
+229
+153 - 400 10*3/uL
+01/15/2024 11:49 PM EST
+ATRIUM HEALTH LABORATORY
+Mean Platelet Volume (MPV)
+10.0
+7.3 - 11.2 fL
+01/15/2024 11:49 PM EST
+ATRIUM HEALTH LABORATORY
+Results - CBC without Differential (CBC W/O DIFF) - Final result (01/15/2024  3:27 PM EST)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+01/15/2024  3:27 PM EST
+01/15/2024  3:27 PM EST
+Results - CBC without Differential (CBC W/O DIFF) - Final result (01/15/2024  3:27 PM EST)
+Narrative
+Results - CBC without Differential (CBC W/O DIFF) - Final result (01/15/2024  3:27 PM EST)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - CBC without Differential (CBC W/O DIFF) - Final result (01/15/2024  3:27 PM EST)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+ATRIUM HEALTH LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+(ABNORMAL) Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (01/15/2024  3:27 PM EST)
+Results - (ABNORMAL) Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (01/15/2024  3:27 PM EST)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+Sodium
+141
+134 - 143 mmol/L
+01/16/2024  1:37 AM EST
+ATRIUM HEALTH LABORATORY
+Potassium
+4.7
+3.5 - 5.1 mmol/L
+01/16/2024  1:37 AM EST
+ATRIUM HEALTH LABORATORY
+Chloride
+102
+98 - 107 mmol/L
+01/16/2024  1:37 AM EST
+ATRIUM HEALTH LABORATORY
+CO2
+34
+(H)
+21 - 31 mmol/L
+01/16/2024  1:37 AM EST
+ATRIUM HEALTH LABORATORY
+Anion Gap
+5
+3 - 15 mmol/L
+01/16/2024  1:37 AM EST
+ATRIUM HEALTH LABORATORY
+Glucose, Random
+84
+70 - 125 mg/dL
+01/16/2024  1:37 AM EST
+ATRIUM HEALTH LABORATORY
+Blood Urea Nitrogen (BUN)
+8
+8 - 30 mg/dL
+01/16/2024  1:37 AM EST
+ATRIUM HEALTH LABORATORY
+Creatinine
+0.85
+0.51 - 0.95 mg/dL
+01/16/2024  1:37 AM EST
+ATRIUM HEALTH LABORATORY
+eGFR
+88
+>59 mL/min/1.73m2
+01/16/2024  1:37 AM EST
+ATRIUM HEALTH LABORATORY
+Comment:
+GFR estimated by CKD-EPI equations (NKF 2021). Recommend confirmation of eGFR using Cystatin C based eGFR in complex cases for clinical decision-making.
+Albumin
+4.5
+3.7 - 4.8 g/dL
+01/16/2024  1:37 AM EST
+ATRIUM HEALTH LABORATORY
+Total Protein
+7.1
+6.3 - 8.3 g/dL
+01/16/2024  1:37 AM EST
+ATRIUM HEALTH LABORATORY
+Bilirubin, Total
+0.4
+0.3 - 1.0 mg/dL
+01/16/2024  1:37 AM EST
+ATRIUM HEALTH LABORATORY
+Alkaline Phosphatase (ALP)
+45
+38 - 120 U/L
+01/16/2024  1:37 AM EST
+ATRIUM HEALTH LABORATORY
+Aspartate Aminotransferase (AST)
+14
+13 - 39 U/L
+01/16/2024  1:37 AM EST
+ATRIUM HEALTH LABORATORY
+Alanine Aminotransferase (ALT)
+12
+7 - 52 U/L
+01/16/2024  1:37 AM EST
+ATRIUM HEALTH LABORATORY
+Calcium
+10.1
+8.6 - 10.3 mg/dL
+01/16/2024  1:37 AM EST
+ATRIUM HEALTH LABORATORY
+BUN/Creatinine Ratio
+01/16/2024  1:37 AM EST
+ATRIUM HEALTH LABORATORY
+Comment:
+Creatinine is normal, ratio is not clinically indicated.
+Results - (ABNORMAL) Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (01/15/2024  3:27 PM EST)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+01/15/2024  3:27 PM EST
+01/15/2024  3:27 PM EST
+Results - (ABNORMAL) Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (01/15/2024  3:27 PM EST)
+Narrative
+Results - (ABNORMAL) Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (01/15/2024  3:27 PM EST)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - (ABNORMAL) Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (01/15/2024  3:27 PM EST)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+ATRIUM HEALTH LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+Vitamin D, 25-Hydroxy (VITAMIN D, 25-HYDROXY) - Final result (09/11/2023  2:46 PM EDT)
+Results - Vitamin D, 25-Hydroxy (VITAMIN D, 25-HYDROXY) - Final result (09/11/2023  2:46 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+Vitamin D 25-Hydroxy
+32.0
+30.0 - 59.9 ng/mL
+09/12/2023  1:36 AM EDT
+ATRIUM HEALTH LABORATORY
+Results - Vitamin D, 25-Hydroxy (VITAMIN D, 25-HYDROXY) - Final result (09/11/2023  2:46 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+09/11/2023  2:46 PM EDT
+09/11/2023  2:46 PM EDT
+Results - Vitamin D, 25-Hydroxy (VITAMIN D, 25-HYDROXY) - Final result (09/11/2023  2:46 PM EDT)
+Narrative
+ATRIUM HEALTH LABORATORY - 09/12/2023  1:36 AM EDT
+Vitamin D Concentrations and Health (1,2):
+< 12.0 ng/mL:  Deficient - generally can lead to rickets in infants and children and osteomalacia in adults.
+12.0 - 29.9 ng/mL: Insufficient - generally considered inadequate for bone and overall health in healthy individuals.
+30.0 - 59.9 ng/mL:  Sufficient - generally considered adequate for bone and overall health in healthy individuals.
+>60.0 ng/mL:  Potential toxicity.  Linked to potential adverse effects.
+1.  Institute of Medicine, Food and Nutrition Board. Dietary Reference Intakes for Calcium and Vitamin D. Washington, DC: National Academy Press, 2010
+2. Holick MF, Binkley NC, Bischoff-Ferrari HA, Gordon CM, Hanley DA, Heaney RP, et al. Evaluation, treatment, and prevention of vitamin D deficiency: an Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab 2011;96:1911-30
+The testing method is an immunoassay manufactured by Beckman Coulter Inc performed on DxI/Access platform. Values obtained with different assay methods may be different and cannot be used interchangeably.
+Results - Vitamin D, 25-Hydroxy (VITAMIN D, 25-HYDROXY) - Final result (09/11/2023  2:46 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+Gagneet Chauhan MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - Vitamin D, 25-Hydroxy (VITAMIN D, 25-HYDROXY) - Final result (09/11/2023  2:46 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+ATRIUM HEALTH LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+TSH - Final result (09/11/2023  2:46 PM EDT)
+Results - TSH - Final result (09/11/2023  2:46 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+TSH
+3.428
+0.450 - 5.330 uIU/mL
+09/12/2023  1:36 AM EDT
+ATRIUM HEALTH LABORATORY
+TSH Pregnancy Comment
+09/12/2023  1:36 AM EDT
+ATRIUM HEALTH LABORATORY
+Comment:
+TSH in Pregnancy:
+1st Trimester of Pregnancy 0.050 - 3.700 uIU/mL
+2nd Trimester of Pregnancy 0.310 - 4.350 uIU/mL
+3rd Trimester of Pregnancy 0.410 - 5.180 uIU/mL
+Results - TSH - Final result (09/11/2023  2:46 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+09/11/2023  2:46 PM EDT
+09/11/2023  2:46 PM EDT
+Results - TSH - Final result (09/11/2023  2:46 PM EDT)
+Narrative
+ATRIUM HEALTH LABORATORY - 09/12/2023  1:36 AM EDT
+The testing method is an immunoassay manufactured by Beckman Coulter Inc performed on DxI/Access platform.  Values obtained with different assay methods may be different and cannot be used interchangeably.
+Results - TSH - Final result (09/11/2023  2:46 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+Gagneet Chauhan MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - TSH - Final result (09/11/2023  2:46 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+ATRIUM HEALTH LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+T4, Free (T4, FREE) - Final result (09/11/2023  2:46 PM EDT)
+Results - T4, Free (T4, FREE) - Final result (09/11/2023  2:46 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+T4, Free
+0.94
+0.60 - 1.60 ng/dL
+09/12/2023  1:36 AM EDT
+ATRIUM HEALTH LABORATORY
+Results - T4, Free (T4, FREE) - Final result (09/11/2023  2:46 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+09/11/2023  2:46 PM EDT
+09/11/2023  2:46 PM EDT
+Results - T4, Free (T4, FREE) - Final result (09/11/2023  2:46 PM EDT)
+Narrative
+ATRIUM HEALTH LABORATORY - 09/12/2023  1:36 AM EDT
+The testing method is an immunoassay manufactured by Beckman Coulter Inc performed on DxI/Access platform.  Values obtained with different assay methods may be different and cannot be used interchangeably.
+Results - T4, Free (T4, FREE) - Final result (09/11/2023  2:46 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+Gagneet Chauhan MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - T4, Free (T4, FREE) - Final result (09/11/2023  2:46 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+ATRIUM HEALTH LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+T3, Total (T3, TOTAL) - Final result (09/11/2023  2:46 PM EDT)
+Results - T3, Total (T3, TOTAL) - Final result (09/11/2023  2:46 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+T3, Total
+107
+90 - 178 ng/dL
+09/12/2023  1:36 AM EDT
+ATRIUM HEALTH LABORATORY
+Results - T3, Total (T3, TOTAL) - Final result (09/11/2023  2:46 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+09/11/2023  2:46 PM EDT
+09/11/2023  2:46 PM EDT
+Results - T3, Total (T3, TOTAL) - Final result (09/11/2023  2:46 PM EDT)
+Narrative
+ATRIUM HEALTH LABORATORY - 09/12/2023  1:36 AM EDT
+The testing method is an immunoassay manufactured by Beckman Coulter Inc performed on DxI/Access platform.  Values obtained with different assay methods may be different and cannot be used interchangeably.
+Results - T3, Total (T3, TOTAL) - Final result (09/11/2023  2:46 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+Gagneet Chauhan MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - T3, Total (T3, TOTAL) - Final result (09/11/2023  2:46 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+ATRIUM HEALTH LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+Mg Breast Screening Tomo Bilat (MG BREAST SCREENING TOMO BILAT) - Final result (08/10/2023 11:38 AM EDT)
+Results - Mg Breast Screening Tomo Bilat (MG BREAST SCREENING TOMO BILAT) - Final result (08/10/2023 11:38 AM EDT)
+Anatomical Region
+Laterality
+Modality
+Breast
+Bilateral
+Mammography
+Results - Mg Breast Screening Tomo Bilat (MG BREAST SCREENING TOMO BILAT) - Final result (08/10/2023 11:38 AM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+08/08/2023  4:01 PM EDT
+Results - Mg Breast Screening Tomo Bilat (MG BREAST SCREENING TOMO BILAT) - Final result (08/10/2023 11:38 AM EDT)
+Narrative
+08/08/2023  4:03 PM EDT
+TIMOTHY P. KENNARD, MD                                      CRBC-MONROE
+INDIAN TRAIL FAMILY MEDICINE                                704/292-2272
+4503 OLD MONROE RD
+INDIAN TRAIL, NC 28079                                      MRN: 0005942637
+DOB: 09/13/1982
+Patient: CARTRETTE, JENNIFER                                Jkt#:
+Exam Date: 08/08/2023 03:30 PM                              Visit: 6610470942   Order: 9-30462648
+______________________________________________________________________________________________
+Screening Mammogram with Tomo BILATERAL: August 08, 2023 - Accession #: 9-30462648
+PATIENT HISTORY:Premenopausal.
+Sister had breast cancer, age 40.
+REASON FOR EXAM: Screening  (asymptomatic).
+COMPARISON:
+Patients first Mammogram.
+DENSITY: D. The breast is extremely dense, which lowers the sensitivity of mammography.
+(Volpara score 23.1)
+FINDINGS:
+Bilateral Screening Mammogram with Tomosynthesis was performed. Analyzed by CAD.
+No evidence of breast cancer.
+No evidence of breast cancer.
+RECOMMENDATION:
+Screening 3D/Tomosynthesis of both breasts in 1 year.
+BIRAD 1: Negative
+Seat: USRS1010
+Report Electronically signed by: Deborah G. Agisim, MD
+Completed By: Lindsey Cragan, RTRM
+DT: 2023-08-09 08:28:00
+Results - Mg Breast Screening Tomo Bilat (MG BREAST SCREENING TOMO BILAT) - Final result (08/10/2023 11:38 AM EDT)
+Procedure Note
+Deborah Agisim, MD - 08/10/2023
+Formatting of this note might be different from the original.
+TIMOTHY P. KENNARD, MD                                      CRBC-MONROE
+INDIAN TRAIL FAMILY MEDICINE                                704/292-2272
+4503 OLD MONROE RD
+INDIAN TRAIL, NC 28079                                      MRN:
+0005942637
+DOB:
+09/13/1982
+Patient: CARTRETTE, JENNIFER                                Jkt#:
+Exam Date: 08/08/2023 03:30 PM                              Visit:
+6610470942   Order: 9-30462648
+___________________________________________________________________________
+___________________
+Screening Mammogram with Tomo BILATERAL: August 08, 2023 - Accession #:
+9-30462648
+PATIENT HISTORY:Premenopausal.
+Sister had breast cancer, age 40.
+REASON FOR EXAM: Screening  (asymptomatic).
+COMPARISON:
+Patients first Mammogram.
+DENSITY: D. The breast is extremely dense, which lowers the sensitivity of
+mammography.
+(Volpara score 23.1)
+FINDINGS:
+Bilateral Screening Mammogram with Tomosynthesis was performed. Analyzed
+by CAD.
+No evidence of breast cancer.
+No evidence of breast cancer.
+RECOMMENDATION:
+Screening 3D/Tomosynthesis of both breasts in 1 year.
+BIRAD 1: Negative
+Seat: USRS1010
+Report Electronically signed by: Deborah G. Agisim, MD
+Completed By: Lindsey Cragan, RTRM
+DT: 2023-08-09 08:28:00
+Results - Mg Breast Screening Tomo Bilat (MG BREAST SCREENING TOMO BILAT) - Final result (08/10/2023 11:38 AM EDT)
+Authorizing Provider
+Result Type
+Result Status
+Neg Scrn Mammo Clt Rad
+AH IMG MG PROCEDURES
+Final Result
+XR Sacroiliac Joints Minimum 3 Views (XR SACROILIAC JOINTS MINIMUM 3 VIEWS) - Final result (07/27/2023  2:58 PM EDT)
+Results - XR Sacroiliac Joints Minimum 3 Views (XR SACROILIAC JOINTS MINIMUM 3 VIEWS) - Final result (07/27/2023  2:58 PM EDT)
+Anatomical Region
+Laterality
+Modality
+Hip, Pelvis
+Diagnostic X-Ray
+Results - XR Sacroiliac Joints Minimum 3 Views (XR SACROILIAC JOINTS MINIMUM 3 VIEWS) - Final result (07/27/2023  2:58 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+07/27/2023  3:03 PM EDT
+Results - XR Sacroiliac Joints Minimum 3 Views (XR SACROILIAC JOINTS MINIMUM 3 VIEWS) - Final result (07/27/2023  2:58 PM EDT)
+Impressions
+07/27/2023  3:03 PM EDT
+Normal SI joints bilaterally.
+THIS IS AN ELECTRONICALLY VERIFIED FINAL REPORT
+7/27/2023 3:03 PM - Electronically signed by Scott Broadwell
+Workstation: 04-IRAD-IR
+Atrium Health
+Results - XR Sacroiliac Joints Minimum 3 Views (XR SACROILIAC JOINTS MINIMUM 3 VIEWS) - Final result (07/27/2023  2:58 PM EDT)
+Narrative
+07/27/2023  3:03 PM EDT
+DATE OF SERVICE:
+7/27/2023 2:58 pm
+EXAM:
+XR SACROILIAC JOINTS MINIMUM 3 VIEWS
+CLINICAL HISTORY:
+Pain. Evaluate for sacroiliitis.
+COMPARISON:
+No Relevant Comparisons
+Results - XR Sacroiliac Joints Minimum 3 Views (XR SACROILIAC JOINTS MINIMUM 3 VIEWS) - Final result (07/27/2023  2:58 PM EDT)
+Procedure Note
+Scott Broadwell, MD - 07/27/2023
+Formatting of this note might be different from the original.
+DATE OF SERVICE:
+7/27/2023 2:58 pm
+EXAM:
+XR SACROILIAC JOINTS MINIMUM 3 VIEWS
+CLINICAL HISTORY:
+Pain. Evaluate for sacroiliitis.
+COMPARISON:
+No Relevant Comparisons
+IMPRESSION:
+Normal SI joints bilaterally.
+THIS IS AN ELECTRONICALLY VERIFIED FINAL REPORT
+7/27/2023 3:03 PM - Electronically signed by Scott Broadwell
+Workstation: 04-IRAD-IR
+Atrium Health
+Results - XR Sacroiliac Joints Minimum 3 Views (XR SACROILIAC JOINTS MINIMUM 3 VIEWS) - Final result (07/27/2023  2:58 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+William Baker MD
+AH IMG XR PROCEDURES
+Final Result
+XR Spine Lumbar 2-3 Views (XR SPINE LUMBAR 2-3 VIEWS) - Final result (07/27/2023  2:58 PM EDT)
+Results - XR Spine Lumbar 2-3 Views (XR SPINE LUMBAR 2-3 VIEWS) - Final result (07/27/2023  2:58 PM EDT)
+Anatomical Region
+Laterality
+Modality
+Spine
+Diagnostic X-Ray
+Results - XR Spine Lumbar 2-3 Views (XR SPINE LUMBAR 2-3 VIEWS) - Final result (07/27/2023  2:58 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+07/27/2023  3:02 PM EDT
+Results - XR Spine Lumbar 2-3 Views (XR SPINE LUMBAR 2-3 VIEWS) - Final result (07/27/2023  2:58 PM EDT)
+Impressions
+07/27/2023  3:03 PM EDT
+Mild degenerative change with minimal anterior spondylosis at multiple levels. Facet arthropathy L5-S1. No fracture or dislocation. Alignment is within normal limits.
+THIS IS AN ELECTRONICALLY VERIFIED FINAL REPORT
+7/27/2023 3:03 PM - Electronically signed by Scott Broadwell
+Workstation: 04-IRAD-IR
+Atrium Health
+Results - XR Spine Lumbar 2-3 Views (XR SPINE LUMBAR 2-3 VIEWS) - Final result (07/27/2023  2:58 PM EDT)
+Narrative
+07/27/2023  3:03 PM EDT
+DATE OF SERVICE:
+7/27/2023 2:58 pm
+EXAM:
+XR SPINE LUMBAR 2-3 VIEWS
+CLINICAL HISTORY:
+Low back pain
+COMPARISON:
+No Relevant Comparisons
+Results - XR Spine Lumbar 2-3 Views (XR SPINE LUMBAR 2-3 VIEWS) - Final result (07/27/2023  2:58 PM EDT)
+Procedure Note
+Scott Broadwell, MD - 07/27/2023
+Formatting of this note might be different from the original.
+DATE OF SERVICE:
+7/27/2023 2:58 pm
+EXAM:
+XR SPINE LUMBAR 2-3 VIEWS
+CLINICAL HISTORY:
+Low back pain
+COMPARISON:
+No Relevant Comparisons
+IMPRESSION:
+Mild degenerative change with minimal anterior spondylosis at multiple
+levels. Facet arthropathy L5-S1. No fracture or dislocation. Alignment is
+within normal limits.
+THIS IS AN ELECTRONICALLY VERIFIED FINAL REPORT
+7/27/2023 3:03 PM - Electronically signed by Scott Broadwell
+Workstation: 04-IRAD-IR
+Atrium Health
+Results - XR Spine Lumbar 2-3 Views (XR SPINE LUMBAR 2-3 VIEWS) - Final result (07/27/2023  2:58 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+William Baker MD
+AH IMG XR PROCEDURES
+Final Result
+XR Hand Minimum 3 Views Right (XR HAND MINIMUM 3 VIEWS RIGHT) - Final result (07/27/2023  2:58 PM EDT)
+Results - XR Hand Minimum 3 Views Right (XR HAND MINIMUM 3 VIEWS RIGHT) - Final result (07/27/2023  2:58 PM EDT)
+Anatomical Region
+Laterality
+Modality
+Hand
+Diagnostic X-Ray
+Results - XR Hand Minimum 3 Views Right (XR HAND MINIMUM 3 VIEWS RIGHT) - Final result (07/27/2023  2:58 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+07/27/2023  3:03 PM EDT
+Results - XR Hand Minimum 3 Views Right (XR HAND MINIMUM 3 VIEWS RIGHT) - Final result (07/27/2023  2:58 PM EDT)
+Impressions
+07/27/2023  3:05 PM EDT
+Bone mineralization is normal. No fracture, dislocation, or soft tissue abnormality. Small subchondral cyst base of index finger proximal phalanx. Joint spaces are well maintained.
+THIS IS AN ELECTRONICALLY VERIFIED FINAL REPORT
+7/27/2023 3:05 PM - Electronically signed by Scott Broadwell
+Workstation: 04-IRAD-IR
+Atrium Health
+Results - XR Hand Minimum 3 Views Right (XR HAND MINIMUM 3 VIEWS RIGHT) - Final result (07/27/2023  2:58 PM EDT)
+Narrative
+07/27/2023  3:05 PM EDT
+DATE OF SERVICE:
+7/27/2023 2:58 pm
+EXAM:
+XR HAND MINIMUM 3 VIEWS RIGHT
+CLINICAL HISTORY:
+Pain. Evaluate for arthritis.
+COMPARISON:
+XR HAND 3+ VIEWS LEFT dated 2023-07-27 14:55:50
+Results - XR Hand Minimum 3 Views Right (XR HAND MINIMUM 3 VIEWS RIGHT) - Final result (07/27/2023  2:58 PM EDT)
+Procedure Note
+Scott Broadwell, MD - 07/27/2023
+Formatting of this note might be different from the original.
+DATE OF SERVICE:
+7/27/2023 2:58 pm
+EXAM:
+XR HAND MINIMUM 3 VIEWS RIGHT
+CLINICAL HISTORY:
+Pain. Evaluate for arthritis.
+COMPARISON:
+XR HAND 3+ VIEWS LEFT dated 2023-07-27 14:55:50
+IMPRESSION:
+Bone mineralization is normal. No fracture, dislocation, or soft tissue
+abnormality. Small subchondral cyst base of index finger proximal phalanx.
+Joint spaces are well maintained.
+THIS IS AN ELECTRONICALLY VERIFIED FINAL REPORT
+7/27/2023 3:05 PM - Electronically signed by Scott Broadwell
+Workstation: 04-IRAD-IR
+Atrium Health
+Results - XR Hand Minimum 3 Views Right (XR HAND MINIMUM 3 VIEWS RIGHT) - Final result (07/27/2023  2:58 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+William Baker MD
+AH IMG XR PROCEDURES
+Final Result
+XR Hand Minimum 3 Views Left (XR HAND MINIMUM 3 VIEWS LEFT) - Final result (07/27/2023  2:58 PM EDT)
+Results - XR Hand Minimum 3 Views Left (XR HAND MINIMUM 3 VIEWS LEFT) - Final result (07/27/2023  2:58 PM EDT)
+Anatomical Region
+Laterality
+Modality
+Hand
+Diagnostic X-Ray
+Results - XR Hand Minimum 3 Views Left (XR HAND MINIMUM 3 VIEWS LEFT) - Final result (07/27/2023  2:58 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+07/27/2023  3:05 PM EDT
+Results - XR Hand Minimum 3 Views Left (XR HAND MINIMUM 3 VIEWS LEFT) - Final result (07/27/2023  2:58 PM EDT)
+Impressions
+07/27/2023  3:06 PM EDT
+Bone mineralization is normal. No fracture, dislocation, or soft tissue abnormality. Similar to other side, there is a small subchondral cyst at base of proximal phalanx of the index finger. Joint spaces are well maintained throughout. No productive changes.
+THIS IS AN ELECTRONICALLY VERIFIED FINAL REPORT
+7/27/2023 3:06 PM - Electronically signed by Scott Broadwell
+Workstation: 04-IRAD-IR
+Atrium Health
+Results - XR Hand Minimum 3 Views Left (XR HAND MINIMUM 3 VIEWS LEFT) - Final result (07/27/2023  2:58 PM EDT)
+Narrative
+07/27/2023  3:06 PM EDT
+DATE OF SERVICE:
+7/27/2023 2:58 pm
+EXAM:
+XR HAND MINIMUM 3 VIEWS LEFT
+CLINICAL HISTORY:
+Pain.
+COMPARISON:
+No Relevant Comparisons
+Results - XR Hand Minimum 3 Views Left (XR HAND MINIMUM 3 VIEWS LEFT) - Final result (07/27/2023  2:58 PM EDT)
+Procedure Note
+Scott Broadwell, MD - 07/27/2023
+Formatting of this note might be different from the original.
+DATE OF SERVICE:
+7/27/2023 2:58 pm
+EXAM:
+XR HAND MINIMUM 3 VIEWS LEFT
+CLINICAL HISTORY:
+Pain.
+COMPARISON:
+No Relevant Comparisons
+IMPRESSION:
+Bone mineralization is normal. No fracture, dislocation, or soft tissue
+abnormality. Similar to other side, there is a small subchondral cyst at
+base of proximal phalanx of the index finger. Joint spaces are well
+maintained throughout. No productive changes.
+THIS IS AN ELECTRONICALLY VERIFIED FINAL REPORT
+7/27/2023 3:06 PM - Electronically signed by Scott Broadwell
+Workstation: 04-IRAD-IR
+Atrium Health
+Results - XR Hand Minimum 3 Views Left (XR HAND MINIMUM 3 VIEWS LEFT) - Final result (07/27/2023  2:58 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+William Baker MD
+AH IMG XR PROCEDURES
+Final Result
+HIV Screen with Reflex to Confirmation (HIV SCREEN WITH REFLEX TO CONFIRMATION (PERFORMABLE)) - Final result (06/15/2023  3:27 PM EDT)
+Results - HIV Screen with Reflex to Confirmation (HIV SCREEN WITH REFLEX TO CONFIRMATION (PERFORMABLE)) - Final result (06/15/2023  3:27 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+HIV 1/2 Antibody, HIV p24 Antigen
+Non-Reactive
+Non-Reactive
+06/16/2023  1:00 AM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Results - HIV Screen with Reflex to Confirmation (HIV SCREEN WITH REFLEX TO CONFIRMATION (PERFORMABLE)) - Final result (06/15/2023  3:27 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+06/15/2023  3:27 PM EDT
+06/15/2023  3:27 PM EDT
+Results - HIV Screen with Reflex to Confirmation (HIV SCREEN WITH REFLEX TO CONFIRMATION (PERFORMABLE)) - Final result (06/15/2023  3:27 PM EDT)
+Narrative
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY - 06/16/2023  1:00 AM EDT
+This screening immunoassay method is performed on Architect platfrom (Abbott Diagnostics). This assay detects HIV p24 antigen, HIV 1 groups M and O antibodies, and HIV 2 antibodies.
+Results - HIV Screen with Reflex to Confirmation (HIV SCREEN WITH REFLEX TO CONFIRMATION (PERFORMABLE)) - Final result (06/15/2023  3:27 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+William Baker MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - HIV Screen with Reflex to Confirmation (HIV SCREEN WITH REFLEX TO CONFIRMATION (PERFORMABLE)) - Final result (06/15/2023  3:27 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+Hepatitis C Virus (HCV) Antibody With Confirmation (HEPATITIS C VIRUS (HCV) ANTIBODY SCREEN WITH CONFIRMATION (PERFORMABLE)) - Final result (06/15/2023  3:27 PM EDT)
+Results - Hepatitis C Virus (HCV) Antibody With Confirmation (HEPATITIS C VIRUS (HCV) ANTIBODY SCREEN WITH CONFIRMATION (PERFORMABLE)) - Final result (06/15/2023  3:27 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+Hepatitis C Virus Antibody
+Non-Reactive
+Non-Reactive
+06/16/2023  1:00 AM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Results - Hepatitis C Virus (HCV) Antibody With Confirmation (HEPATITIS C VIRUS (HCV) ANTIBODY SCREEN WITH CONFIRMATION (PERFORMABLE)) - Final result (06/15/2023  3:27 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+06/15/2023  3:27 PM EDT
+06/15/2023  3:27 PM EDT
+Results - Hepatitis C Virus (HCV) Antibody With Confirmation (HEPATITIS C VIRUS (HCV) ANTIBODY SCREEN WITH CONFIRMATION (PERFORMABLE)) - Final result (06/15/2023  3:27 PM EDT)
+Narrative
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY - 06/16/2023  1:00 AM EDT
+This test is an immunoassay performed on the Architect platform (Abbott Diagnostics).
+Results - Hepatitis C Virus (HCV) Antibody With Confirmation (HEPATITIS C VIRUS (HCV) ANTIBODY SCREEN WITH CONFIRMATION (PERFORMABLE)) - Final result (06/15/2023  3:27 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+William Baker MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - Hepatitis C Virus (HCV) Antibody With Confirmation (HEPATITIS C VIRUS (HCV) ANTIBODY SCREEN WITH CONFIRMATION (PERFORMABLE)) - Final result (06/15/2023  3:27 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+Hepatitis B Panel With Confirmation (HEPATITIS B PANEL WITH CONFIRMATION) - Final result (06/15/2023  3:27 PM EDT)
+Results - Hepatitis B Panel With Confirmation (HEPATITIS B PANEL WITH CONFIRMATION) - Final result (06/15/2023  3:27 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+Hepatitis B Surface Antigen Screen, Qualitative
+Non-Reactive
+Non-Reactive
+06/16/2023 12:15 AM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Hepatitis B Surface Antibody, Quantitative
+0.40
+mIU/mL
+06/16/2023 12:15 AM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Comment:
+If result is < 8.00 mIU/mL:  Non reactive. Individual is not immune to HBV infection.
+If result is 8.00 - 11.99 mIU/mL: Equivocal.  Immune status cannot be  determined.
+Further review of other diagnostic information, clinical status, and risk factors is recommended.  Suggest follow up testing if clinically indicated.
+If result is > 11.99 mIU/mL: Immune.  Individual is immune to HBV infection.
+Hepatitis B Core Antibody, Total
+Non-Reactive
+Non-Reactive
+06/16/2023 12:15 AM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Hepatitis B Core Antibody, IgM
+Non-Reactive
+Non-Reactive
+06/16/2023 12:15 AM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Results - Hepatitis B Panel With Confirmation (HEPATITIS B PANEL WITH CONFIRMATION) - Final result (06/15/2023  3:27 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+06/15/2023  3:27 PM EDT
+06/15/2023  3:27 PM EDT
+Results - Hepatitis B Panel With Confirmation (HEPATITIS B PANEL WITH CONFIRMATION) - Final result (06/15/2023  3:27 PM EDT)
+Narrative
+Results - Hepatitis B Panel With Confirmation (HEPATITIS B PANEL WITH CONFIRMATION) - Final result (06/15/2023  3:27 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+William Baker MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - Hepatitis B Panel With Confirmation (HEPATITIS B PANEL WITH CONFIRMATION) - Final result (06/15/2023  3:27 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+CBC with Differential (CBC WITH DIFFERENTIAL) - Final result (06/15/2023  3:27 PM EDT)
+Results - CBC with Differential (CBC WITH DIFFERENTIAL) - Final result (06/15/2023  3:27 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+WBC
+9.16
+3.60 - 11.70 10*3/uL
+06/15/2023 11:11 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+RBC
+4.14
+3.72 - 5.24 10*6/uL
+06/15/2023 11:11 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Hemoglobin
+13.3
+10.8 - 15.5 g/dL
+06/15/2023 11:11 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Hematocrit
+40
+34 - 46 %
+06/15/2023 11:11 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Mean Corpuscular Volume (MCV)
+97
+80 - 100 fL
+06/15/2023 11:11 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Mean Corpuscular Hemoglobin (MCH)
+32
+26 - 34 pg
+06/15/2023 11:11 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Mean Corpuscular Hemoglobin Conc (MCHC)
+33
+32 - 35 g/dL
+06/15/2023 11:11 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Red Cell Distribution Width (RDW)
+13.8
+12.2 - 16.6 %
+06/15/2023 11:11 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Platelet Count (PLT)
+243
+153 - 400 10*3/uL
+06/15/2023 11:11 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Mean Platelet Volume (MPV)
+9.7
+7.3 - 11.2 fL
+06/15/2023 11:11 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Neutrophils %
+66
+%
+06/15/2023 11:11 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Lymphocytes %
+25
+%
+06/15/2023 11:11 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Monocytes %
+7
+%
+06/15/2023 11:11 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Eosinophils %
+2
+%
+06/15/2023 11:11 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Basophils %
+0
+%
+06/15/2023 11:11 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+nRBC %
+0
+%
+06/15/2023 11:11 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Neutrophils Absolute
+6.10
+1.60 - 8.20 10*3/uL
+06/15/2023 11:11 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Lymphocytes #
+2.30
+1.07 - 3.45 10*3/uL
+06/15/2023 11:11 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Monocytes #
+0.60
+0.20 - 0.85 10*3/uL
+06/15/2023 11:11 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Eosinophils #
+0.20
+0.00 - 0.30 10*3/uL
+06/15/2023 11:11 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Basophils #
+0.00
+0.00 - 0.10 10*3/uL
+06/15/2023 11:11 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+nRBC Absolute
+0.00
+<=1.00 10*3/uL
+06/15/2023 11:11 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Results - CBC with Differential (CBC WITH DIFFERENTIAL) - Final result (06/15/2023  3:27 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+06/15/2023  3:27 PM EDT
+06/15/2023  3:27 PM EDT
+Results - CBC with Differential (CBC WITH DIFFERENTIAL) - Final result (06/15/2023  3:27 PM EDT)
+Narrative
+Results - CBC with Differential (CBC WITH DIFFERENTIAL) - Final result (06/15/2023  3:27 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+William Baker MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - CBC with Differential (CBC WITH DIFFERENTIAL) - Final result (06/15/2023  3:27 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+(ABNORMAL) Vitamin D, 25-Hydroxy (VITAMIN D, 25-HYDROXY) - Final result (06/15/2023  3:27 PM EDT)
+Results - (ABNORMAL) Vitamin D, 25-Hydroxy (VITAMIN D, 25-HYDROXY) - Final result (06/15/2023  3:27 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+Vitamin D 25-Hydroxy
+27.0
+(L)
+30.0 - 59.9 ng/mL
+06/15/2023 11:56 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Results - (ABNORMAL) Vitamin D, 25-Hydroxy (VITAMIN D, 25-HYDROXY) - Final result (06/15/2023  3:27 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+06/15/2023  3:27 PM EDT
+06/15/2023  3:27 PM EDT
+Results - (ABNORMAL) Vitamin D, 25-Hydroxy (VITAMIN D, 25-HYDROXY) - Final result (06/15/2023  3:27 PM EDT)
+Narrative
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY - 06/15/2023 11:56 PM EDT
+Vitamin D Concentrations and Health (1,2):
+< 12.0 ng/mL:  Deficient - generally can lead to rickets in infants and children and osteomalacia in adults.
+12.0 - 29.9 ng/mL: Insufficient - generally considered inadequate for bone and overall health in healthy individuals.
+30.0 - 59.9 ng/mL:  Sufficient - generally considered adequate for bone and overall health in healthy individuals.
+>60.0 ng/mL:  Potential toxicity.  Linked to potential adverse effects.
+1.  Institute of Medicine, Food and Nutrition Board. Dietary Reference Intakes for Calcium and Vitamin D. Washington, DC: National Academy Press, 2010
+2. Holick MF, Binkley NC, Bischoff-Ferrari HA, Gordon CM, Hanley DA, Heaney RP, et al. Evaluation, treatment, and prevention of vitamin D deficiency: an Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab 2011;96:1911-30
+The testing method is an immunoassay manufactured by Beckman Coulter Inc performed on DxI/Access platform. Values obtained with different assay methods may be different and cannot be used interchangeably.
+Results - (ABNORMAL) Vitamin D, 25-Hydroxy (VITAMIN D, 25-HYDROXY) - Final result (06/15/2023  3:27 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+Gagneet Chauhan MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - (ABNORMAL) Vitamin D, 25-Hydroxy (VITAMIN D, 25-HYDROXY) - Final result (06/15/2023  3:27 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+Thyroid-Stimulating Immunoglobulin (TSI) (THYROID-STIMULATING IMMUNOGLOBULIN (TSI)) - Final result (06/15/2023  3:27 PM EDT)
+Results - Thyroid-Stimulating Immunoglobulin (TSI) (THYROID-STIMULATING IMMUNOGLOBULIN (TSI)) - Final result (06/15/2023  3:27 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+Thyroid Stimulating Immunoglobulin
+<0.10
+0.00 - 0.55 IU/L
+06/17/2023  4:36 PM EDT
+AH LABCORP
+Results - Thyroid-Stimulating Immunoglobulin (TSI) (THYROID-STIMULATING IMMUNOGLOBULIN (TSI)) - Final result (06/15/2023  3:27 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+06/15/2023  3:27 PM EDT
+06/15/2023  3:27 PM EDT
+Results - Thyroid-Stimulating Immunoglobulin (TSI) (THYROID-STIMULATING IMMUNOGLOBULIN (TSI)) - Final result (06/15/2023  3:27 PM EDT)
+Narrative
+AH LABCORP - 06/17/2023  4:36 PM EDT
+Performed at:  01 - Labcorp Burlington
+1447 York Court, Burlington, NC  272153361
+Lab Director: Sanjai Nagendra MD, Phone:  8007624344
+Results - Thyroid-Stimulating Immunoglobulin (TSI) (THYROID-STIMULATING IMMUNOGLOBULIN (TSI)) - Final result (06/15/2023  3:27 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+Gagneet Chauhan MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - Thyroid-Stimulating Immunoglobulin (TSI) (THYROID-STIMULATING IMMUNOGLOBULIN (TSI)) - Final result (06/15/2023  3:27 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+AH LABCORP
+1447 York Court
+Burlington, NC 27215, US
+877-522-4677
+C-Reactive Protein (CRP) (C-REACTIVE PROTEIN) - Final result (06/15/2023  3:27 PM EDT)
+Results - C-Reactive Protein (CRP) (C-REACTIVE PROTEIN) - Final result (06/15/2023  3:27 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+C-Reactive Protein (CRP)
+<0.5
+<0.5 mg/dL
+06/15/2023 11:32 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Results - C-Reactive Protein (CRP) (C-REACTIVE PROTEIN) - Final result (06/15/2023  3:27 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+06/15/2023  3:27 PM EDT
+06/15/2023  3:27 PM EDT
+Results - C-Reactive Protein (CRP) (C-REACTIVE PROTEIN) - Final result (06/15/2023  3:27 PM EDT)
+Narrative
+Results - C-Reactive Protein (CRP) (C-REACTIVE PROTEIN) - Final result (06/15/2023  3:27 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+William Baker MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - C-Reactive Protein (CRP) (C-REACTIVE PROTEIN) - Final result (06/15/2023  3:27 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+TSH - Final result (06/15/2023  3:27 PM EDT)
+Results - TSH - Final result (06/15/2023  3:27 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+TSH
+1.460
+0.450 - 5.330 uIU/mL
+06/15/2023 11:56 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+TSH Pregnancy Comment
+06/15/2023 11:56 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Comment:
+TSH in Pregnancy:
+1st Trimester of Pregnancy 0.050 - 3.700 uIU/mL
+2nd Trimester of Pregnancy 0.310 - 4.350 uIU/mL
+3rd Trimester of Pregnancy 0.410 - 5.180 uIU/mL
+Results - TSH - Final result (06/15/2023  3:27 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+06/15/2023  3:27 PM EDT
+06/15/2023  3:27 PM EDT
+Results - TSH - Final result (06/15/2023  3:27 PM EDT)
+Narrative
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY - 06/15/2023 11:56 PM EDT
+The testing method is an immunoassay manufactured by Beckman Coulter Inc performed on DxI/Access platform.  Values obtained with different assay methods may be different and cannot be used interchangeably.
+Results - TSH - Final result (06/15/2023  3:27 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+Gagneet Chauhan MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - TSH - Final result (06/15/2023  3:27 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+T4, Free (T4, FREE) - Final result (06/15/2023  3:27 PM EDT)
+Results - T4, Free (T4, FREE) - Final result (06/15/2023  3:27 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+T4, Free
+0.75
+0.60 - 1.60 ng/dL
+06/15/2023 11:56 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Results - T4, Free (T4, FREE) - Final result (06/15/2023  3:27 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+06/15/2023  3:27 PM EDT
+06/15/2023  3:27 PM EDT
+Results - T4, Free (T4, FREE) - Final result (06/15/2023  3:27 PM EDT)
+Narrative
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY - 06/15/2023 11:56 PM EDT
+The testing method is an immunoassay manufactured by Beckman Coulter Inc performed on DxI/Access platform.  Values obtained with different assay methods may be different and cannot be used interchangeably.
+Results - T4, Free (T4, FREE) - Final result (06/15/2023  3:27 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+Gagneet Chauhan MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - T4, Free (T4, FREE) - Final result (06/15/2023  3:27 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+T3, Total (T3, TOTAL) - Final result (06/15/2023  3:27 PM EDT)
+Results - T3, Total (T3, TOTAL) - Final result (06/15/2023  3:27 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+T3, Total
+107
+90 - 178 ng/dL
+06/15/2023 11:56 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Results - T3, Total (T3, TOTAL) - Final result (06/15/2023  3:27 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+06/15/2023  3:27 PM EDT
+06/15/2023  3:27 PM EDT
+Results - T3, Total (T3, TOTAL) - Final result (06/15/2023  3:27 PM EDT)
+Narrative
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY - 06/15/2023 11:56 PM EDT
+The testing method is an immunoassay manufactured by Beckman Coulter Inc performed on DxI/Access platform.  Values obtained with different assay methods may be different and cannot be used interchangeably.
+Results - T3, Total (T3, TOTAL) - Final result (06/15/2023  3:27 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+Gagneet Chauhan MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - T3, Total (T3, TOTAL) - Final result (06/15/2023  3:27 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+(ABNORMAL) SEDIMENTATION RATE (ESR) - Final result (06/15/2023  3:27 PM EDT)
+Results - (ABNORMAL) SEDIMENTATION RATE (ESR) - Final result (06/15/2023  3:27 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+Sedimentation Rate
+22
+(H)
+<=20 mm/hr
+06/15/2023 11:58 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Results - (ABNORMAL) SEDIMENTATION RATE (ESR) - Final result (06/15/2023  3:27 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+06/15/2023  3:27 PM EDT
+06/15/2023  3:27 PM EDT
+Results - (ABNORMAL) SEDIMENTATION RATE (ESR) - Final result (06/15/2023  3:27 PM EDT)
+Narrative
+Results - (ABNORMAL) SEDIMENTATION RATE (ESR) - Final result (06/15/2023  3:27 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+William Baker MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - (ABNORMAL) SEDIMENTATION RATE (ESR) - Final result (06/15/2023  3:27 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (06/15/2023  3:27 PM EDT)
+Results - Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (06/15/2023  3:27 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+Sodium
+140
+134 - 143 mmol/L
+06/15/2023 11:32 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Potassium
+4.5
+3.5 - 5.1 mmol/L
+06/15/2023 11:32 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Chloride
+102
+98 - 107 mmol/L
+06/15/2023 11:32 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+CO2
+27
+21 - 31 mmol/L
+06/15/2023 11:32 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Anion Gap
+11
+3 - 15 mmol/L
+06/15/2023 11:32 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Glucose, Random
+83
+70 - 125 mg/dL
+06/15/2023 11:32 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Blood Urea Nitrogen (BUN)
+16
+8 - 30 mg/dL
+06/15/2023 11:32 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Creatinine
+0.95
+0.51 - 0.95 mg/dL
+06/15/2023 11:32 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+eGFR
+78
+>59 mL/min/1.73m2
+06/15/2023 11:32 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Comment:
+GFR estimated by CKD-EPI equations (NKF 2021). Recommend confirmation of eGFR using Cystatin C based eGFR in complex cases for clinical decision-making.
+Albumin
+4.6
+3.7 - 4.8 g/dL
+06/15/2023 11:32 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Total Protein
+7.0
+6.3 - 8.3 g/dL
+06/15/2023 11:32 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Bilirubin, Total
+0.5
+0.3 - 1.0 mg/dL
+06/15/2023 11:32 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Alkaline Phosphatase (ALP)
+42
+38 - 120 U/L
+06/15/2023 11:32 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Aspartate Aminotransferase (AST)
+14
+13 - 39 U/L
+06/15/2023 11:32 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Alanine Aminotransferase (ALT)
+10
+7 - 52 U/L
+06/15/2023 11:32 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Calcium
+9.6
+8.6 - 10.3 mg/dL
+06/15/2023 11:32 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+BUN/Creatinine Ratio
+06/15/2023 11:32 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Comment:
+Creatinine is normal, ratio is not clinically indicated.
+Results - Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (06/15/2023  3:27 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+06/15/2023  3:27 PM EDT
+06/15/2023  3:27 PM EDT
+Results - Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (06/15/2023  3:27 PM EDT)
+Narrative
+Results - Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (06/15/2023  3:27 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+William Baker MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (06/15/2023  3:27 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+(ABNORMAL) Thyroid Antibodies: Thyroid Peroxidase (TPO) and Thyroglobulin (TGAb) (THYROID ANTIBODIES) - Final result (03/30/2023  3:06 PM EDT)
+Results - (ABNORMAL) Thyroid Antibodies: Thyroid Peroxidase (TPO) and Thyroglobulin (TGAb) (THYROID ANTIBODIES) - Final result (03/30/2023  3:06 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+Thyroid Peroxidase (TPO) Antibodies
+37
+(H)
+0 - 34 IU/mL
+04/01/2023  6:35 PM EDT
+AH LABCORP
+Thyroglobulin Antibody
+<1.0
+0.0 - 0.9 IU/mL
+04/01/2023  6:35 PM EDT
+AH LABCORP
+Comment:
+Thyroglobulin Antibody measured by Beckman Coulter Methodology
+Results - (ABNORMAL) Thyroid Antibodies: Thyroid Peroxidase (TPO) and Thyroglobulin (TGAb) (THYROID ANTIBODIES) - Final result (03/30/2023  3:06 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+03/30/2023  3:06 PM EDT
+03/30/2023  3:06 PM EDT
+Results - (ABNORMAL) Thyroid Antibodies: Thyroid Peroxidase (TPO) and Thyroglobulin (TGAb) (THYROID ANTIBODIES) - Final result (03/30/2023  3:06 PM EDT)
+Narrative
+AH LABCORP - 04/01/2023  6:35 PM EDT
+Performed at:  01 - Labcorp Burlington
+1447 York Court, Burlington, NC  272153361
+Lab Director: Sanjai Nagendra MD, Phone:  8007624344
+Results - (ABNORMAL) Thyroid Antibodies: Thyroid Peroxidase (TPO) and Thyroglobulin (TGAb) (THYROID ANTIBODIES) - Final result (03/30/2023  3:06 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - (ABNORMAL) Thyroid Antibodies: Thyroid Peroxidase (TPO) and Thyroglobulin (TGAb) (THYROID ANTIBODIES) - Final result (03/30/2023  3:06 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+AH LABCORP
+1447 York Court
+Burlington, NC 27215, US
+877-522-4677
+TSH - Final result (03/30/2023  3:06 PM EDT)
+Results - TSH - Final result (03/30/2023  3:06 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+TSH
+2.465
+0.450 - 5.330 uIU/mL
+03/30/2023 11:29 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+TSH Pregnancy Comment
+03/30/2023 11:29 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Comment:
+TSH in Pregnancy:
+1st Trimester of Pregnancy 0.050 - 3.700 uIU/mL
+2nd Trimester of Pregnancy 0.310 - 4.350 uIU/mL
+3rd Trimester of Pregnancy 0.410 - 5.180 uIU/mL
+Results - TSH - Final result (03/30/2023  3:06 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+03/30/2023  3:06 PM EDT
+03/30/2023  3:06 PM EDT
+Results - TSH - Final result (03/30/2023  3:06 PM EDT)
+Narrative
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY - 03/30/2023 11:29 PM EDT
+The testing method is an immunoassay manufactured by Beckman Coulter Inc performed on DxI/Access platform.  Values obtained with different assay methods may be different and cannot be used interchangeably.
+Results - TSH - Final result (03/30/2023  3:06 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - TSH - Final result (03/30/2023  3:06 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+T4, Free (T4, FREE) - Final result (03/30/2023  3:06 PM EDT)
+Results - T4, Free (T4, FREE) - Final result (03/30/2023  3:06 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+T4, Free
+1.10
+0.60 - 1.60 ng/dL
+03/30/2023 11:29 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Results - T4, Free (T4, FREE) - Final result (03/30/2023  3:06 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+03/30/2023  3:06 PM EDT
+03/30/2023  3:06 PM EDT
+Results - T4, Free (T4, FREE) - Final result (03/30/2023  3:06 PM EDT)
+Narrative
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY - 03/30/2023 11:29 PM EDT
+The testing method is an immunoassay manufactured by Beckman Coulter Inc performed on DxI/Access platform.  Values obtained with different assay methods may be different and cannot be used interchangeably.
+Results - T4, Free (T4, FREE) - Final result (03/30/2023  3:06 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - T4, Free (T4, FREE) - Final result (03/30/2023  3:06 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+T3, Total (T3, TOTAL) - Final result (03/30/2023  3:06 PM EDT)
+Results - T3, Total (T3, TOTAL) - Final result (03/30/2023  3:06 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+T3, Total
+113
+90 - 178 ng/dL
+03/30/2023 11:29 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Results - T3, Total (T3, TOTAL) - Final result (03/30/2023  3:06 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+03/30/2023  3:06 PM EDT
+03/30/2023  3:06 PM EDT
+Results - T3, Total (T3, TOTAL) - Final result (03/30/2023  3:06 PM EDT)
+Narrative
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY - 03/30/2023 11:29 PM EDT
+The testing method is an immunoassay manufactured by Beckman Coulter Inc performed on DxI/Access platform.  Values obtained with different assay methods may be different and cannot be used interchangeably.
+Results - T3, Total (T3, TOTAL) - Final result (03/30/2023  3:06 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - T3, Total (T3, TOTAL) - Final result (03/30/2023  3:06 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+CBC without Differential (CBC W/O DIFF) - Final result (03/30/2023  3:06 PM EDT)
+Results - CBC without Differential (CBC W/O DIFF) - Final result (03/30/2023  3:06 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+WBC
+6.73
+3.60 - 11.70 10*3/uL
+03/31/2023  8:28 AM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+RBC
+4.60
+3.72 - 5.24 10*6/uL
+03/31/2023  8:28 AM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Hemoglobin
+14.4
+10.8 - 15.5 g/dL
+03/31/2023  8:28 AM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Hematocrit
+44
+34 - 46 %
+03/31/2023  8:28 AM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Mean Corpuscular Volume (MCV)
+95
+80 - 100 fL
+03/31/2023  8:28 AM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Mean Corpuscular Hemoglobin (MCH)
+31
+26 - 34 pg
+03/31/2023  8:28 AM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Mean Corpuscular Hemoglobin Conc (MCHC)
+33
+32 - 35 g/dL
+03/31/2023  8:28 AM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Red Cell Distribution Width (RDW)
+14.7
+12.2 - 16.6 %
+03/31/2023  8:28 AM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Platelet Count (PLT)
+302
+153 - 400 10*3/uL
+03/31/2023  8:28 AM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Mean Platelet Volume (MPV)
+9.3
+7.3 - 11.2 fL
+03/31/2023  8:28 AM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Results - CBC without Differential (CBC W/O DIFF) - Final result (03/30/2023  3:06 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+03/30/2023  3:06 PM EDT
+03/30/2023  3:06 PM EDT
+Results - CBC without Differential (CBC W/O DIFF) - Final result (03/30/2023  3:06 PM EDT)
+Narrative
+Results - CBC without Differential (CBC W/O DIFF) - Final result (03/30/2023  3:06 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - CBC without Differential (CBC W/O DIFF) - Final result (03/30/2023  3:06 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+(ABNORMAL) Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (03/30/2023  3:06 PM EDT)
+Results - (ABNORMAL) Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (03/30/2023  3:06 PM EDT)
+Component
+Value
+Ref Range
+Test Method
+Analysis Time
+Performed At
+Pathologist Signature
+Sodium
+138
+134 - 143 mmol/L
+03/30/2023 11:17 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Potassium
+4.8
+3.5 - 5.1 mmol/L
+03/30/2023 11:17 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Chloride
+100
+98 - 107 mmol/L
+03/30/2023 11:17 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+CO2
+29
+21 - 31 mmol/L
+03/30/2023 11:17 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Anion Gap
+9
+3 - 15 mmol/L
+03/30/2023 11:17 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Glucose, Random
+113
+70 - 125 mg/dL
+03/30/2023 11:17 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Blood Urea Nitrogen (BUN)
+14
+8 - 30 mg/dL
+03/30/2023 11:17 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Creatinine
+1.05
+(H)
+0.51 - 0.95 mg/dL
+03/30/2023 11:17 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+eGFR
+69
+>59 mL/min/1.73m2
+03/30/2023 11:17 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Comment:
+GFR estimated by CKD-EPI equations (NKF 2021). Recommend confirmation of eGFR using Cystatin C based eGFR in complex cases for clinical decision-making.
+Albumin
+4.9
+(H)
+3.7 - 4.8 g/dL
+03/30/2023 11:17 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Total Protein
+8.2
+6.3 - 8.3 g/dL
+03/30/2023 11:17 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Bilirubin, Total
+0.6
+0.3 - 1.0 mg/dL
+03/30/2023 11:17 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Alkaline Phosphatase (ALP)
+44
+38 - 120 U/L
+03/30/2023 11:17 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Aspartate Aminotransferase (AST)
+18
+13 - 39 U/L
+03/30/2023 11:17 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Alanine Aminotransferase (ALT)
+13
+7 - 52 U/L
+03/30/2023 11:17 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Calcium
+10.0
+8.6 - 10.3 mg/dL
+03/30/2023 11:17 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+BUN/Creatinine Ratio
+13.3
+10.0 - 20.0
+03/30/2023 11:17 PM EDT
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+Results - (ABNORMAL) Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (03/30/2023  3:06 PM EDT)
+Specimen (Source)
+Anatomical Location / Laterality
+Collection Method / Volume
+Collection Time
+Received Time
+Blood
+Venous structure / Unknown
+Venipuncture / Unknown
+03/30/2023  3:06 PM EDT
+03/30/2023  3:06 PM EDT
+Results - (ABNORMAL) Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (03/30/2023  3:06 PM EDT)
+Narrative
+Results - (ABNORMAL) Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (03/30/2023  3:06 PM EDT)
+Authorizing Provider
+Result Type
+Result Status
+Timothy Kennard MD
+AH LAB BLOOD ORDERABLES
+Final Result
+Results - (ABNORMAL) Comprehensive Metabolic Panel (COMPREHENSIVE METABOLIC PANEL) - Final result (03/30/2023  3:06 PM EDT)
+Performing Organization
+Address
+City/State/ZIP Code
+Phone Number
+CAROLINAS HEALTHCARE SYSTEMS LABORATORY
+5040 Airport Center Pkwy
+Charlotte, NC 28208, US
+704-512-4900
+Care Teams
+Care Teams
+Team Member
+Relationship
+Specialty
+Start Date
+End Date
+Timothy Kennard, MD
+NPI: 1306904255
+4503 OLD MONROE ROAD
+INDIAN TRAIL, NC 28079
+980-993-7100 (Work)
+704-821-6911 (Fax)
+PCP - General
+Family Medicine
+3/30/23
+Patient Contacts
+Patient Contacts
+Contact Name
+Contact Address
+Communication
+Relationship to Patient
+Bryan Jones
+Unknown
+704-918-7345 (Mobile)
+Significant Other, Personal Relationship
+Document Information
+Primary Care Provider
+Other Service Providers
+Document Coverage Dates
+Timothy Kennard,  MD
+(
+Mar. 30, 2023
+March 30, 2023
+- Present
+)
+NPI: 1306904255
+980-993-7100 (Work)
+704-821-6911 (Fax)
+4503 OLD MONROE ROAD
+INDIAN TRAIL, NC 28079
+Family Medicine
+Atrium Health
+1000 Blythe Blvd
+Charlotte, NC 28203
+Sep. 13, 1982
+September 13, 1982
+-
+Apr. 10, 2025
+April 10, 2025
+Custodian Organization
+Atrium Health
+1000 Blythe Blvd
+Charlotte, NC 28203
+If you take your Lucy record on a thumb drive to a different doctor, he or she might be able to use his computer to read the file electronically. Your downloaded, machine-readable Personal Health Summary document is in a format called "CDA." If your doctor has a computer that understands CDA, your information is a folder on your thumb drive called
+MachineReadable_XDMFormat
+. You might need to enter a password before your doctor can use this file.
+Copyright
+©2025 Epic

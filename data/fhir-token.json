@@ -1,9 +1,9 @@
 {
-  "access_token": "hWf03Pi0mV4FvEvPoSReErC5Gd7v5MmN2DgA6bTDk_6ysEvR2bz3tRZ-e-pwa8nQneWD0ThYEmW18yeh1_s63wvQ8UpbOwO3WRal99kolUuLz2kpJO1G9k3C1U2BdKNs",
-  "token_type": "Bearer",
-  "expires_in": 3600,
-  "scope": "patient/AllergyIntolerance.read patient/Binary.read patient/CarePlan.read patient/CareTeam.read patient/Condition.read patient/Coverage.read patient/Device.read patient/DiagnosticReport.read patient/DocumentReference.read patient/Encounter.read patient/Goal.read patient/Immunization.read patient/Location.read patient/Media.read patient/Medication.read patient/MedicationDispense.read patient/MedicationRequest.read patient/Observation.read patient/Organization.read patient/Patient.read patient/Practitioner.read patient/PractitionerRole.read patient/Procedure.read patient/Provenance.read patient/RelatedPerson.read patient/ServiceRequest.read patient/Specimen.read launch/patient",
-  "state": "https://epicproxy.et0798.epichosted.com/APIProxyPRD/oauth2/token,https://epicproxy.et0798.epichosted.com/APIProxyPRD/api/FHIR/R4,1",
-  "__epic.dstu2.patient": "ToLPDEY62SOV6kUwdeKXtkbWSVbxCcGXPyt8BWwLnyscB",
-  "patient": "evdBfsSkrpiGXJY5Y9D-j66Ar9d0LTds6wLKe4VKoB0M3"
-}
+    "access_token": "xlZZxG-nvc4vp8vmTC5QMZt7Bz2Vfg3Ea5dZNdFW8_gIELSMDvHYdsDAKZmMtNRPEC8ZmsQnj_jAyZ1n6d5luMn8TmHE2zFN1vZ9VHd9L_1yWhMLjes3ZR4X7CJ5OsLK",
+    "token_type": "Bearer",
+    "expires_in": 3600,
+    "scope": "patient/AllergyIntolerance.read patient/Binary.read patient/CarePlan.read patient/CareTeam.read patient/Condition.read patient/Coverage.read patient/Device.read patient/DiagnosticReport.read patient/DocumentReference.read patient/Encounter.read patient/Goal.read patient/Immunization.read patient/Location.read patient/Media.read patient/Medication.read patient/MedicationDispense.read patient/MedicationRequest.read patient/Observation.read patient/Organization.read patient/Patient.read patient/Practitioner.read patient/PractitionerRole.read patient/Procedure.read patient/Provenance.read patient/RelatedPerson.read patient/ServiceRequest.read patient/Specimen.read launch/patient",
+    "state": "https://epicproxy.et0798.epichosted.com/APIProxyPRD/oauth2/token,https://epicproxy.et0798.epichosted.com/APIProxyPRD/api/FHIR/R4,1",
+    "__epic.dstu2.patient": "ToLPDEY62SOV6kUwdeKXtkbWSVbxCcGXPyt8BWwLnyscB",
+    "patient": "evdBfsSkrpiGXJY5Y9D-j66Ar9d0LTds6wLKe4VKoB0M3"
+} 

@@ -1,0 +1,94 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Medical Data Cleaning & Notion Import Project Rules
+
+## Project Purpose
+To ensure all medical data is accurately extracted, cleaned, organized, and imported into the Notion Medical Calendar database, with full traceability and no missing records.
+
+---
+
+## Step 1: Audit & Validate Data Extraction
+
+### 1.1 Inventory All Original Data
+- List all files in original data folders:
+  - `data/atrium_summary/`
+  - `data/novant_summary/`
+  - `data/raw/`
+  - Any other source folders
+- List all files in processed/extracted folders:
+  - `data/processed/`
+  - `data/processed/notion_ready/`
+  - Subfolders as needed
+
+### 1.2 Cross-Check Extraction
+- For each original file, confirm a corresponding processed entry exists (JSON or text).
+- Flag any original files without a processed/extracted version.
+- Document any missing or problematic files for follow-up.
+
+---
+
+## Step 2: Clean & Organize Processed Data
+
+### 2.1 Validate Event Dates
+- Ensure every event's `date` is the event/test/appointment date (never DOB).
+- Flag and correct any entries with missing or incorrect dates.
+
+### 2.2 Standardize Naming & Types
+- For lab results:
+  - Set `title` to "Lab Results"
+  - Set `type` to "Lab Test" (or Notion select value)
+- For other events:
+  - Use consistent naming (e.g., "Doctor Visit - [Provider] - [Date]").
+
+### 2.3 Check for Duplicates
+- For each event, check if a similar entry (same date/type/provider) already exists in processed data.
+- Flag duplicates for review.
+
+### 2.4 Validate Relations
+- Ensure all `doctor`, `diagnoses`, `medications`, and `symptoms` fields match names in Notion databases.
+- Prepare mapping tables for normalization if needed.
+
+---
+
+## Step 3: Prepare for Import
+
+### 3.1 Format for Notion
+- Map all fields to Notion schema.
+- For lab results, format results in a readable, structured way in the `Lab Results` property.
+
+### 3.2 Final Review
+- Spot-check a sample of entries for accuracy and completeness.
+- Ensure all required fields are present.
+
+---
+
+## Step 4: Import to Notion
+
+- Use Notion integration and a script to batch import cleaned data.
+- Validate imported data in Notion.
+- Document any issues and resolve as needed.
+
+---
+
+## Ongoing Maintenance & Best Practices
+- Keep a mapping file for all doctors, diagnoses, etc., for consistent naming.
+- Automate de-duplication: check for existing events before import.
+- Document the process for repeatability.
+- Review and update this checklist as the project evolves.
+
+---
+
+**Checklist for Each Data Batch:**
+- [ ] All original files accounted for
+- [ ] All data extracted
+- [ ] Dates validated (no DOB as event date)
+- [ ] Naming conventions applied
+- [ ] Duplicates checked
+- [ ] Relations validated
+- [ ] Notion import format ready
+- [ ] Spot-check review complete
+- [ ] Imported to Notion
+- [ ] Post-import validation done

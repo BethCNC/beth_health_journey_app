@@ -1,0 +1,155 @@
+---
+description: Mychart API
+globs: 
+alwaysApply: false
+---
+### Authentication
+```bash
+# Header format
+Authorization: Basic {base64(username:password)}
+```
+
+### Implementation Needed
+```typescript
+// scripts/import-from-gmed.ts
+const headers = {
+  'Authorization': `Basic ${Buffer.from(`${username}:${password}`).toString('base64')}`,
+  'Content-Type': 'application/json'
+};
+```
+
+---
+
+## 4. Carolina Asthma & Allergy Center
+
+**URL**: [https://pxpportal.nextgen.com/carolinaasthmaandallergycenterpa-27087/portal/#/appointments/viewappointments](mdc:https:/pxpportal.nextgen.com/carolinaasthmaandallergycenterpa-27087/portal/#/appointments/viewappointments)
+
+**System**: NextGen Patient Portal
+
+### Integration Status: 🔄 **NEEDS RESEARCH**
+- **Portal Type**: NextGen PxP Portal
+- **API Availability**: Unknown - requires investigation
+
+### Current Limitations
+- Modern browser requirement (Chrome, Firefox, Safari, Edge)
+- JavaScript and cookies required
+- No documented patient API access
+
+### Available Features (Manual Access)
+- Appointment viewing/scheduling
+- Medical records access
+- Communication with providers
+- Prescription management
+
+### Research Needed
+1. **NextGen Patient API**: Check if NextGen offers patient-facing APIs
+2. **FHIR Compliance**: Investigate 21st Century Cures Act compliance
+3. **Third-party Integration**: Look for health app connections
+4. **Screen Scraping**: Consider automated browser interaction as fallback
+
+### Potential Solutions
+```typescript
+// Option 1: NextGen API (if available)
+// Research NextGen Developer Portal
+
+// Option 2: Browser automation
+// Use Puppeteer/Playwright for data extraction
+
+// Option 3: Email notifications
+// Parse appointment confirmation emails
+```
+
+---
+
+## Integration Priority & Timeline
+
+### Phase 1: Immediate (This Week)
+1. **Activate Atrium MyChart** - Scripts ready, just need token
+2. **Activate Novant MyChart** - Scripts ready, just need token
+
+### Phase 2: Short-term (Next 2 Weeks)  
+3. **Implement GMed API** - Documentation available, straightforward REST API
+4. **Email processing** - Catch notifications from all portals
+
+### Phase 3: Medium-term (Next Month)
+5. **Research NextGen API** - Investigate patient access options
+6. **Automated scheduling** - Set up regular sync jobs
+
+---
+
+## Security Considerations
+
+### Token Management
+- Store all tokens in `data/` directory (gitignored)
+- Implement token refresh mechanisms
+- Use environment variables for sensitive data
+
+### Data Privacy
+- All integrations comply with HIPAA requirements
+- Patient-controlled access only
+- Secure token storage and transmission
+
+### Error Handling
+- Graceful degradation when APIs unavailable
+- Comprehensive logging for troubleshooting
+- Mock data fallbacks for development
+
+---
+
+## Automation Scripts Summary
+
+### Existing (Ready to Use)
+```bash
+# MyChart (Atrium/Novant)
+npx ts-node scripts/import-from-mychart.ts
+npx ts-node scripts/find-mychart-token.ts
+npx ts-node scripts/update-fhir-token.ts
+```
+
+### Needed (To Be Created)
+```bash
+# GMed Integration
+npx ts-node scripts/import-from-gmed.ts
+
+# NextGen Integration  
+npx ts-node scripts/import-from-nextgen.ts
+
+# Email Processing
+npx ts-node scripts/process-appointment-emails.ts
+
+# Unified Import
+npx ts-node scripts/import-all-portals.ts
+```
+
+---
+
+## Contact Information & Support
+
+### Atrium Health
+- **Portal Support**: 855-799-0044
+- **Email**: MyAtriumHealth@atriumhealth.org
+- **Chat**: Available in portal
+
+### Novant Health  
+- **Portal Support**: Available via MyChart messaging
+- **SMS**: Opt-in available for notifications
+
+### GMed (Gastroenterologist)
+- **API Demo**: https://api.gmed.com/Demo
+- **Support**: Contact practice directly
+
+### Carolina Asthma & Allergy
+- **Portal**: NextGen support through practice
+- **Phone**: Contact practice for technical issues
+
+---
+
+## Next Steps
+
+1. **Run existing MyChart imports** for immediate data access
+2. **Implement GMed API integration** using provided documentation  
+3. **Research NextGen API options** for allergy center
+4. **Set up email processing** for comprehensive appointment tracking
+5. **Create unified dashboard** showing all portal statuses
+
+This documentation serves as the single source of truth for all patient portal integrations and automation capabilities.

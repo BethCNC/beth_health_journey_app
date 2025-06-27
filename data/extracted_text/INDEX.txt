@@ -1,0 +1,53 @@
+Your Personal Visit Summary
+div.ZippedWarning
+			{
+				text-align:center;
+				padding-top:200px;
+				width:500px;
+				text-align:justify;
+			}
+			
+			div.Content
+			{
+				display:none;
+			}
+When you downloaded this file, it was in a "zipped" format, which lets you download many files at once.
+Unzip the folder called HealthSummary_Apr_10_2025.zip to view this document.
+If you just want to view your health summary, double click the file called {part} of {whole} - My Health Summary.PDF.
+These files are a portable copy of the information collected from  to 4/10/2025 with Novant Health. You can share these files with your other healthcare providers.
+Your care team can also view your information by viewing the health summary PDF files in
+this
+folder.
+If you want a different care team to upload the files, contact them to see if they are able to read the files electronically. Your downloaded, machine-readable Personal Health Summary document is in a format called 'CDA'. If your care team has a way to import CDA documents, you can give them the files located
+here.
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0001.XML
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0002.XML
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0003.XML
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0004.XML
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0005.XML
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0006.XML
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0007.XML
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0008.XML
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0009.XML
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0010.XML
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0011.XML
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0012.XML
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0013.XML
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0014.XML
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0015.XML
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0016.XML
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0017.XML
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0018.XML
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0019.XML
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0020.XML
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0021.XML
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0022.XML
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0023.XML
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0024.XML
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0025.XML
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0026.XML
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0027.XML
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0028.XML
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0029.XML
+IHE_XDM > Jennifer1 > Patient Health Summary file: DOC0030.XML
+Copyright © 2010 - 2023 Epic Systems Corporation

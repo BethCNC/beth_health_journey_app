@@ -1,0 +1,367 @@
+/* ComingSoon.module.css */
+
+/* Animated Background Gradient */
+@keyframes hero-gradient-animation {
+    0% {
+        --c-0: hsla(316, 97%, 81%, 1);
+        --y-0: 96%;
+        --s-start-0: 37%;
+        --s-end-0: 90%;
+        --x-0: 11%;
+        --x-1: 92%;
+        --s-start-1: 31%;
+        --s-end-1: 84%;
+        --c-1: hsla(193, 93%, 81%, 1);
+        --y-1: 89%;
+        --c-2: hsla(203, 99%, 57%, 1);
+        --s-start-2: 41%;
+        --s-end-2: 61%;
+        --y-2: 7%;
+        --x-2: 58%;
+        --s-start-3: 22%;
+        --s-end-3: 59%;
+        --y-3: 35%;
+        --x-3: 62%;
+        --c-3: hsla(203, 99%, 42%, 1);
+        --s-start-4: 19%;
+        --s-end-4: 70%;
+        --y-4: 63%;
+        --x-4: 2%;
+        --c-4: hsla(56.129032258064505, 96%, 68%, 1);
+    }
+
+    100% {
+        --c-0: hsla(316, 95%, 90%, 1);
+        --y-0: 12%;
+        --s-start-0: 29%;
+        --s-end-0: 73%;
+        --x-0: 6%;
+        --x-1: 61%;
+        --s-start-1: 8%;
+        --s-end-1: 80%;
+        --c-1: hsla(192, 94%, 71%, 1);
+        --y-1: 6%;
+        --c-2: hsla(203.2411067193676, 99%, 50%, 1);
+        --s-start-2: 29%;
+        --s-end-2: 80%;
+        --y-2: 23%;
+        --x-2: 75%;
+        --s-start-3: 2%;
+        --s-end-3: 81%;
+        --y-3: 64%;
+        --x-3: 76%;
+        --c-3: hsla(203, 98%, 71%, 1);
+        --s-start-4: 24%;
+        --s-end-4: 81%;
+        --y-4: 86%;
+        --x-4: 41%;
+        --c-4: hsla(56.153846153846146, 95%, 83%, 1);
+    }
+}
+
+@property --c-0 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: hsla(316, 97%, 81%, 1)
+}
+
+@property --y-0 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 96%
+}
+
+@property --s-start-0 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 37%
+}
+
+@property --s-end-0 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 90%
+}
+
+@property --x-0 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 11%
+}
+
+@property --x-1 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 92%
+}
+
+@property --s-start-1 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 31%
+}
+
+@property --s-end-1 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 84%
+}
+
+@property --c-1 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: hsla(193, 93%, 81%, 1)
+}
+
+@property --y-1 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 89%
+}
+
+@property --c-2 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: hsla(203, 99%, 57%, 1)
+}
+
+@property --s-start-2 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 41%
+}
+
+@property --s-end-2 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 61%
+}
+
+@property --y-2 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 7%
+}
+
+@property --x-2 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 58%
+}
+
+@property --s-start-3 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 22%
+}
+
+@property --s-end-3 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 59%
+}
+
+@property --y-3 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 35%
+}
+
+@property --x-3 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 62%
+}
+
+@property --c-3 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: hsla(203, 99%, 42%, 1)
+}
+
+@property --s-start-4 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 19%
+}
+
+@property --s-end-4 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 70%
+}
+
+@property --y-4 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 63%
+}
+
+@property --x-4 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 2%
+}
+
+@property --c-4 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: hsla(56.129032258064505, 96%, 68%, 1)
+}
+
+/* Main Container */
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  color: var(--text-primary);
+  font-family: "articulat-cf", sans-serif;
+  
+  /* Animated gradient background */
+  --c-0: hsla(316, 97%, 81%, 1);
+  --y-0: 96%;
+  --x-0: 11%;
+  --x-1: 92%;
+  --c-1: hsla(193, 93%, 81%, 1);
+  --y-1: 89%;
+  --c-2: hsla(203, 99%, 57%, 1);
+  --y-2: 7%;
+  --x-2: 58%;
+  --y-3: 35%;
+  --x-3: 62%;
+  --c-3: hsla(203, 99%, 42%, 1);
+  --y-4: 63%;
+  --x-4: 2%;
+  --c-4: hsla(56.129032258064505, 96%, 68%, 1);
+  background-color: hsla(317.1428571428571, 57%, 68%, 1);
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 750 750' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E"), 
+                    radial-gradient(circle at var(--x-0) var(--y-0), var(--c-0) var(--s-start-0), transparent var(--s-end-0)), 
+                    radial-gradient(circle at var(--x-1) var(--y-1), var(--c-1) var(--s-start-1), transparent var(--s-end-1)), 
+                    radial-gradient(circle at var(--x-2) var(--y-2), var(--c-2) var(--s-start-2), transparent var(--s-end-2)), 
+                    radial-gradient(circle at var(--x-3) var(--y-3), var(--c-3) var(--s-start-3), transparent var(--s-end-3)), 
+                    radial-gradient(circle at var(--x-4) var(--y-4), var(--c-4) var(--s-start-4), transparent var(--s-end-4));
+  animation: hero-gradient-animation 15s linear infinite alternate;
+  background-blend-mode: overlay, normal, normal, normal, normal, normal;
+}
+
+/* Nebulae Background - Removed as we're using the animated gradient instead */
+.nebulaeContainer {
+  display: none;
+}
+
+/* Content */
+.contentContainer {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: var(--dimensions-spacing-space-xl);
+  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  margin-bottom: var(--dimensions-spacing-space-lg);
+}
+
+.logo img {
+  height: 120px;
+  width: auto;
+}
+
+.title {
+  font-family: "articulat-cf", sans-serif;
+  font-size: var(--type-font-size-text-4xl-36);
+  font-weight: 700;
+  margin-bottom: var(--dimensions-spacing-space-md);
+  color: white;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.subtitle {
+  font-family: "articulat-cf", sans-serif;
+  font-size: var(--type-font-size-text-xl-20);
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: var(--dimensions-spacing-space-xl);
+}
+
+/* Footer */
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: var(--dimensions-spacing-space-md);
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  z-index: 2;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--dimensions-spacing-space-md);
+}
+
+.copyright {
+  font-family: "articulat-cf", sans-serif;
+  font-size: var(--type-font-size-text-sm-14);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.socialIcons {
+  display: flex;
+  gap: var(--dimensions-spacing-space-md);
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  fill: rgba(255, 255, 255, 0.7);
+  transition: fill 0.2s ease, transform 0.2s ease;
+}
+
+.icon:hover {
+  fill: white;
+  transform: scale(1.1);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .title {
+    font-size: var(--type-font-size-text-3xl-30);
+  }
+  
+  .subtitle {
+    font-size: var(--type-font-size-text-lg-18);
+  }
+  
+  .footerContent {
+    flex-direction: column;
+    gap: var(--dimensions-spacing-space-md);
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: var(--type-font-size-text-2xl-24);
+  }
+  
+  .subtitle {
+    font-size: var(--type-font-size-text-base-16);
+  }
+} 

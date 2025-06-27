@@ -1,0 +1,148 @@
+10/25/24, 8:23 PM
+
+MyChart - Report
+
+Name: Jennifer Beth Cartrette | DOB: 9/13/1982 | MRN: 71030963 | PCP: Timothy Kennard, MD | Legal Name: Jennifer Beth
+Cartrette
+
+Results
+Comments From the Doctor's Office
+Ms Cartrette,
+I have reviewed your recent lab results. Your blood counts, kidney function and liver function are all
+within normal ranges.
+The testing we did looking for antibodies specific for conditions like lupus, scleroderma, Sjogren's
+syndrome, inflammatory muscle diseases were all normal. The test that can be seen associated
+with psoriatic arthritis was also normal, but this does not completely rule out this condition.
+Your screening test for tuberculosis and hepatitis were both negative.
+The marker of inflammation that we checked was also improved.
+If you would like to move forward with the pharmacy looking into coverage options for Humira,
+please let me know and we can start that process.
+Amit Patel MD
+Written by Amit Patel on 7/14/2020 1:17 PM EDT
+Seen by patient Jennifer Beth Cartrette on 10/25/2024 8:23 PM
+
+Results
+QuantiFERON-TB Gold Plus Blood (Lab ID/Accession # 19114103040) (Order 776053126)
+QuantiFERON-TB Gold Plus Blood (Lab ID/Accession # 776052998L) (Order 776053126)
+
+Narrative
+Performed at:
+
+01 - LabCorp Burlington
+
+1447 York Court, Burlington, NC
+
+272153361
+
+Lab Director: Sanjai Nagendra MD, Phone:
+
+8007624344
+
+Result Report
+QuantiFERON Criteria:
+
+Comment
+The QuantiFERON-TB Gold Plus result is determined by
+subtracting
+
+https://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24PiwQDi-2BqdqZW160407cQxw-3D-3D-24wc67MtjjvDLLNyE9…
+
+1/2
+
+10/25/24, 8:23 PM
+
+MyChart - Report
+
+the Nil value from either TB antigen (Ag) tube. The mitogen tube
+serves as a control for the test.
+QuantiFERON TB1 Ag Value:
+
+0.09 IU/mL
+
+QuantiFERON TB2 Ag Value:
+
+0.09 IU/mL
+
+QuantiFERON-TB Gold Plus:
+
+Negative (Range: Negative)
+
+Quantiferon Incubation:
+
+Incubation performed.
+
+Quantiferon Mitogen Value:
+
+>10.00 IU/mL
+
+Quantiferon Nil Value:
+
+0.13 IU/mL
+
+All Reviewers List
+Amit M Patel, MD on 7/14/2020 1:17 PM
+
+Result Information
+Status: Final
+
+Provider Status: Reviewed
+
+result (Collected:
+7/9/2020 4:50
+PM)
+
+Lab Information
+LABCORP
+
+Additional Information
+Specimen ID
+
+Bill Type
+
+Client ID
+
+19114103040
+
+Third-Party
+
+32836265
+
+Specimen Date
+
+Specimen Time
+
+Specimen
+
+Specimen
+
+Taken
+
+Taken
+
+Received Date
+
+Received Time
+
+Result Date
+
+Result Time
+
+Jul 9, 2020
+
+4:50 PM
+
+Jul 9, 2020
+
+12:00 AM
+
+Jul 12, 2020
+
+6:35 PM
+
+MyChart® licensed from Epic Systems Corporation© 1999 - 2024
+
+https://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24PiwQDi-2BqdqZW160407cQxw-3D-3D-24wc67MtjjvDLLNyE9…
+
+2/2
+
+

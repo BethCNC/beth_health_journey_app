@@ -1,0 +1,53 @@
+1/20/25, 8:20 PM
+
+MyAtriumHealth - Test Details
+
+Name: Beth Cartrette | DOB: 9/13/1982 | MRN: 4179018 | PCP: Timothy P Kennard, MD | Legal Name: Jennifer Beth Cartrette
+
+TSH
+Collected on Jan 17, 2025 12:30 PM
+
+Results
+The testing method is an immunoassay manufactured by Beckman Coulter Inc performed on
+DxI/Access platform. Values obtained with different assay methods may be different and
+cannot be used interchangeably.
+
+TSH
+
+TSH Pregnancy Comment
+
+Normal range: 0.450 - 5.330 uIU/mL
+6.423
+0.45
+
+High
+
+5.33
+
+Value
+No value
+TSH in Pregnancy:
+1st Trimester of Pregnancy 0.050 - 3.700 uIU/mL
+2nd Trimester of Pregnancy 0.310 - 4.350 uIU/mL
+3rd Trimester of Pregnancy 0.410 - 5.180 uIU/mL
+
+Ordering provider: Timothy Kennard, MD
+Collection date: Jan 17, 2025 12:30 PM
+Specimens: Blood (Venous)
+Result date: Jan 18, 2025 2:02 AM
+Result status: Final
+Resulting lab:
+ATRIUM HEALTH LABORATORY
+5040 Airport Center Pkwy
+Charlotte NC 28208
+704-512-4900
+Edward Lipford,MD (Lab director)
+34D2084481 (CLIA #)
+
+MyChart® licensed from Epic Systems Corporation© 1999 - 2025
+
+https://my.atriumhealth.org/myatriumhealth/app/test-results/details?pageMode=1&eorderid=WP-24Ir0JBmjpavq2qTvwybPxOg-3D-3D-24rE6kQbK85vcXQHc45eYj…
+
+1/1
+
+
