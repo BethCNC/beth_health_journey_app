@@ -1,0 +1,50 @@
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Large data directories
+data/
+@processed-data/
+processed-data/
+analysis_output/
+storybook-static/
+
+# Firebase directories (not needed for Vercel)
+.firebase/
+functions/node_modules/
+default/node_modules/
+
+# Large asset directories
+3d icons/
+assets/
+copywriting-icons/
+
+# Development files
+.DS_Store
+*.log
+.next/cache/
+
+# Documentation and non-essential files
+docs/
+README.md
+LANDING_PAGE_README.md
+
+# Supabase (since we're using Firebase now)
+supabase/
+
+# Health journey app subdirectory (duplicate)
+health-journey-app/
+
+# Scripts and utilities
+scripts/
+packages/
+utils/
+
+# Other large directories
+.git/
+node_modules/
+.cursor/
+.vscode/
+.github/
+.storybook/ 
