@@ -2,15 +2,9 @@
 
 import { useState, useEffect } from 'react';
 import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
-import { Database } from '@/types/supabase';
+import { Database } from '../../lib/supabase/database.types';
 import { format } from 'date-fns';
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from '@/components/ui/card';
+import Card from '../../components/ui/Card';
 import { Badge } from '@/components/ui/badge';
 import {
   Select,
@@ -118,52 +112,48 @@ export default function MedicalEvents() {
       <div className="space-y-4">
         {events.map((event) => (
           <Card key={event.id}>
-            <CardHeader>
-              <div className="flex items-center justify-between">
-                <CardTitle className="text-xl font-semibold">
-                  {event.title}
-                </CardTitle>
-                <Badge 
-                  variant="secondary"
-                  className={eventTypeColors[event.event_type || 'other']}
-                >
-                  {event.event_type}
-                </Badge>
-              </div>
-              <CardDescription>
-                {format(new Date(event.date), 'PPP')}
-                {event.location && ` • ${event.location}`}
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <div className="space-y-2">
-                {event.description && (
-                  <p className="text-sm text-gray-600">{event.description}</p>
-                )}
-                {event.provider && (
-                  <p className="text-sm">
-                    <span className="font-medium">Provider:</span>{' '}
-                    {event.provider.name}
-                    {event.provider.specialty && ` (${event.provider.specialty})`}
-                  </p>
-                )}
-                {event.condition && (
-                  <p className="text-sm">
-                    <span className="font-medium">Related Condition:</span>{' '}
-                    {event.condition.name}
-                  </p>
-                )}
-                {event.treatment && (
-                  <p className="text-sm">
-                    <span className="font-medium">Related Treatment:</span>{' '}
-                    {event.treatment.name}
-                  </p>
-                )}
-                {event.notes && (
-                  <p className="text-sm mt-2 italic">{event.notes}</p>
-                )}
-              </div>
-            </CardContent>
+            <div className="flex items-center justify-between">
+              <h3 className="text-xl font-semibold">
+                {event.title}
+              </h3>
+              <Badge 
+                variant="secondary"
+                className={eventTypeColors[event.event_type || 'other']}
+              >
+                {event.event_type}
+              </Badge>
+            </div>
+            <p className="text-sm text-gray-600">
+              {format(new Date(event.date), 'PPP')}
+              {event.location && ` • ${event.location}`}
+            </p>
+            <div className="space-y-2">
+              {event.description && (
+                <p className="text-sm text-gray-600">{event.description}</p>
+              )}
+              {event.provider && (
+                <p className="text-sm">
+                  <span className="font-medium">Provider:</span>{' '}
+                  {event.provider.name}
+                  {event.provider.specialty && ` (${event.provider.specialty})`}
+                </p>
+              )}
+              {event.condition && (
+                <p className="text-sm">
+                  <span className="font-medium">Related Condition:</span>{' '}
+                  {event.condition.name}
+                </p>
+              )}
+              {event.treatment && (
+                <p className="text-sm">
+                  <span className="font-medium">Related Treatment:</span>{' '}
+                  {event.treatment.name}
+                </p>
+              )}
+              {event.notes && (
+                <p className="text-sm mt-2 italic">{event.notes}</p>
+              )}
+            </div>
           </Card>
         ))}
 

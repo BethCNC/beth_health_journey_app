@@ -8,6 +8,7 @@ export interface ButtonProps {
   isLoading?: boolean;
   children: React.ReactNode;
   onClick?: () => void;
+  className?: string;
 }
 
 const Button: React.FC<ButtonProps> = ({
@@ -18,21 +19,22 @@ const Button: React.FC<ButtonProps> = ({
   isLoading = false,
   children,
   onClick,
+  className = '',
   ...props
 }) => {
-  // Style based on variant
+  // Style based on variant using design tokens
   const variantStyles = {
-    primary: 'bg-blue-600 hover:bg-blue-700 text-white',
-    secondary: 'bg-gray-200 hover:bg-gray-300 text-gray-800',
-    outline: 'bg-transparent border border-blue-600 text-blue-600 hover:bg-blue-50',
-    text: 'bg-transparent text-blue-600 hover:underline hover:bg-blue-50',
+    primary: 'bg-primary-500 hover:bg-primary-600 focus:ring-primary-300 text-white border-transparent',
+    secondary: 'bg-secondary-400 hover:bg-secondary-500 focus:ring-secondary-300 text-gray-900 border-transparent',
+    outline: 'bg-transparent border-2 border-primary-500 text-primary-600 hover:bg-primary-50 focus:ring-primary-200',
+    text: 'bg-transparent text-primary-600 hover:underline hover:bg-primary-50 focus:ring-primary-200 border-transparent',
   };
 
-  // Style based on size
+  // Style based on size using design tokens
   const sizeStyles = {
-    sm: 'py-1 px-3 text-sm',
-    md: 'py-2 px-4 text-base',
-    lg: 'py-3 px-6 text-lg',
+    sm: 'py-2 px-3 text-sm rounded-lg',
+    md: 'py-3 px-4 text-base rounded-lg',
+    lg: 'py-4 px-6 text-lg rounded-xl',
   };
 
   // Combined styles
@@ -40,10 +42,11 @@ const Button: React.FC<ButtonProps> = ({
     ${variantStyles[variant]}
     ${sizeStyles[size]} 
     ${isFullWidth ? 'w-full' : ''}
-    rounded-md font-medium focus:outline-none focus:ring-2 focus:ring-blue-300
+    font-semibold focus:outline-none focus:ring-2 focus:ring-offset-2
     transition duration-200 ease-in-out
     ${isDisabled ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}
-  `;
+    ${className}
+  `.trim();
 
   return (
     <button
@@ -83,4 +86,4 @@ const Button: React.FC<ButtonProps> = ({
   );
 };
 
-export default Button; 
+export default Button;

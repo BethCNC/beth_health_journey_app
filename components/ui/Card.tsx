@@ -1,29 +1,39 @@
 import React from 'react';
 
 export type CardProps = {
-  title: string;
+  title?: string;
   children: React.ReactNode;
-  variant?: 'default' | 'outlined';
+  variant?: 'default' | 'outlined' | 'elevated' | 'subtle';
+  className?: string;
 };
 
 const Card = ({ 
   title, 
   children, 
-  variant = 'default' 
+  variant = 'default',
+  className = ''
 }: CardProps) => {
-  const baseStyles = 'rounded-lg p-4 shadow-md';
+  const baseStyles = 'rounded-xl p-6 transition-all duration-200';
   
   const variantStyles = {
-    default: 'bg-white border-2 border-gray-200',
-    outlined: 'bg-transparent border-2 border-primary-600',
+    default: 'bg-white border border-gray-200 shadow-sm hover:shadow-md',
+    outlined: 'bg-transparent border-2 border-primary-200 hover:border-primary-300',
+    elevated: 'bg-white shadow-lg hover:shadow-xl border-0',
+    subtle: 'bg-gray-50 border border-gray-100 hover:bg-white hover:shadow-sm',
   };
   
   return (
-    <div className={`${baseStyles} ${variantStyles[variant]}`}>
-      <h3 className="text-lg font-medium mb-2">{title}</h3>
-      <div>{children}</div>
+    <div className={`${baseStyles} ${variantStyles[variant]} ${className}`}>
+      {title && (
+        <h3 className="font-sans font-semibold text-lg text-gray-900 mb-4">
+          {title}
+        </h3>
+      )}
+      <div className="text-gray-700">
+        {children}
+      </div>
     </div>
   );
 };
 
-export default Card; 
+export default Card;
