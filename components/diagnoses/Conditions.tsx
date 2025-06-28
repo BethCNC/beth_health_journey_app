@@ -70,26 +70,48 @@ export default function Conditions() {
     }
   }
 
-  function getSeverityBadge(severity: string | null) {
+  function getSeverityBadge(severity: string | number | null) {
     let bgColor;
+    let severityText;
     
-    switch (severity) {
-      case 'mild': 
-        bgColor = 'bg-green-100 text-green-800';
-        break;
-      case 'moderate': 
-        bgColor = 'bg-amber-100 text-amber-800';
-        break;
-      case 'severe': 
+    // Handle both string and number severity values
+    if (typeof severity === 'number') {
+      if (severity >= 7) {
         bgColor = 'bg-red-100 text-red-800';
-        break;
-      default: 
+        severityText = 'Severe';
+      } else if (severity >= 4) {
+        bgColor = 'bg-amber-100 text-amber-800';
+        severityText = 'Moderate';
+      } else if (severity >= 1) {
+        bgColor = 'bg-green-100 text-green-800';
+        severityText = 'Mild';
+      } else {
         bgColor = 'bg-gray-100 text-gray-800';
+        severityText = 'Unknown';
+      }
+    } else {
+      switch (severity) {
+        case 'mild': 
+          bgColor = 'bg-green-100 text-green-800';
+          severityText = 'Mild';
+          break;
+        case 'moderate': 
+          bgColor = 'bg-amber-100 text-amber-800';
+          severityText = 'Moderate';
+          break;
+        case 'severe': 
+          bgColor = 'bg-red-100 text-red-800';
+          severityText = 'Severe';
+          break;
+        default: 
+          bgColor = 'bg-gray-100 text-gray-800';
+          severityText = 'Unknown';
+      }
     }
     
     return (
       <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${bgColor}`}>
-        {severity || 'Unknown'}
+        {severityText}
       </span>
     );
   }

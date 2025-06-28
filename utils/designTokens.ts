@@ -25,14 +25,13 @@ function resolveTokenValue(tokenValue: any, tokenType: string): any {
     
     // Check if it's a reference to another token
     if (typeof value === 'string' && value.startsWith('{') && value.endsWith('}')) {
-      // Extract the token path from the reference
-      const tokenPath = value.substring(1, value.length - 1);
-      const pathParts = tokenPath.split('.');
+      // Remove curly braces and split by dots
+      const path = value.slice(1, -1);
+      const pathParts = path.split('.');
       
-      // Navigate through the token object using the path
-      let resolvedValue = tokens;
+      let resolvedValue: any = tokens;
       for (const part of pathParts) {
-        if (resolvedValue[part]) {
+        if (resolvedValue && typeof resolvedValue === 'object' && part in resolvedValue) {
           resolvedValue = resolvedValue[part];
         } else {
           return null; // Path doesn't exist
@@ -67,9 +66,10 @@ export function getColor(tokenName: string, theme: 'light' | 'dark' = 'light'): 
   const parts = tokenName.split('.');
   
   // Navigate through the token structure
-  let currentObj = tokens[prefix];
+  const tokensAny = tokens as any;
+  let currentObj = tokensAny[prefix];
   for (const part of parts) {
-    if (currentObj && currentObj[part]) {
+    if (currentObj && typeof currentObj === 'object' && part in currentObj) {
       currentObj = currentObj[part];
     } else {
       console.warn(`Color token not found: ${tokenName}`);
@@ -84,12 +84,13 @@ export function getColor(tokenName: string, theme: 'light' | 'dark' = 'light'): 
  * Get a spacing token value in pixels
  */
 export function getSpacing(tokenName: string): SpacingToken {
-  if (!tokens.dimensions?.spacing) {
+  const tokensAny = tokens as any;
+  if (!tokensAny.dimensions?.spacing) {
     console.warn('Spacing tokens not found');
     return 0;
   }
   
-  const spacingToken = tokens.dimensions.spacing[tokenName];
+  const spacingToken = tokensAny.dimensions.spacing[tokenName];
   if (!spacingToken) {
     console.warn(`Spacing token not found: ${tokenName}`);
     return 0;
@@ -102,12 +103,13 @@ export function getSpacing(tokenName: string): SpacingToken {
  * Get a border radius value in pixels
  */
 export function getRadius(tokenName: string): RadiusToken {
-  if (!tokens.dimensions?.radius) {
+  const tokensAny = tokens as any;
+  if (!tokensAny.dimensions?.radius) {
     console.warn('Radius tokens not found');
     return 0;
   }
   
-  const radiusToken = tokens.dimensions.radius[tokenName];
+  const radiusToken = tokensAny.dimensions.radius[tokenName];
   if (!radiusToken) {
     console.warn(`Radius token not found: ${tokenName}`);
     return 0;
@@ -125,10 +127,11 @@ export function getComponentToken(component: string, tokenName: string): number 
   
   // Navigate to the component section
   const parts = componentPath.split('/');
-  let currentObj = tokens;
+  const tokensAny = tokens as any;
+  let currentObj = tokensAny;
   
   for (const part of parts) {
-    if (currentObj[part]) {
+    if (currentObj && typeof currentObj === 'object' && part in currentObj) {
       currentObj = currentObj[part];
     } else {
       console.warn(`Component not found: ${component}`);
@@ -137,7 +140,7 @@ export function getComponentToken(component: string, tokenName: string): number 
   }
   
   // Get the specific token
-  if (!currentObj[tokenName]) {
+  if (!currentObj || typeof currentObj !== 'object' || !(tokenName in currentObj)) {
     console.warn(`Token not found for ${component}: ${tokenName}`);
     return 0;
   }

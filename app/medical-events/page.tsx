@@ -298,9 +298,9 @@ export default function MedicalEventsPage() {
   const [filteredEvents, setFilteredEvents] = useState(MEDICAL_EVENTS);
   
   // Get unique years from events for the year filter
-  const years = [...new Set(MEDICAL_EVENTS.map(event => 
+  const years = Array.from(new Set(MEDICAL_EVENTS.map(event => 
     format(parseISO(event.date), 'yyyy')
-  ))].sort((a, b) => parseInt(b) - parseInt(a)); // Sort years descending
+  ))).sort((a, b) => parseInt(b) - parseInt(a)); // Sort years descending
   
   // Filter events based on selected filters and search query
   useEffect(() => {

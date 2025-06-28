@@ -356,13 +356,16 @@ const getSeverityIndicator = (severity: number) => {
 };
 
 export default function ConditionPage() {
-  const { id } = useParams();
+  const params = useParams();
+  const id = params?.id as string;
   const [activeTab, setActiveTab] = useState('overview');
   const [condition, setCondition] = useState<any>(null);
   const [relatedTimeline, setRelatedTimeline] = useState<any[]>([]);
   const [relatedLabs, setRelatedLabs] = useState<any[]>([]);
   
   useEffect(() => {
+    if (!id) return;
+    
     // Find the condition based on the ID from the URL
     const conditionId = Number(id);
     const foundCondition = CONDITIONS.find(c => c.id === conditionId);

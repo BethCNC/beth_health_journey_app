@@ -37,25 +37,25 @@ const extractColors = (theme: 'light' | 'dark') => {
       if (typeof values === 'object' && values !== null) {
         // Handle nested color scales (like Neutral.100, Neutral.200, etc.)
         Object.entries(values).forEach(([shade, value]) => {
-          if (value && typeof value === 'object' && '$value' in value && '$type' in value && value.$type === 'color') {
-            colorTokens[`${category}.${shade}`] = value.$value as string;
+          if (value && typeof value === 'object' && '$value' in value && '$type' in value && (value as any).$type === 'color') {
+            colorTokens[`${category}.${shade}`] = (value as any).$value as string;
           }
         });
-      } else if (values && typeof values === 'object' && '$value' in values && '$type' in values && values.$type === 'color') {
+      } else if (values && typeof values === 'object' && '$value' in values && '$type' in values && (values as any).$type === 'color') {
         // Handle direct color values like Black, White
-        colorTokens[category] = values.$value as string;
+        colorTokens[category] = (values as any).$value as string;
       }
     });
   }
   
   // Mapped colors (semantic colors)
   const mappedTokensPath = theme === 'light' ? 'Mapped/light' : 'Mapped/dark';
-  if (tokens[mappedTokensPath]) {
+  if (tokens[mappedTokensPath as keyof typeof tokens]) {
     const extractNestedColors = (obj: any, prefix = ''): void => {
       Object.entries(obj).forEach(([key, value]) => {
-        if (value && typeof value === 'object' && '$value' in value && '$type' in value && value.$type === 'color') {
+        if (value && typeof value === 'object' && '$value' in value && '$type' in value && (value as any).$type === 'color') {
           const fullKey = prefix ? `${prefix}.${key}` : key;
-          colorTokens[fullKey] = value.$value as string;
+          colorTokens[fullKey] = (value as any).$value as string;
         } else if (value && typeof value === 'object' && !('$value' in value)) {
           const newPrefix = prefix ? `${prefix}.${key}` : key;
           extractNestedColors(value, newPrefix);
@@ -63,7 +63,7 @@ const extractColors = (theme: 'light' | 'dark') => {
       });
     };
     
-    extractNestedColors(tokens[mappedTokensPath]);
+    extractNestedColors(tokens[mappedTokensPath as keyof typeof tokens]);
   }
   
   return colorTokens;
@@ -73,9 +73,10 @@ const extractColors = (theme: 'light' | 'dark') => {
 const extractSpacingTokens = () => {
   const spacingTokens: Record<string, number> = {};
   
-  // Extract space-* tokens from dimensions
-  if (tokens.dimensions?.spacing) {
-    Object.entries(tokens.dimensions.spacing).forEach(([key, value]) => {
+  // Extract space-* tokens from dimensions if it exists
+  const tokensAny = tokens as any;
+  if (tokensAny.dimensions?.spacing) {
+    Object.entries(tokensAny.dimensions.spacing).forEach(([key, value]: [string, any]) => {
       if (value && typeof value === 'object' && '$value' in value) {
         const tokenRef = value.$value as string;
         spacingTokens[key] = extractNumericValue(tokenRef);
@@ -90,17 +91,17 @@ const extractSpacingTokens = () => {
   ];
   
   componentCategories.forEach(category => {
-    if (tokens[category]) {
+    if (tokensAny[category]) {
       const components = ['button', 'layout', 'card'];
       
       components.forEach(component => {
-        if (tokens[category][component]) {
+        if (tokensAny[category][component]) {
           // Look for padding-related tokens
           ['h-padding', 'v-padding', 'full-padding', 'spacing'].forEach(tokenType => {
-            if (tokens[category][component][tokenType] && 
-                typeof tokens[category][component][tokenType] === 'object' && 
-                '$value' in tokens[category][component][tokenType]) {
-              const tokenRef = tokens[category][component][tokenType].$value as string;
+            if (tokensAny[category][component][tokenType] && 
+                typeof tokensAny[category][component][tokenType] === 'object' && 
+                '$value' in tokensAny[category][component][tokenType]) {
+              const tokenRef = tokensAny[category][component][tokenType].$value as string;
               const tokenKey = `${category.split('/')[1]}.${component}.${tokenType}`;
               spacingTokens[tokenKey] = extractNumericValue(tokenRef);
             }
@@ -117,9 +118,10 @@ const extractSpacingTokens = () => {
 const extractRadiusTokens = () => {
   const radiusTokens: Record<string, number> = {};
   
-  // Extract radius tokens from dimensions
-  if (tokens.dimensions?.radius) {
-    Object.entries(tokens.dimensions.radius).forEach(([key, value]) => {
+  // Extract radius tokens from dimensions if it exists
+  const tokensAny = tokens as any;
+  if (tokensAny.dimensions?.radius) {
+    Object.entries(tokensAny.dimensions.radius).forEach(([key, value]: [string, any]) => {
       if (value && typeof value === 'object' && '$value' in value) {
         const tokenRef = value.$value as string;
         radiusTokens[key] = extractNumericValue(tokenRef);
@@ -134,14 +136,14 @@ const extractRadiusTokens = () => {
   ];
   
   componentCategories.forEach(category => {
-    if (tokens[category]) {
+    if (tokensAny[category]) {
       const components = ['button', 'layout', 'card'];
       
       components.forEach(component => {
-        if (tokens[category][component]?.radius && 
-            typeof tokens[category][component].radius === 'object' && 
-            '$value' in tokens[category][component].radius) {
-          const tokenRef = tokens[category][component].radius.$value as string;
+        if (tokensAny[category][component]?.radius && 
+            typeof tokensAny[category][component].radius === 'object' && 
+            '$value' in tokensAny[category][component].radius) {
+          const tokenRef = tokensAny[category][component].radius.$value as string;
           const tokenKey = `${category.split('/')[1]}.${component}.radius`;
           radiusTokens[tokenKey] = extractNumericValue(tokenRef);
         }

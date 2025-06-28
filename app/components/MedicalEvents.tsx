@@ -1,61 +1,30 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
-import { Database } from '../../lib/supabase/database.types';
+import { useState } from 'react';
 import { format } from 'date-fns';
 import Card from '../../components/ui/Card';
-import { Badge } from '@/components/ui/badge';
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from '@/components/ui/select';
-import { Skeleton } from '@/components/ui/skeleton';
+import { Badge } from './ui/Badge';
 
-type MedicalEvent = Database['public']['Tables']['medical_events']['Row'];
+interface MedicalEvent {
+  id: string;
+  title: string;
+  description?: string;
+  event_type: string;
+  date: string;
+  location?: string;
+  provider_name?: string;
+  provider_specialty?: string;
+  condition_name?: string;
+  treatment_name?: string;
+  notes?: string;
+}
 
 export default function MedicalEvents() {
-  const [events, setEvents] = useState<MedicalEvent[]>([]);
-  const [loading, setLoading] = useState(true);
   const [eventType, setEventType] = useState<string>('all');
   const [sortOrder, setSortOrder] = useState<'desc' | 'asc'>('desc');
   
-  const supabase = createClientComponentClient<Database>();
-
-  useEffect(() => {
-    fetchEvents();
-  }, [eventType, sortOrder]);
-
-  async function fetchEvents() {
-    try {
-      setLoading(true);
-      let query = supabase
-        .from('medical_events')
-        .select(`
-          *,
-          provider:providers(name, specialty),
-          condition:conditions(name),
-          treatment:treatments(name)
-        `)
-        .order('date', { ascending: sortOrder === 'asc' });
-
-      if (eventType !== 'all') {
-        query = query.eq('event_type', eventType);
-      }
-
-      const { data, error } = await query;
-
-      if (error) throw error;
-      setEvents(data || []);
-    } catch (error) {
-      console.error('Error fetching medical events:', error);
-    } finally {
-      setLoading(false);
-    }
-  }
+  // Placeholder data - will be replaced with Firebase data later
+  const events: MedicalEvent[] = [];
 
   const eventTypeColors: Record<string, string> = {
     appointment: 'bg-blue-100 text-blue-800',
@@ -65,48 +34,30 @@ export default function MedicalEvents() {
     other: 'bg-gray-100 text-gray-800',
   };
 
-  if (loading) {
-    return (
-      <div className="space-y-4">
-        {[...Array(3)].map((_, i) => (
-          <Skeleton key={i} className="h-32 w-full" />
-        ))}
-      </div>
-    );
-  }
-
   return (
     <div className="space-y-6">
       <div className="flex gap-4">
-        <Select
+        <select
           value={eventType}
-          onValueChange={(value) => setEventType(value)}
+          onChange={(e) => setEventType(e.target.value)}
+          className="px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
         >
-          <SelectTrigger className="w-[180px]">
-            <SelectValue placeholder="Filter by type" />
-          </SelectTrigger>
-          <SelectContent>
-            <SelectItem value="all">All Events</SelectItem>
-            <SelectItem value="appointment">Appointments</SelectItem>
-            <SelectItem value="hospitalization">Hospitalizations</SelectItem>
-            <SelectItem value="procedure">Procedures</SelectItem>
-            <SelectItem value="test">Tests</SelectItem>
-            <SelectItem value="other">Other</SelectItem>
-          </SelectContent>
-        </Select>
+          <option value="all">All Events</option>
+          <option value="appointment">Appointments</option>
+          <option value="hospitalization">Hospitalizations</option>
+          <option value="procedure">Procedures</option>
+          <option value="test">Tests</option>
+          <option value="other">Other</option>
+        </select>
 
-        <Select
+        <select
           value={sortOrder}
-          onValueChange={(value: 'asc' | 'desc') => setSortOrder(value)}
+          onChange={(e) => setSortOrder(e.target.value as 'asc' | 'desc')}
+          className="px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
         >
-          <SelectTrigger className="w-[180px]">
-            <SelectValue placeholder="Sort by date" />
-          </SelectTrigger>
-          <SelectContent>
-            <SelectItem value="desc">Newest First</SelectItem>
-            <SelectItem value="asc">Oldest First</SelectItem>
-          </SelectContent>
-        </Select>
+          <option value="desc">Newest First</option>
+          <option value="asc">Oldest First</option>
+        </select>
       </div>
 
       <div className="space-y-4">
@@ -117,7 +68,7 @@ export default function MedicalEvents() {
                 {event.title}
               </h3>
               <Badge 
-                variant="secondary"
+                variant="default"
                 className={eventTypeColors[event.event_type || 'other']}
               >
                 {event.event_type}
@@ -131,23 +82,23 @@ export default function MedicalEvents() {
               {event.description && (
                 <p className="text-sm text-gray-600">{event.description}</p>
               )}
-              {event.provider && (
+              {event.provider_name && (
                 <p className="text-sm">
                   <span className="font-medium">Provider:</span>{' '}
-                  {event.provider.name}
-                  {event.provider.specialty && ` (${event.provider.specialty})`}
+                  {event.provider_name}
+                  {event.provider_specialty && ` (${event.provider_specialty})`}
                 </p>
               )}
-              {event.condition && (
+              {event.condition_name && (
                 <p className="text-sm">
                   <span className="font-medium">Related Condition:</span>{' '}
-                  {event.condition.name}
+                  {event.condition_name}
                 </p>
               )}
-              {event.treatment && (
+              {event.treatment_name && (
                 <p className="text-sm">
                   <span className="font-medium">Related Treatment:</span>{' '}
-                  {event.treatment.name}
+                  {event.treatment_name}
                 </p>
               )}
               {event.notes && (
@@ -158,7 +109,12 @@ export default function MedicalEvents() {
         ))}
 
         {events.length === 0 && (
-          <p className="text-center text-gray-500">No medical events found</p>
+          <div className="text-center py-8">
+            <p className="text-gray-500 mb-4">No medical events found</p>
+            <p className="text-sm text-gray-400">
+              Medical events will be loaded from Firebase once the integration is complete.
+            </p>
+          </div>
         )}
       </div>
     </div>

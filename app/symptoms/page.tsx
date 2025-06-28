@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 
@@ -332,9 +332,9 @@ const getSeverityColor = (severity: number) => {
   return 'bg-green-500';
 };
 
-export default function SymptomsPage() {
+function SymptomsContent() {
   const searchParams = useSearchParams();
-  const conditionId = searchParams.get('condition') ? Number(searchParams.get('condition')) : null;
+  const conditionId = searchParams?.get('condition') ? Number(searchParams.get('condition')) : null;
   
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedStatus, setSelectedStatus] = useState<string[]>([]);
@@ -683,5 +683,13 @@ export default function SymptomsPage() {
         </Link>
       </div>
     </div>
+  );
+}
+
+export default function SymptomsPage() {
+  return (
+    <Suspense fallback={<div>Loading symptoms...</div>}>
+      <SymptomsContent />
+    </Suspense>
   );
 } 

@@ -70,11 +70,12 @@ export class FirebaseService<T> {
   }
 
   async query(conditions: Array<{ field: string; operator: any; value: any }>): Promise<T[]> {
-    let q = collection(db, this.collectionName);
+    const collectionRef = collection(db, this.collectionName);
+    const whereConditions = conditions.map(({ field, operator, value }) => 
+      where(field, operator, value)
+    );
     
-    conditions.forEach(({ field, operator, value }) => {
-      q = query(q, where(field, operator, value));
-    });
+    const q = query(collectionRef, ...whereConditions);
     
     const querySnapshot = await getDocs(q);
     return querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() } as T));

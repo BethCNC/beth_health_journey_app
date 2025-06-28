@@ -79,7 +79,7 @@ export class AuthService {
     const docSnap = await getDoc(docRef);
     
     if (docSnap.exists()) {
-      return { id: docSnap.id, ...docSnap.data() } as UserProfile;
+      return { id: docSnap.id, ...docSnap.data() } as unknown as UserProfile;
     }
     return null;
   }

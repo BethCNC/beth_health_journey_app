@@ -37,6 +37,14 @@
     ".next/types/**/*.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "apps",
+    "health-journey-app",
+    "packages",
+    "scripts",
+    ".venv",
+    "**/*.stories.tsx",
+    "**/*.stories.ts",
+    ".storybook"
   ]
 }

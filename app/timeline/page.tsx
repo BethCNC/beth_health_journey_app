@@ -2,7 +2,8 @@
 
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
+import { format, parseISO } from 'date-fns';
 
 // Mock data for timeline events
 const MOCK_TIMELINE_EVENTS = [
@@ -217,7 +218,7 @@ const getCategoryColor = (category: string) => {
   }
 };
 
-export default function TimelinePage() {
+function TimelineContent() {
   const searchParams = useSearchParams();
   const [groupedEvents, setGroupedEvents] = useState<Record<string, typeof MOCK_TIMELINE_EVENTS>>({});
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
@@ -259,7 +260,7 @@ export default function TimelinePage() {
     setGroupedEvents(groupEventsByYear(filteredEvents));
     
     // Check for event parameter in URL
-    const eventId = searchParams.get('event');
+    const eventId = searchParams?.get('event');
     if (eventId) {
       setHighlightedEvent(Number(eventId));
       // Scroll to highlighted event after a short delay
@@ -457,5 +458,13 @@ export default function TimelinePage() {
         )}
       </div>
     </div>
+  );
+}
+
+export default function TimelinePage() {
+  return (
+    <Suspense fallback={<div>Loading timeline...</div>}>
+      <TimelineContent />
+    </Suspense>
   );
 } 
