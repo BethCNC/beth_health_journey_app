@@ -4,9 +4,41 @@ export default function ComingSoon() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden text-white
-      bg-gradient-to-br from-primary-400 via-primary-500 to-secondary-400 animate-gradient-animation">
-      <div className="relative z-10 flex flex-col items-center justify-center text-center p-8 max-w-[800px] 
+    <main className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden text-white">
+      {/* Background Video */}
+      <video 
+        autoPlay 
+        muted 
+        loop 
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover z-0"
+        poster="/images/videos/optimized/milky-way-720p.mp4" // Fallback image
+      >
+        {/* Multiple sources for different screen sizes and device capabilities */}
+        <source 
+          src="/images/videos/optimized/milky-way-1080p.mp4" 
+          type="video/mp4" 
+          media="(min-width: 1024px)"
+        />
+        <source 
+          src="/images/videos/optimized/milky-way-720p.mp4" 
+          type="video/mp4" 
+          media="(min-width: 768px)"
+        />
+        <source 
+          src="/images/videos/optimized/milky-way-480p.mp4" 
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+
+      {/* Dark Overlay for Better Text Readability */}
+      <div className="absolute inset-0 bg-black/40 z-5"></div>
+
+      {/* Gradient Overlay (keeping your original design aesthetic) */}
+      <div className="absolute inset-0 bg-gradient-to-br from-primary-400/20 via-primary-500/30 to-secondary-400/20 z-10"></div>
+
+      <div className="relative z-20 flex flex-col items-center justify-center text-center p-8 max-w-[800px] 
         bg-white/10 backdrop-blur-xl rounded-[32px] shadow-2xl border border-white/20">
         
         {/* Logo */}
@@ -55,7 +87,7 @@ export default function ComingSoon() {
         </div>
       </div>
 
-      <footer className="absolute bottom-0 left-0 w-full p-6 bg-black/20 backdrop-blur-md z-20">
+      <footer className="absolute bottom-0 left-0 w-full p-6 bg-black/20 backdrop-blur-md z-30">
         <div className="flex justify-between items-center max-w-[1200px] mx-auto px-4">
           <div className="text-sm text-white/70">
             &copy; {currentYear} My Health Journey. Built with understanding.
