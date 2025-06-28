@@ -5,20 +5,22 @@ __pycache__/
 
 # Large data directories
 data/
-@processed-data/
-processed-data/
-analysis_output/
-storybook-static/
+scripts/data-processing/
 
 # Firebase directories (not needed for Vercel)
 .firebase/
 functions/node_modules/
 default/node_modules/
 
-# Large asset directories
-3d icons/
-assets/
-copywriting-icons/
+# Large asset directories (moved to public/images now)
+public/images/videos/
+public/images/images/
+public/images/gifs/
+public/images/notes-icons/
+public/images/medical-red-icons/
+public/images/medical-appt-icons/
+public/images/copywriting-icons/
+public/images/chat_bot_icons/
 
 # Development files
 .DS_Store
@@ -30,24 +32,13 @@ docs/
 README.md
 LANDING_PAGE_README.md
 
-# Supabase (since we're using Firebase now)
-supabase/
-
-# Health journey app subdirectory (duplicate)
-health-journey-app/
-
-# Scripts and utilities
+# Scripts and utilities (keep supabase config)
 scripts/
 packages/
-utils/
 
 # Other large directories
 .git/
 node_modules/
 .cursor/
 .vscode/
-.github/
-.storybook/
-
-# Duplicate app directories (not used)
-apps/ 
+.github/ 

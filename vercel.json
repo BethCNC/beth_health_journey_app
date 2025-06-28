@@ -13,5 +13,18 @@
   "regions": ["iad1"],
   "env": {
     "NODE_ENV": "production"
-  }
+  },
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "beth-health-phost2asc-beths-projects-87b71e8b.vercel.app"
+        }
+      ],
+      "destination": "https://www.bethcartrette.com/$1",
+      "permanent": true
+    }
+  ]
 } 
