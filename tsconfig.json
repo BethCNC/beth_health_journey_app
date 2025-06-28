@@ -38,13 +38,8 @@
   ],
   "exclude": [
     "node_modules",
-    "apps",
-    "health-journey-app",
     "packages",
     "scripts",
-    ".venv",
-    "**/*.stories.tsx",
-    "**/*.stories.ts",
-    ".storybook"
+    ".venv"
   ]
 }

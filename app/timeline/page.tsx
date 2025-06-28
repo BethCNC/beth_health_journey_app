@@ -3,7 +3,6 @@
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { useState, useEffect, Suspense } from 'react';
-import { format, parseISO } from 'date-fns';
 
 // Mock data for timeline events
 const MOCK_TIMELINE_EVENTS = [
@@ -167,10 +166,7 @@ const MOCK_TIMELINE_EVENTS = [
   }
 ];
 
-// Sort events by date
-const sortedEvents = [...MOCK_TIMELINE_EVENTS].sort((a, b) => 
-  new Date(b.date).getTime() - new Date(a.date).getTime()
-);
+
 
 // Group events by year
 const groupEventsByYear = (events: typeof MOCK_TIMELINE_EVENTS) => {

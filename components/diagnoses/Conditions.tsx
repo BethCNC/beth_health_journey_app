@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import { conditionsService, providersService } from '../../lib/firebase/services';
+// import { conditionsService, providersService } from '../../lib/firebase/services'; // Deprecated: Using Supabase now
 
-// Mock data for now since we're transitioning to Firebase
+// Mock data for now since we're using Supabase
 const MOCK_CONDITIONS = [
   {
     id: '1',
@@ -40,10 +40,10 @@ export default function Conditions() {
   const [statusFilter, setStatusFilter] = useState<ConditionStatus | 'all'>('all');
   const [severityFilter, setSeverityFilter] = useState<ConditionSeverity | 'all'>('all');
 
-  // TODO: Replace with actual Firebase data fetching
+  // TODO: Replace with actual Supabase data fetching
   useEffect(() => {
     // For now, just use mock data
-    // In the future, this will fetch from Firebase
+    // In the future, this will fetch from Supabase
     setLoading(false);
   }, [statusFilter, severityFilter]);
 
