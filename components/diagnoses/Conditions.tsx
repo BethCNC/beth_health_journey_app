@@ -1,64 +1,51 @@
 import { useState, useEffect } from 'react';
-import { createClient } from '@supabase/supabase-js';
-import { Database } from '../../lib/supabase/database.types';
+import { conditionsService, providersService } from '../../lib/firebase/services';
 
-// Initialize Supabase client
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
-const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
-const supabase = createClient<Database>(supabaseUrl, supabaseKey);
-
-// Type for the condition with related provider
-type Condition = Database['public']['Tables']['conditions']['Row'] & {
-  providers?: Database['public']['Tables']['providers']['Row'] | null;
-};
+// Mock data for now since we're transitioning to Firebase
+const MOCK_CONDITIONS = [
+  {
+    id: '1',
+    name: 'Ehlers-Danlos Syndrome (hEDS)',
+    description: 'A connective tissue disorder affecting collagen production',
+    status: 'active',
+    severity: 7,
+    category: 'Genetic',
+    date_diagnosed: '2018-04-10',
+    provider: {
+      name: 'Dr. Smith',
+      specialty: 'Genetics'
+    }
+  },
+  {
+    id: '2', 
+    name: 'Chronic Migraine',
+    description: 'Recurring severe headaches with neurological symptoms',
+    status: 'active',
+    severity: 8,
+    category: 'Neurological',
+    date_diagnosed: '2019-02-15',
+    provider: {
+      name: 'Dr. Johnson',
+      specialty: 'Neurology'
+    }
+  }
+];
 
 type ConditionStatus = 'active' | 'resolved' | 'chronic' | 'inactive';
 type ConditionSeverity = 'mild' | 'moderate' | 'severe';
 
 export default function Conditions() {
-  const [conditions, setConditions] = useState<Condition[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [conditions, setConditions] = useState(MOCK_CONDITIONS);
+  const [loading, setLoading] = useState(false);
   const [statusFilter, setStatusFilter] = useState<ConditionStatus | 'all'>('all');
   const [severityFilter, setSeverityFilter] = useState<ConditionSeverity | 'all'>('all');
 
+  // TODO: Replace with actual Firebase data fetching
   useEffect(() => {
-    fetchConditions();
+    // For now, just use mock data
+    // In the future, this will fetch from Firebase
+    setLoading(false);
   }, [statusFilter, severityFilter]);
-
-  async function fetchConditions() {
-    setLoading(true);
-    
-    try {
-      let query = supabase
-        .from('conditions')
-        .select(`
-          *,
-          providers:provider_id (*)
-        `)
-        .order('date_diagnosed', { ascending: false });
-      
-      // Apply filters if they're not set to 'all'
-      if (statusFilter !== 'all') {
-        query = query.eq('status', statusFilter);
-      }
-      
-      if (severityFilter !== 'all') {
-        query = query.eq('severity', severityFilter);
-      }
-      
-      const { data, error } = await query;
-      
-      if (error) {
-        throw error;
-      }
-      
-      setConditions(data || []);
-    } catch (error) {
-      console.error('Error fetching conditions:', error);
-    } finally {
-      setLoading(false);
-    }
-  }
 
   function getStatusColor(status: string | null) {
     switch (status) {
@@ -180,10 +167,10 @@ export default function Conditions() {
                     </p>
                   )}
                   
-                  {condition.providers && (
+                  {condition.provider && (
                     <p className="text-sm text-gray-500">
-                      Provider: {condition.providers.name || 'Unknown'}
-                      {condition.providers.specialty && ` (${condition.providers.specialty})`}
+                      Provider: {condition.provider.name || 'Unknown'}
+                      {condition.provider.specialty && ` (${condition.provider.specialty})`}
                     </p>
                   )}
                 </div>
@@ -197,13 +184,6 @@ export default function Conditions() {
               
               {condition.description && (
                 <p className="mt-3 text-gray-700">{condition.description}</p>
-              )}
-              
-              {condition.notes && (
-                <div className="mt-4 bg-gray-50 p-3 rounded text-sm text-gray-700">
-                  <p className="font-medium text-gray-900 mb-1">Notes:</p>
-                  <p>{condition.notes}</p>
-                </div>
               )}
             </div>
           ))}
