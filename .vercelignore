@@ -13,7 +13,6 @@ functions/node_modules/
 default/node_modules/
 
 # Large asset directories (moved to public/images now)
-public/images/videos/
 public/images/images/
 public/images/gifs/
 public/images/notes-icons/
