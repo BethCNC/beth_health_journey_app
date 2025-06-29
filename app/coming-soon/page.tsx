@@ -2,8 +2,8 @@ import '../../styles/globals.css';
 
 export default function ComingSoon() {
   return (
-    <main className="min-h-screen relative overflow-hidden">
-      {/* Background Video */}
+    <main className="min-h-screen relative overflow-hidden bg-gradient-to-br from-slate-900 via-gray-900 to-black">
+      {/* Background Video with CSS fallback */}
       <video 
         autoPlay 
         muted 
