@@ -10,21 +10,21 @@ export default function ComingSoon() {
         loop 
         playsInline
         className="absolute inset-0 w-full h-full object-cover z-0"
-        poster="/images/videos/optimized/zebra-bg-720p.mp4"
+        poster="/images/videos/optimized/zebra-tiny-720p.mp4"
       >
         {/* Multiple sources for different screen sizes and device capabilities */}
         <source 
-          src="/images/videos/optimized/zebra-bg-1080p.mp4" 
+          src="/images/videos/optimized/zebra-tiny-1080p.mp4" 
           type="video/mp4" 
           media="(min-width: 1024px)"
         />
         <source 
-          src="/images/videos/optimized/zebra-bg-720p.mp4" 
+          src="/images/videos/optimized/zebra-tiny-720p.mp4" 
           type="video/mp4" 
           media="(min-width: 768px)"
         />
         <source 
-          src="/images/videos/optimized/zebra-bg-480p.mp4" 
+          src="/images/videos/optimized/zebra-tiny-480p.mp4" 
           type="video/mp4"
         />
         Your browser does not support the video tag.
