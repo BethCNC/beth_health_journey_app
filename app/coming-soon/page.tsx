@@ -5,6 +5,7 @@ import {useEffect, useRef, useState} from 'react';
 export default function ComingSoon() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [opacity, setOpacity] = useState(0);
+  const [subOpacity, setSubOpacity] = useState(0);
 
   useEffect(() => {
     const video = videoRef.current;
@@ -12,16 +13,28 @@ export default function ComingSoon() {
     const handleTimeUpdate = () => {
       const t = video.currentTime;
       let o = 0;
+      let so = 0;
       if (t >= 6 && t < 8) {
-        o = (t - 6) / 2; // fade in 0->1
+        o = (t - 6) / 2;
       } else if (t >= 8 && t < 18) {
         o = 1;
       } else if (t >= 18 && t < 20) {
-        o = 1 - (t - 18) / 2; // fade out 1->0
+        o = 1 - (t - 18) / 2;
       } else {
         o = 0;
       }
+      // Subtext fades in after 8s, out at 18s
+      if (t >= 8 && t < 10) {
+        so = (t - 8) / 2;
+      } else if (t >= 10 && t < 18) {
+        so = 1;
+      } else if (t >= 18 && t < 20) {
+        so = 1 - (t - 18) / 2;
+      } else {
+        so = 0;
+      }
       setOpacity(o);
+      setSubOpacity(so);
     };
     video.addEventListener('timeupdate', handleTimeUpdate);
     return () => video.removeEventListener('timeupdate', handleTimeUpdate);
@@ -50,7 +63,7 @@ export default function ComingSoon() {
       />
       {/* Text */}
       <div
-        className="absolute inset-0 flex items-center justify-center z-20"
+        className="absolute inset-0 flex flex-col items-center justify-center z-20"
         style={{pointerEvents: 'none'}}
       >
         <span
@@ -72,6 +85,25 @@ export default function ComingSoon() {
           }}
         >
           coming soon
+        </span>
+        <span
+          style={{
+            opacity: subOpacity,
+            transition: 'opacity 0.5s',
+            fontFamily: 'Focus Grotesk, Arial, sans-serif',
+            fontWeight: 300,
+            fontSize: '42px',
+            color: '#fff',
+            textShadow: '0px 2px 2px rgba(0,0,0,0.25)',
+            letterSpacing: 0,
+            lineHeight: 1,
+            textAlign: 'center',
+            display: 'block',
+            marginTop: '32px',
+            whiteSpace: 'pre-line',
+          }}
+        >
+          {`One zebra's long road to answers.\nhEDS, POTS & MCAS\nThis is my story.`}
         </span>
       </div>
     </main>
