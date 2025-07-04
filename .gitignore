@@ -53,7 +53,7 @@ assets/videos/optimized/*.mp4
 
 # Additional media files to ignore
 *.heic
-*.mp4
+# *.mp4
 *.mov
 *.dng
 *.acr
