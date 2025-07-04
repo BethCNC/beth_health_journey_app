@@ -29,33 +29,32 @@ export default function ComingSoon() {
   }, []);
 
   return (
-    <main className="min-h-screen relative overflow-hidden bg-gradient-to-br from-slate-900 via-gray-900 to-black">
+    <main className="min-h-screen relative overflow-hidden">
       <Head>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Focus+Grotesk:wght@300&display=swap" />
       </Head>
-      {/* Background Video */}
-      <video 
+      {/* Video */}
+      <video
         ref={videoRef}
-        autoPlay 
-        muted 
-        loop 
+        autoPlay
+        muted
+        loop
         playsInline
         className="absolute inset-0 w-full h-full object-cover z-0"
         src="/zebra_slow.mp4"
-      >
-        Your browser does not support the video tag.
-      </video>
-      {/* Gradient Overlay */}
+      />
+      {/* Gradient */}
       <div
-        className="absolute inset-0 z-10 pointer-events-none"
+        className="absolute inset-0 z-10"
         style={{
+          pointerEvents: 'none',
           background: 'linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 100%)'
         }}
         aria-hidden="true"
       />
-      {/* Animated Coming Soon Text */}
+      {/* Text */}
       <div
-        className="absolute inset-0 flex items-center justify-center z-20 select-none"
+        className="absolute inset-0 flex items-center justify-center z-20"
         style={{pointerEvents: 'none'}}
       >
         <span
@@ -74,8 +73,6 @@ export default function ComingSoon() {
             alignItems: 'center',
             justifyContent: 'center',
             height: '1em',
-            // Uncomment if a visual nudge is needed:
-            // transform: 'translateY(-10%)',
           }}
         >
           coming soon
