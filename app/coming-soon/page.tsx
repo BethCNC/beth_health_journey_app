@@ -5,28 +5,28 @@ import Head from 'next/head';
 
 export default function ComingSoon() {
   const videoRef = useRef(null);
-  // const [opacity, setOpacity] = useState(0); // disable animation for debug
+  const [opacity, setOpacity] = useState(0);
 
-  // useEffect(() => {
-  //   const video = videoRef.current;
-  //   if (!video) return;
-  //   const handleTimeUpdate = () => {
-  //     const t = video.currentTime;
-  //     let o = 0;
-  //     if (t >= 6 && t < 8) {
-  //       o = (t - 6) / 2; // fade in 0->1
-  //     } else if (t >= 8 && t < 18) {
-  //       o = 1;
-  //     } else if (t >= 18 && t < 20) {
-  //       o = 1 - (t - 18) / 2; // fade out 1->0
-  //     } else {
-  //       o = 0;
-  //     }
-  //     setOpacity(o);
-  //   };
-  //   video.addEventListener('timeupdate', handleTimeUpdate);
-  //   return () => video.removeEventListener('timeupdate', handleTimeUpdate);
-  // }, []);
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+    const handleTimeUpdate = () => {
+      const t = video.currentTime;
+      let o = 0;
+      if (t >= 6 && t < 8) {
+        o = (t - 6) / 2; // fade in 0->1
+      } else if (t >= 8 && t < 18) {
+        o = 1;
+      } else if (t >= 18 && t < 20) {
+        o = 1 - (t - 18) / 2; // fade out 1->0
+      } else {
+        o = 0;
+      }
+      setOpacity(o);
+    };
+    video.addEventListener('timeupdate', handleTimeUpdate);
+    return () => video.removeEventListener('timeupdate', handleTimeUpdate);
+  }, []);
 
   return (
     <main className="min-h-screen relative overflow-hidden bg-gradient-to-br from-slate-900 via-gray-900 to-black">
@@ -53,14 +53,14 @@ export default function ComingSoon() {
         }}
         aria-hidden="true"
       />
-      {/* Debug: Always show Coming Soon Text */}
+      {/* Animated Coming Soon Text */}
       <div
         className="absolute inset-0 flex items-center justify-center z-20 select-none"
         style={{pointerEvents: 'none'}}
       >
         <span
           style={{
-            opacity: 1,
+            opacity,
             transition: 'opacity 0.5s',
             fontFamily: 'Focus Grotesk, Arial, sans-serif',
             fontWeight: 300,
