@@ -1,10 +1,9 @@
 "use client";
 import '../../styles/globals.css';
 import {useEffect, useRef, useState} from 'react';
-import Head from 'next/head';
 
 export default function ComingSoon() {
-  const videoRef = useRef(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
   const [opacity, setOpacity] = useState(0);
 
   useEffect(() => {
@@ -30,9 +29,6 @@ export default function ComingSoon() {
 
   return (
     <main className="min-h-screen relative overflow-hidden">
-      <Head>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Focus+Grotesk:wght@300&display=swap" />
-      </Head>
       {/* Video */}
       <video
         ref={videoRef}
