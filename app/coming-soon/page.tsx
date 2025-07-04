@@ -18,7 +18,7 @@ export default function ComingSoon() {
       <div
         className="absolute inset-0 z-10 pointer-events-none"
         style={{
-          background: 'linear-gradient(180deg, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.10) 65%, rgba(0,0,0,0.18) 100%)'
+          background: 'linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.72) 65%, rgba(0,0,0,0.8) 100%)'
         }}
         aria-hidden="true"
       />
