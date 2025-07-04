@@ -70,6 +70,12 @@ export default function ComingSoon() {
             letterSpacing: 0,
             lineHeight: 1,
             textAlign: 'center',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            height: '1em',
+            // Uncomment if a visual nudge is needed:
+            // transform: 'translateY(-10%)',
           }}
         >
           coming soon
