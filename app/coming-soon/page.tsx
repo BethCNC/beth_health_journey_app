@@ -86,20 +86,11 @@ export default function ComingSoon() {
             textAlign: 'center',
             width: '100%',
             display: 'block',
-            marginBottom: '24px',
+            marginBottom: '48px',
           }}
         >
           coming soon
         </span>
-        {/* Divider */}
-        <div
-          style={{
-            width: '100%',
-            height: '2px',
-            background: 'rgba(255,255,255,0.3)',
-            marginBottom: '24px',
-          }}
-        />
         <span
           style={{
             opacity: subOpacity,
@@ -121,16 +112,6 @@ export default function ComingSoon() {
         >
           {`One zebra's long road to answers.\nhEDS, POTS & MCAS\nThis is my story.`}
         </span>
-        {/* Divider below subtext */}
-        <div
-          style={{
-            width: '100%',
-            height: '2px',
-            background: 'rgba(255,255,255,0.3)',
-            marginBottom: '24px',
-          }}
-        />
-        {/* Logo always visible */}
         <img
           src="/logo.svg"
           alt="bendy bethc logo"
