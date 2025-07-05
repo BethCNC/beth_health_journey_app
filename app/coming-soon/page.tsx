@@ -6,7 +6,6 @@ export default function ComingSoon() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [opacity, setOpacity] = useState(0);
   const [subOpacity, setSubOpacity] = useState(0);
-  const [logoOpacity, setLogoOpacity] = useState(0);
 
   useEffect(() => {
     const video = videoRef.current;
@@ -15,7 +14,6 @@ export default function ComingSoon() {
       const t = video.currentTime;
       let o = 0;
       let so = 0;
-      let lo = 0;
       if (t >= 6 && t < 8) {
         o = (t - 6) / 2;
       } else if (t >= 8 && t < 18) {
@@ -35,19 +33,8 @@ export default function ComingSoon() {
       } else {
         so = 0;
       }
-      // Logo fades in after 10s, out at 18s
-      if (t >= 10 && t < 12) {
-        lo = (t - 10) / 2;
-      } else if (t >= 12 && t < 18) {
-        lo = 1;
-      } else if (t >= 18 && t < 20) {
-        lo = 1 - (t - 18) / 2;
-      } else {
-        lo = 0;
-      }
       setOpacity(o);
       setSubOpacity(so);
-      setLogoOpacity(lo);
     };
     video.addEventListener('timeupdate', handleTimeUpdate);
     return () => video.removeEventListener('timeupdate', handleTimeUpdate);
@@ -78,11 +65,11 @@ export default function ComingSoon() {
       <div
         className="absolute z-20 flex flex-col items-center"
         style={{
-          top: '50%',
+          top: '218px',
           right: '93px',
-          transform: 'translateY(-50%)',
           width: '432px',
           background: 'none',
+          alignItems: 'center',
         }}
       >
         <span
@@ -135,11 +122,20 @@ export default function ComingSoon() {
         >
           {`One zebra's long road to answers.\nhEDS, POTS & MCAS\nThis is my story.`}
         </span>
-        {/* Logo */}
+        {/* Divider below subtext */}
+        <div
+          style={{
+            width: '100%',
+            height: '2px',
+            background: 'rgba(255,255,255,0.3)',
+            marginBottom: '24px',
+          }}
+        />
+        {/* Logo always visible */}
         <img
           src="/logo.svg"
           alt="bendy bethc logo"
-          style={{ width: '92px', height: '54px', display: 'block', margin: '0 auto', opacity: logoOpacity, transition: 'opacity 0.5s' }}
+          style={{ width: '92px', height: '54px', display: 'block', margin: '0 auto', marginBottom: '93px' }}
         />
       </div>
     </main>
