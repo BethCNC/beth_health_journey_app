@@ -12,25 +12,25 @@ export default function ComingSoon() {
     if (!video) return;
     const handleTimeUpdate = () => {
       const t = video.currentTime;
-      // Title: fade in 6-8s, out 18-20s
+      // Title: fade in 7-9s, out 23-25s
       let o = 0;
-      if (t >= 6 && t < 8) o = (t - 6) / 2;
-      else if (t >= 8 && t < 18) o = 1;
-      else if (t >= 18 && t < 20) o = 1 - (t - 18) / 2;
+      if (t >= 7 && t < 9) o = (t - 7) / 2;
+      else if (t >= 9 && t < 23) o = 1;
+      else if (t >= 23 && t < 25) o = 1 - (t - 23) / 2;
       setTitleOpacity(o);
 
-      // Subtext: fade in 8-10s, out 18-20s
+      // Subtext: fade in 10-12s, out 23-25s
       let so = 0;
-      if (t >= 8 && t < 10) so = (t - 8) / 2;
-      else if (t >= 10 && t < 18) so = 1;
-      else if (t >= 18 && t < 20) so = 1 - (t - 18) / 2;
+      if (t >= 10 && t < 12) so = (t - 10) / 2;
+      else if (t >= 12 && t < 23) so = 1;
+      else if (t >= 23 && t < 25) so = 1 - (t - 23) / 2;
       setSubOpacity(so);
 
-      // Logo: fade in 10-12s, out 18-20s
+      // Logo: fade in 13-15s, out 23-25s
       let lo = 0;
-      if (t >= 10 && t < 12) lo = (t - 10) / 2;
-      else if (t >= 12 && t < 18) lo = 1;
-      else if (t >= 18 && t < 20) lo = 1 - (t - 18) / 2;
+      if (t >= 13 && t < 15) lo = (t - 13) / 2;
+      else if (t >= 15 && t < 23) lo = 1;
+      else if (t >= 23 && t < 25) lo = 1 - (t - 23) / 2;
       setLogoOpacity(lo);
     };
     video.addEventListener("timeupdate", handleTimeUpdate);
@@ -38,7 +38,7 @@ export default function ComingSoon() {
   }, []);
 
   return (
-    <main className="relative w-full h-screen min-h-screen overflow-hidden font-[var(--font-focus-grotesk)]">
+    <main className="relative w-full h-screen min-h-screen overflow-hidden" style={{fontFamily: "Focus Grotesk, Arial, sans-serif"}}>
       {/* Background Video */}
       <video
         ref={videoRef}
@@ -58,78 +58,97 @@ export default function ComingSoon() {
         }}
         aria-hidden="true"
       />
-      {/* Content Box: bottom-right on desktop, centered on mobile */}
-      <div className="absolute inset-0 flex items-end justify-end p-8 sm:p-12 md:p-24">
-        <div
-          className="flex flex-col items-center w-full max-w-[432px] bg-transparent"
-          style={{gap: 24}}
-        >
-          {/* Title */}
-          <div className="flex w-full justify-center">
-            <div
-              className="font-[300] text-white leading-none"
-              style={{
-                fontFamily: "Focus Grotesk, Arial, sans-serif",
-                fontWeight: 300,
-                fontSize: "120px",
-                textShadow: "0px 2px 2px rgba(0,0,0,0.25)",
-                letterSpacing: 0,
-                textAlign: "center",
-                width: "100%",
-                display: "block",
-                marginBottom: "48px",
-                opacity: titleOpacity,
-                transition: "opacity 0.5s"
-              }}
-            >
-              coming soon
-            </div>
+      {/* Content Box */}
+      <div
+        className="absolute flex flex-col items-center"
+        style={{
+          top: 218,
+          left: 960,
+          width: 432,
+          gap: 24,
+          position: "absolute",
+          alignItems: "center",
+          justifyContent: "flex-start"
+        }}
+      >
+        {/* Title */}
+        <div className="title" style={{
+          alignSelf: "stretch",
+          display: "flex",
+          flexDirection: "row",
+          alignItems: "center",
+          justifyContent: "center"
+        }}>
+          <div className="title1" style={{
+            flex: 1,
+            position: "relative",
+            fontWeight: 300,
+            fontSize: 120,
+            textShadow: "0px 2px 2px rgba(0,0,0,0.25)",
+            opacity: titleOpacity,
+            color: "#fff",
+            lineHeight: "1",
+            fontFamily: "Focus Grotesk, Arial, sans-serif",
+            transition: "opacity 0.5s"
+          }}>
+            coming soon
           </div>
-          {/* Subtitle */}
-          <div
-            className="flex w-full justify-center"
-            style={{
-              fontFamily: "Focus Grotesk, Arial, sans-serif",
-              fontWeight: 300,
-              fontSize: "42px",
-              textShadow: "0px 2px 2px rgba(0,0,0,0.25)",
-              letterSpacing: 0,
-              textAlign: "center",
-              display: "block",
-              maxWidth: "339px",
-              margin: "0 auto",
-              marginBottom: "24px",
-              whiteSpace: "pre-line",
-              opacity: subOpacity,
-              transition: "opacity 0.5s"
-            }}
-          >
-            <span className="w-full">
-              <p className="m-0 mb-6">One zebra's long road to answers.</p>
-              <p className="m-0 mb-6">hEDS, POTS & MCAS</p>
-              <p className="m-0">This is my story.</p>
-            </span>
-          </div>
-          {/* Logo (SVG only, animated) */}
-          <img
-            src="/logo.svg"
-            alt="bendy bethc logo"
-            className="w-[92px] h-[54px] mt-6"
-            style={{
-              objectFit: "contain",
-              opacity: logoOpacity,
-              transition: "opacity 0.5s"
-            }}
-          />
         </div>
+        {/* Subtitle */}
+        <div className="subtext" style={{
+          display: "flex",
+          flexDirection: "row",
+          alignItems: "center",
+          justifyContent: "center",
+          fontSize: 42,
+          color: "#fff",
+          textShadow: "0px 2px 2px rgba(0,0,0,0.25)",
+          fontWeight: 300,
+          width: 339,
+          position: "relative",
+          opacity: subOpacity,
+          transition: "opacity 0.5s"
+        }}>
+          <span className="title-txt" style={{width: "100%"}}>
+            <p className="one-zebras-long" style={{marginBlockStart: 0, marginBlockEnd: 24}}>One zebra's long road to answers.</p>
+            <p className="one-zebras-long" style={{marginBlockStart: 0, marginBlockEnd: 24}}>hEDS, POTS & MCAS</p>
+            <p className="this-is-my" style={{margin: 0}}>This is my story.</p>
+          </span>
+        </div>
+        {/* Logo */}
+        <img
+          className="logo-icon"
+          src="/logo.svg"
+          alt="bendy bethc logo"
+          style={{
+            width: 92,
+            height: 54,
+            display: "block",
+            opacity: logoOpacity,
+            transition: "opacity 0.5s"
+          }}
+        />
       </div>
       {/* Responsive: Center content on small screens */}
       <style>{`
-        @media (max-width: 900px) {
-          .flex.items-end.justify-end {
-            justify-content: center !important;
-            align-items: center !important;
+        @media (max-width: 1200px) {
+          main > div[style] {
+            left: 50vw !important;
+            top: 20vh !important;
+            transform: translateX(-50%);
+            width: 90vw !important;
+            min-width: 0 !important;
           }
+          .title1 { font-size: 48px !important; }
+          .subtext { font-size: 20px !important; width: 90vw !important; }
+        }
+        @media (max-width: 600px) {
+          main > div[style] {
+            top: 10vh !important;
+            width: 98vw !important;
+          }
+          .title1 { font-size: 32px !important; }
+          .subtext { font-size: 16px !important; width: 98vw !important; }
         }
       `}</style>
     </main>
