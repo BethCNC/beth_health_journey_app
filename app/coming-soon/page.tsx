@@ -87,7 +87,6 @@ export default function ComingSoon() {
             width: '100%',
             display: 'block',
             marginBottom: '24px',
-            opacity: 0.9,
           }}
         >
           coming soon
