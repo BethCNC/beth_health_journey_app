@@ -5,6 +5,7 @@ export default function ComingSoon() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [titleOpacity, setTitleOpacity] = useState(0);
   const [subOpacity, setSubOpacity] = useState(0);
+  const [logoOpacity, setLogoOpacity] = useState(0);
 
   useEffect(() => {
     const video = videoRef.current;
@@ -24,6 +25,13 @@ export default function ComingSoon() {
       else if (t >= 10 && t < 18) so = 1;
       else if (t >= 18 && t < 20) so = 1 - (t - 18) / 2;
       setSubOpacity(so);
+
+      // Logo: fade in 10-12s, out 18-20s
+      let lo = 0;
+      if (t >= 10 && t < 12) lo = (t - 10) / 2;
+      else if (t >= 12 && t < 18) lo = 1;
+      else if (t >= 18 && t < 20) lo = 1 - (t - 18) / 2;
+      setLogoOpacity(lo);
     };
     video.addEventListener("timeupdate", handleTimeUpdate);
     return () => video.removeEventListener("timeupdate", handleTimeUpdate);
@@ -62,8 +70,14 @@ export default function ComingSoon() {
               className="font-[300] text-white leading-none"
               style={{
                 fontFamily: "Focus Grotesk, Arial, sans-serif",
+                fontWeight: 300,
+                fontSize: "120px",
                 textShadow: "0px 2px 2px rgba(0,0,0,0.25)",
-                fontSize: "clamp(2.5rem, 8vw, 120px)",
+                letterSpacing: 0,
+                textAlign: "center",
+                width: "100%",
+                display: "block",
+                marginBottom: "48px",
                 opacity: titleOpacity,
                 transition: "opacity 0.5s"
               }}
@@ -73,10 +87,19 @@ export default function ComingSoon() {
           </div>
           {/* Subtitle */}
           <div
-            className="flex w-full justify-center font-[300] text-white"
+            className="flex w-full justify-center"
             style={{
+              fontFamily: "Focus Grotesk, Arial, sans-serif",
+              fontWeight: 300,
+              fontSize: "42px",
               textShadow: "0px 2px 2px rgba(0,0,0,0.25)",
-              fontSize: "clamp(1.25rem, 3vw, 42px)",
+              letterSpacing: 0,
+              textAlign: "center",
+              display: "block",
+              maxWidth: "339px",
+              margin: "0 auto",
+              marginBottom: "24px",
+              whiteSpace: "pre-line",
               opacity: subOpacity,
               transition: "opacity 0.5s"
             }}
@@ -87,14 +110,14 @@ export default function ComingSoon() {
               <p className="m-0">This is my story.</p>
             </span>
           </div>
-          {/* Logo (SVG only, original name) */}
+          {/* Logo (SVG only, animated) */}
           <img
             src="/logo.svg"
             alt="bendy bethc logo"
             className="w-[92px] h-[54px] mt-6"
             style={{
               objectFit: "contain",
-              opacity: 1,
+              opacity: logoOpacity,
               transition: "opacity 0.5s"
             }}
           />
