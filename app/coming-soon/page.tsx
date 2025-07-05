@@ -6,6 +6,7 @@ export default function ComingSoon() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [opacity, setOpacity] = useState(0);
   const [subOpacity, setSubOpacity] = useState(0);
+  const [logoOpacity, setLogoOpacity] = useState(0);
 
   useEffect(() => {
     const video = videoRef.current;
@@ -14,6 +15,7 @@ export default function ComingSoon() {
       const t = video.currentTime;
       let o = 0;
       let so = 0;
+      let lo = 0;
       if (t >= 6 && t < 8) {
         o = (t - 6) / 2;
       } else if (t >= 8 && t < 18) {
@@ -33,8 +35,19 @@ export default function ComingSoon() {
       } else {
         so = 0;
       }
+      // Logo fades in after 10s, out at 18s
+      if (t >= 10 && t < 12) {
+        lo = (t - 10) / 2;
+      } else if (t >= 12 && t < 18) {
+        lo = 1;
+      } else if (t >= 18 && t < 20) {
+        lo = 1 - (t - 18) / 2;
+      } else {
+        lo = 0;
+      }
       setOpacity(o);
       setSubOpacity(so);
+      setLogoOpacity(lo);
     };
     video.addEventListener('timeupdate', handleTimeUpdate);
     return () => video.removeEventListener('timeupdate', handleTimeUpdate);
@@ -57,14 +70,20 @@ export default function ComingSoon() {
         className="absolute inset-0 z-10"
         style={{
           pointerEvents: 'none',
-          background: 'linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 100%)'
+          background: 'linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.9) 100%)'
         }}
         aria-hidden="true"
       />
-      {/* Text */}
+      {/* Content Block */}
       <div
-        className="absolute inset-0 flex flex-col items-center justify-center z-20"
-        style={{pointerEvents: 'none'}}
+        className="absolute z-20 flex flex-col items-center"
+        style={{
+          top: '50%',
+          right: '93px',
+          transform: 'translateY(-50%)',
+          width: '432px',
+          background: 'none',
+        }}
       >
         <span
           style={{
@@ -72,20 +91,29 @@ export default function ComingSoon() {
             transition: 'opacity 0.5s',
             fontFamily: 'Focus Grotesk, Arial, sans-serif',
             fontWeight: 300,
-            fontSize: '96px',
+            fontSize: '120px',
+            lineHeight: '0.973em',
             color: '#fff',
             textShadow: '0px 2px 2px rgba(0,0,0,0.25)',
             letterSpacing: 0,
-            lineHeight: 1,
             textAlign: 'center',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            height: '1em',
+            width: '100%',
+            display: 'block',
+            marginBottom: '24px',
+            opacity: 0.9,
           }}
         >
           coming soon
         </span>
+        {/* Divider */}
+        <div
+          style={{
+            width: '100%',
+            height: '2px',
+            background: 'rgba(255,255,255,0.3)',
+            marginBottom: '24px',
+          }}
+        />
         <span
           style={{
             opacity: subOpacity,
@@ -93,18 +121,26 @@ export default function ComingSoon() {
             fontFamily: 'Focus Grotesk, Arial, sans-serif',
             fontWeight: 300,
             fontSize: '42px',
+            lineHeight: '0.973em',
             color: '#fff',
             textShadow: '0px 2px 2px rgba(0,0,0,0.25)',
             letterSpacing: 0,
-            lineHeight: 1,
             textAlign: 'center',
             display: 'block',
-            marginTop: '32px',
+            maxWidth: '339px',
+            margin: '0 auto',
+            marginBottom: '24px',
             whiteSpace: 'pre-line',
           }}
         >
           {`One zebra's long road to answers.\nhEDS, POTS & MCAS\nThis is my story.`}
         </span>
+        {/* Logo */}
+        <img
+          src="/logo.svg"
+          alt="bendy bethc logo"
+          style={{ width: '92px', height: '54px', display: 'block', margin: '0 auto', opacity: logoOpacity, transition: 'opacity 0.5s' }}
+        />
       </div>
     </main>
   );
